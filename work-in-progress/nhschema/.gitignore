@@ -1,0 +1,6 @@
+#vim swap files
+*.swp
+
+#tf2 files
+items_game.txt
+tf_english*

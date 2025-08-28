@@ -1,6 +1,0 @@
-// Created by Crowbar 0.74
-
-<helper> hlp_lever weapon_bone weapon_bone weapon_bone_1
-<basepos> 0 0 0
-<trigger> 30 0 0 0 0 0 0 0 -0.865427 10.116054
-<trigger> 30 29.999989 0 0 15.000001 0 0 0 -0.865427 10.116054

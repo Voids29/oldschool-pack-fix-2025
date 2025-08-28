@@ -1,0 +1,9 @@
+err: an output directory must have this structure:
+<output>
+├── 0kb_files
+└── uncompiled
+      ├── demo
+      │     ├── animation (a file containing rules that will be in every generated QC file)
+      │     └── (files whose content will only be included if called by name)
+      ├── engineer
+      └── (and all the other classes)

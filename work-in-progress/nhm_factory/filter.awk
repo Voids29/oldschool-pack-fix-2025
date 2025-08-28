@@ -1,0 +1,43 @@
+/^models\/bots\//{
+	next
+}
+/pyro_halloween_gasmask/{
+	next
+}
+/ghost_aspect/{
+	next
+}
+/tw_demobot/{
+	next
+}
+/tw_engineerbot/{
+	next
+}
+/tw_heavybot/{
+	next
+}
+/tw_medibot/{
+	next
+}
+/tw_pyrobot/{
+	next
+}
+/tw_scoutbot/{
+	next
+}
+/tw_sniperbot/{
+	next
+}
+/tw_soldierbot/{
+	next
+}
+/tw_spybot/{
+	next
+}
+/tw_sentrybuster/{
+	next
+}
+/.*/{
+	print
+}
+

@@ -1,3 +1,0 @@
-$modelname	"workshop/player/items/all_class/sum21_manndatory_attire_style3/sum21_manndatory_attire_style3_scout.mdl"
-$include animation_dogtags.qci
-$include scout_dogtags.qci

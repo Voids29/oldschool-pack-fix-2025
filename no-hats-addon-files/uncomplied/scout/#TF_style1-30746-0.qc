@@ -1,4 +1,0 @@
-$modelname	"workshop/player/items/all_class/dec15_a_well_wrapped_hat_style2/dec15_a_well_wrapped_hat_style2_scout.mdl"
-$include animation_hatphones.qci
-$include scout_hat.qci
-$include scout_headphones.qci

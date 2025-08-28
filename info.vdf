@@ -1,5 +1,0 @@
-// This file is used to enable the dispenser's screen material files being relocated, this enables the custom textures to load correctly in Casual mode.
-"oldschool_fortress"
-{
-	"ui_version"	"3"
-}

@@ -1,3 +1,0 @@
-$modelname	"workshop/player/items/all_class/hwn2021_tricksters_treats_style2/hwn2021_tricksters_treats_style2_pyro.mdl"
-$include animation_grenades.qci
-$include pyro_grenades.qci
