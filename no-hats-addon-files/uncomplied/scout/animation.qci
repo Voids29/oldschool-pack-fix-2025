@@ -1,0 +1,26 @@
+$upaxis Y
+
+$surfaceprop "flesh"
+
+$contents "solid"
+
+$illumposition 0.009280 -0.457153 78.610893
+
+$cdmaterials "console\models\player\scout\"
+
+$sequence "idle" {
+	"scout_hat_bodygroup.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+$collisionmodel "scout_hat_bodygroup.smd"
+{
+	$mass 1
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+}

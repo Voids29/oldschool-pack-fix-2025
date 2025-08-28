@@ -1,0 +1,40 @@
+$upaxis Y
+
+$surfaceprop "flesh"
+
+$contents "solid"
+
+$illumposition 0.162716 -1.020285 77.896015
+
+$cdmaterials "console\models\player\soldier\"
+
+$texturegroup "skinfamilies"
+{
+	{	"soldier_helmet_red"	"soldier_red"	}
+	{	"soldier_helmet_blu"	"soldier_blu"	}
+	{	"soldier_helmet_red"	"soldier_red"	}
+	{	"soldier_helmet_blu"	"soldier_blu"	}
+	{	"soldier_helmet_red"	"soldier_red"	}
+	{	"soldier_helmet_blu"	"soldier_blu"	}
+	{	"soldier_helmet_red"	"soldier_red"	}
+	{	"soldier_helmet_blu"	"soldier_blu"	}
+	{	"soldier_helmet_red"	"soldier_red"	}
+	{	"soldier_helmet_blu"	"soldier_blu"	}
+}
+
+$sequence "idle" {
+	"soldier_morphs.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+$collisionmodel "soldier_hat_bodygroup_physics.smd"
+{
+	$mass 1
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+}

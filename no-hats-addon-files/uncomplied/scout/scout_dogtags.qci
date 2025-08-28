@@ -1,0 +1,6 @@
+$upaxis Y
+
+$bodygroup "dogtags"
+{
+	studio "scout_dogtags_bodygroup"
+}

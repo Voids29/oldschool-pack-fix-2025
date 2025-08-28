@@ -1,0 +1,23 @@
+keep
+hat:"Exorcizor"}(path:priest_spy)
+hat:"Triad Trinket"}(path:spy)
+hat:"Sultan's Ceremonial"
+hat:"Voodoo-Cursed Demoman Soul"
+hat:"Capo's Capper"
+path:"models/player/items/medic/archimedes"
+hat:"Last Breath"
+hat:"Bonk Boy"
+hat:"Desert Marauder"
+hat:"Armored Authority"
+hat:"Fancy Dress Uniform"
+hat:"Jumper's Jeepcap"
+hat:"Dr. Whoa"}(path:spy)
+hat:"Escapist"
+hat:"Intangible Ascot"
+hat:"Rogue's Col Roule"
+hat:"After Dark"
+hat:"Blood Banker"
+hat:"Business Casual"
+hat:"Cut Throat Concierge"
+hat:"Distinguished Rogue"
+hat:"Made Man"

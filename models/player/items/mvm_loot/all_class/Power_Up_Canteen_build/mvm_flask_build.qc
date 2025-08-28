@@ -1,0 +1,25 @@
+// Created by Crowbar 0.74
+
+$modelname "player/items/mvm_loot/all_class/mvm_flask_build.mdl"
+
+$surfaceprop "default"
+
+$contents "solid"
+
+$illumposition 0 0 0
+
+$cdmaterials "models\player\items\mvm_loot\all_class\mvm_flask_build\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox 0 0 0 0 0 0
+
+$definebone "dummy_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"mvm_flask_build_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}

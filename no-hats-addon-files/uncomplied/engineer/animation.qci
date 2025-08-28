@@ -1,0 +1,40 @@
+$upaxis Y
+
+$surfaceprop "flesh"
+
+$contents "solid"
+
+$illumposition -0.016181 0.198882 75.123745
+
+$cdmaterials "console\models\player\engineer\"
+
+$texturegroup "skinfamilies"
+{
+	{	"helmet_engie_red" }
+	{	"helmet_engie_blu" }
+	{	"helmet_engie_red" }
+	{	"helmet_engie_blu" }
+	{	"helmet_engie_red" }
+	{	"helmet_engie_blu" }
+	{	"helmet_engie_red" }
+	{	"helmet_engie_blu" }
+	{	"helmet_engie_red" }
+	{	"helmet_engie_blu" }
+}
+
+$sequence "idle" {
+	"ragdoll.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+$collisionmodel "engineer_hat_bodygroup_physics.smd"
+{
+	$mass 1
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+}

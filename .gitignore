@@ -1,0 +1,11 @@
+# OS-specific
+desktop.ini
+Thumbs.db
+.DS_Store
+#Temps and backups
+*.bak
+.tmp
+~
+#Decompilation artifacts
+*.log
+*.cache

@@ -1,0 +1,41 @@
+$upaxis Y
+
+$surfaceprop "flesh"
+
+$contents "solid"
+
+$illumposition -0.612711 2.483889 83.058041
+
+$cdmaterials "console\models\player\sniper\"
+
+$texturegroup "skinfamilies"
+{
+	{	"sniper_red"	}
+	{	"sniper_blu"	}
+	{	"sniper_red"	}
+	{	"sniper_blu"	}
+	{	"sniper_red"	}
+	{	"sniper_blu"	}
+	{	"sniper_red"	}
+	{	"sniper_blu"	}
+	{	"sniper_red"	}
+	{	"sniper_blu"	}
+}
+
+$sequence "idle" {
+	"ragdoll.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+
+$collisionmodel "sniper_hat_bodygroup_physics.smd"
+{
+	$mass 1
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+}
