@@ -1,0 +1,9 @@
+
+*/out_nhu2/uncompiled/*/*.qc
+*/compiled/
+*.vpk
+_*
+items_game.txt
+
+#custom script which has no use to anyone else
+actions.sh
