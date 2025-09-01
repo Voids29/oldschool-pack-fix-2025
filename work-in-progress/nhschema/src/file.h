@@ -1,1 +1,0 @@
-int loadf(FILE *, char **);

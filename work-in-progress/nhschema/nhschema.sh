@@ -1,1 +1,0 @@
-./nhschema [-l tf_english_UTF8.txt] <items_game.txt >conf.txt

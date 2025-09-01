@@ -1,6 +1,0 @@
-demo animation grenades|demo animation_grenades grenades
-demo animation shoes|demo animation_shoes shoes
-scout animation hat headphones|scout animation_hatphones hat headphones
-scout animation headphones|scout animation_headphones headphones
-scout animation dogtags|scout animation_dogtags dogtags
-soldier animation grenades|soldier animation_grenades grenades
