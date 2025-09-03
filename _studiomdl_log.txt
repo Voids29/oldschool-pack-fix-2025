@@ -1,0 +1,230 @@
+0334:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0510:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+03f4:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0554:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0580:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+00c8:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0478:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+03dc:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+07d0:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0534:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0350:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0804:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+06f0:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0240:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+07a0:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+04dc:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+01e8:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+07a4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+06c4:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0600:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0590:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+00c4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+07ec:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0364:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0380:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+035c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0778:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0638:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0514:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+01d4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+053c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+07e4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+01c4:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+065c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0484:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0538:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0518:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+01b8:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+032c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+06fc:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0468:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0324:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0714:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+01f4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0398:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+02d0:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+03b0:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+07bc:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0394:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0194:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0480:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0654:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0224:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+015c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+073c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+00e8:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0464:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+02e8:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+069c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+05b4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0208:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+06b0:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0530:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0738:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+01fc:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0184:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0190:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0178:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0718:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0088:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+02a8:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+039c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0750:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+064c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+027c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+07f4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0474:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+002c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+06e4:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+05dc:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0384:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0428:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+034c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+06b4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0308:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0448:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0310:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0810:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0570:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+00f4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+06d8:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+042c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0724:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+01bc:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0338:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0728:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0314:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0144:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+01ac:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+04b0:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+01c0:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+050c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0628:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0460:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+06a4:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+041c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0490:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0754:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+03b4:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0188:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+06bc:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+06ec:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0374:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+04cc:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0E19FF18
+Using shader api: shaderapiempty.dll
+V_MakeAbsolutePath: tried to ".." past the root.
+0404:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+07cc:fixme:console:default_ctrl_handler Terminating process 294 on event 0
