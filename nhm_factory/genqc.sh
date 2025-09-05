@@ -12,8 +12,8 @@ schema="items_game.txt"
 rm -r "$outdir/0kb_files"/*
 rm -r "$outdir/uncompiled"/*/*.qc
 
-nhschema $flags <"$schema" | sort -u >_TMP || exit 1
-./replace_strings.sh
-awk -f filter.awk _TMP >_TMP_filtered
+nhschema $flags <"$schema" | sort -u >"._TMP" || exit 1
+"$wd/replace_strings.sh" "$wd" || exit 1
+awk -f filter.awk "._TMP" >"._TMP_filtered"
 
-nhupdater2_gen -o "$outdir" <_TMP_filtered || exit 1
+nhupdater2_gen -o "$outdir" <"._TMP_filtered" || exit 1

@@ -1,0 +1,122 @@
+html{
+	font-family: Arial, sans-serif;
+	font-size: 95%;
+}
+body{
+	margin: 0 0 100px;
+}
+#skiplink{
+	color: black;
+	background-color: white;
+	position: absolute;
+	transform: translateY(-100%);
+}
+#skiplink:focus{
+	transform: translateY(0%);
+}
+header{
+	padding: 5px 20px;
+}
+header nav{
+	margin: 0;
+	font-weight: normal;
+}
+header nav{
+	margin: 10px 0 0 0;
+	font-size: 1rem;
+}
+#flex{
+	display: flex;
+	flex-direction: row;
+	border-width: 0;
+}
+#sidebar{
+	min-width: 200px;
+	flex-shrink: 0;
+	border-width: 0;
+}
+#sidebar ul{
+	margin: 10px 0;
+	padding: 0;
+}
+#sidebar li{
+	list-style: none;
+}
+#sidebar a, #cache a, header a{
+	text-decoration: none;
+}
+header a, #sidebar a{
+	color: black;
+}
+#sidebar a{
+	display: block;
+	padding: 0 20px;
+	line-height: 1.5;
+}
+header a:hover, #sidebar a:hover, #cache a:hover{
+	background-color: whitesmoke;
+}
+.sb_curritem{
+	font-weight: bold;
+	font-style: italic;
+}
+main{
+	max-width: 1000px;
+	margin: 10px 20px;
+}
+img, svg{
+	max-width: 100%;
+}
+figure{
+	display: inline-block;
+}
+#meta{
+	color: gray;
+	font-style: italic;
+	font-size: 0.8em;
+}
+pre, code{
+	font-family: monospace, monospace;
+}
+.handwriting path, svg.logo{
+	fill: black;
+}
+
+@media(prefers-color-scheme: dark){
+	body{
+		background-color: #2F2F2F;
+	}
+	a:link{
+		color: #9CEFEF;
+	}
+	a:visited{
+		color: #D39CEF;
+	}
+	body, header a:link, header a:visited, #sidebar a{
+		color: white;
+	}
+	header a:hover, #sidebar a:hover, #cache a:hover{
+		background-color: #444444;
+	}
+	.handwriting path, svg.logo{
+		fill: white;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#flex{
+		flex-direction: column;
+	}
+	#sidebar a{
+		line-height: 2em;
+	}
+}
+
+/*in case the browser doesn't
+ *support the "hidden" attribute
+ */
+.aimsg{
+	speak: never;
+	position: absolute;
+	left: -999em;
+}

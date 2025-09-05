@@ -1,1 +1,1 @@
-./nhcustom2 -o ../compiled
+./nhcustom2 -o ./output

@@ -1,6 +1,3 @@
-/nobullets/{
-	next
-}
 /^models\/bots\//{
 	next
 }

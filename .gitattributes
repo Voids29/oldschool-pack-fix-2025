@@ -1,3 +1,4 @@
 *.smd filter=lfs diff=lfs merge=lfs -text
 *.qc filter=lfs diff=lfs merge=lfs -text
 *.qci filter=lfs diff=lfs merge=lfs -text
+*.vtx filter=lfs diff=lfs merge=lfs -text

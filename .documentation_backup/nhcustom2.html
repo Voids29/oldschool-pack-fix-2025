@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>nhcustom2</title>
+<link rel="stylesheet" href=".nhcustom2_files/def.css" type="text/css">
+<link rel="icon" href="https://pevhs.ch/favicon.ico" type="image/x-icon">
+<meta name="description" content="Nhcustom2 is a program to modify the TF2 mod no-hats-bgum.">
+<style>
+.notice{
+	border: 3px solid red;
+	padding: 3px;
+}
+</style>
+
+<style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#top-ad,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap__module,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style></head>
+<body>
+<a id="skiplink" href="#maincontent">Skip to content</a>
+<header>
+<nav><a href="https://pevhs.ch/">root/</a><a href="https://pevhs.ch/tf2/">tf2</a>/<a href="https://pevhs.ch/tf2/nhcustom2/">nhcustom2</a>/</nav>
+</header>
+<div id="flex">
+<nav id="sidebar">
+<ul>
+<li class="sb_item"><a href="https://pevhs.ch/tf2/">../</a></li>
+<li class="sb_item"><a href="https://pevhs.ch/tf2/nhcustom2/old_releases/">Old releases/</a></li>
+<li class="sb_curritem"><a href="https://pevhs.ch/tf2/nhcustom2/">_Index_</a></li>
+<li class="sb_item"><a href="https://pevhs.ch/tf2/nhcustom2/about_guis">About guis</a></li>
+<li class="sb_item"><a href="https://pevhs.ch/tf2/nhcustom2/config_example">Config example</a></li>
+<li class="sb_item"><a href="https://pevhs.ch/tf2/nhcustom2/values">Values</a></li>
+</ul>
+
+</nav>
+<main id="maincontent" lang="en">
+<i><b>Files:</b></i><nav><pre id="cache">mdate (UTC)            size  name
+<a href="https://pevhs.ch/tf2/nhcustom2/database.csv">2025-07-24 23:45     607234  database.csv</a>
+<a href="https://pevhs.ch/tf2/nhcustom2/nhcustom2_linux.zip">2024-01-01 15:49      19764  nhcustom2_linux.zip</a>
+<a href="https://pevhs.ch/tf2/nhcustom2/nhcustom2_windows.zip">2024-01-01 15:49    1009014  nhcustom2_windows.zip</a>
+</pre></nav>
+<p><strong style="font-size:1.5em;color:green;font-style:italic">Do not use the
+database shipped with the zip files!</strong>
+It is <em>always</em> outdated. Use the one stored <a href="https://pevhs.ch/tf2/nhcustom2/database.csv">here</a>.<br>
+Dear anons of /tf2g/, prefer sending me an e-mail rather than talking about your issue in the thread.</p>
+<p><span style="color:red">Latest changes</span> can be found in the website's feed
+(<a href="https://pevhs.ch/feed.xml">Atom</a>/<a href="https://pevhs.ch/feed">plain text</a>).</p>
+
+<div class="notice">
+<p><strong>Note:</strong> This program is known not to work very well on some edge cases.
+As I honestly don't have the time anymore to fix those tiny bugs which 99% of people will never
+encounter, here's what you should do if a unknown bug arises (hat being made (in)visible even
+though it shouldn't):</p>
+
+<ul>
+<li>If random hats are (dis)appearing, try enclosing your hat:something headers like so: hat:"^something$".</li>
+<li>If a hat that should not (dis)appear still does, find the paths corresponding to the bugged hat and use the
+"path" header to forcefully make it (dis)appear.</li>
+</ul>
+
+<p>If that doesn't work, you can try contacting me. Though please do note that I am a
+literal snail.</p>
+</div>
+
+<hr>
+
+<img src="nhcustom2_files/nhcustom2_logo.png">
+
+<h1>nhcustom2</h1>
+
+<p>This is a program whose purpose is to modify the Team Fortress 2 mod
+<a href="https://pevhs.ch/tf2/nhbgum/">no-hats-bgum</a>. If you plan to modify
+it to stop seeing specific hats or to handpick those you want to see, this
+tool should come in handy.</p>
+
+<p><b>This isn't a tool which <em>generates</em> a nohats mod from scratch.</b>
+it needs to be given a working nohats mod in order to function.</p>
+
+<p>Note: a problem can arise when creating a custom version of no-hats-bgum,
+where cosmetics appear clipped inside default headgears. It isn't a problem
+with this program, but with how no-hats-bgum is made (and there is no fix). See
+<a href="https://pevhs.ch/media/img/nhm_modify.png">this image</a> for more information.</p>
+
+<p>The program has been known to work on Windows 7, 10 and Fedora 36
+(Linux). I don't offer any support with this program, but feel free to let
+me know if something doesn't work as expected or if the database contains
+errors.</p>
+
+<p>The mod should work with other versions of "no-hats-mod" like Jarateking's
+<a href="https://github.com/JarateKing/CleanTF2plus">CleanTF2plus</a>, but this
+has not been thorougly tested.</p>
+
+<h2>Usage</h2>
+
+<p>In a nutshell: The program requires a configuration file, then based on
+the instructions (and on the database,
+<a href="https://pevhs.ch/tf2/nhcustom2/database.csv">which you <b>must</b> download here</a>)
+copies from the input folder the hats specified over to
+the output folder. Here is an example of a basic configuration file:</p>
+
+<pre>#this is a comment
+#the file must contain either "keep" or "remove"
+keep
+
+#everything will be removed, except the hats corresponding
+#to the following parameters:
+hat:Fancy Fedora
+#quote names if they contain ! + or }
+hat:"MONOCULUS!"
+update:Mann-Conomy Update
+#the "!" means that even though this hat is from the
+#Mann-Conomy Update, it'll still be removed.
+!hat:Bombing Run
+</pre>
+
+<p>Note: <strong>Windows users, don't forget to launch this program from the
+terminal.</strong> If the program were to encounter an error it will print the
+reason before quitting, but it can only be seen if the terminal stays open.
+Look at <a href="https://pevhs.ch/media/img/nhm_open_cmd.gif">this</a> to know how to do it.</p>
+
+<p>Note: All patterns are regexes, so special regex characters must be
+escaped by a backslash, once if inside a quoted string, or <strong>twice</strong> if
+outside. Read more below.</p>
+
+<p>Note: Most of the operations listed below are overkill if you just want
+to delete/make visible specific hats. Try not to get too lost into what is
+written here.</p>
+
+<h3>Arguments</h3>
+
+<p>The program accepts the following arguments:</p>
+<ul>
+<li><code>-f <u><i>path</i></u></code>, specify the configuration file. (default: <code>./config.txt</code>)</li>
+<li><code>-i <u><i>path</i></u></code>, specify the input folder. (default: <code>./input</code>)</li>
+<li><code>-o <u><i>path</i></u></code>, specify the output folder. (default: <code>./output</code>)</li>
+<li><code>-n</code>, don't write to any file (the program has no effect).</li>
+<li><code>-q</code>, don't print info messages.</li>
+<li><code>-p</code>, print the found paths to stdout.</li>
+<li><code>-d <u><i>path</i></u></code>, specify the database. (default: <code>./database.csv</code>)</li>
+<li><code>-s <u><i>character</i></u></code>, specify the separator used in the database. (default: <code>;</code>)</li>
+<li><code>-h</code>, <code>-?</code>, show the help (horribly outdated).</li>
+</ul>
+
+<p>Should you want to use some, place them after the program's name like so: <code>./nhcustom.exe -f somefile.txt -p -n</code></p>
+
+<h3>The database</h3>
+
+<p>The database is a big CSV file containing all cosmetics with
+their filepaths, updates, etc. It should be encoded in UTF8 with
+no BOM and LF line endings.</p>
+
+<h3>The configuration file</h3>
+
+<p>The file must contain at least the words (called commands)
+<code>remove</code> or <code>keep</code>. These commands will
+make the program remove the specified hats or keep them with
+everything else removed, respectively.</p>
+
+<p>The syntax is <code>header:pattern</code>, where header
+can be:</p>
+<ul>
+<li>hat</li>
+<li>update</li>
+<li>equip (for an equip region)</li>
+<li>class</li>
+<li>date</li>
+<li>path</li>
+<li>list</li>
+</ul>
+
+<p>Those values, appart from "list", are taken from the first
+line of the database. You could add new entries, provided you
+do so in <strong>every line</strong> of the database. Note that headers
+cannot contain a colon. "list" is a reserved keyword.</p>
+
+<p>All the headers apart from "date" can take any word or
+string as a pattern. the "date" header takes two dates
+separated by a forward slash in this format:
+<code>YYYY-MM-DD/YYYY-MM-DD</code>. (example:
+<code>2007-01-01/2009-12-31</code>)</p>
+
+<p>All the headers apart from "date" and "list" expect the
+given pattern to be a regular expression (regex). This means
+that if you wanted to search for all the hats that belong
+to the Scout, you wouldn't write <code>class:Scout</code> but
+<code>class:^Scout$</code>. The standard used for regexes
+is the
+<a href="https://en.wikipedia.org/wiki/Regular_expression#POSIX_basic_and_extended">Posix extended regular syntax</a>.
+</p>
+
+<p>Note: It is highly recommended to enclose regexes between
+two quotes, as the program treats backslashes as special
+characters that need to be doubled too. Doing so greatly
+simplifies things:</p>
+
+<pre>#Not ideal, the string is processed first
+hat:The Voodoo Juju \\\(Slight Return\\\)
+#More readable, the string is what the regex will be
+hat:"The Voodoo Juju \(Slight Return\)"</pre>
+
+<p>If the quoted string must contain literal quotes, they
+must be written twice ("").</p>
+
+<h3>Flags</h3>
+
+<p>It's possible to "stack" multiple statements together by
+separating them with the flag +, ! or }. Doing so will
+modify the result that the previous statements found, on a
+per-line basis. If a flag were to be used at the start of a
+line, it will affect all the previous results.
+If you need to write those characters in a
+literal form, prepend them with a backslash (\!) or quote the
+text they're from.</p>
+
+<p>If we imagine that the resuls from commands are A, B or C,
+here is a table showing the effects of the flags:</p>
+
+<table border="1">
+<tbody><tr><th>Flag</th><th>Effect</th></tr>
+<tr><td>+</td><td>AB+C = ABC</td></tr>
+<tr><td>!</td><td>ABC!B = AC</td></tr>
+<tr><td>}</td><td>ABC}A = A</td></tr>
+</tbody></table>
+
+<p>Note: one must pay attention when using the + flag. This flag, regardless if it's used in a line
+with multiple statements or not, will matches againts the <b>entirety</b> of the database. If you
+want to use it to make filters based on multiple statements, use parentheses, explained below.</p>
+
+<p>See below for examples.</p>
+
+<h3>Parentheses</h3>
+
+<p>If one needs to filter results based on multiple criteria, it's possible
+to use parentheses between statements to bundle them together. The opening
+parenthesis must be placed after any flag.</p>
+
+<p>Why this works:<br>
+Parentheses make the inner statements execute first. To better understand,
+let's say you want to only select the Scout cosmetics that can also be worn
+by the Medic and the Soldier:</p>
+
+<pre>1: class:Scout}class:Medic+class:Soldier   -&gt; not what you want
+   1^^^^^^^^^^2^^^^^^^^^^^3^^^^^^^^^^^^^
+2: class:Scout}(class:Medic+class:Soldier) -&gt; what you want
+   1^^^^^^^^^^| 2^^^^^^^^^^3^^^^^^^^^^^^^
+              4^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</pre>
+
+<p>In the first example, you will end up with ALL of the cosmetics that the
+Soldier can wear, because the + flag is executed LAST, and the } flag only
+filters based on the results of the FIRST following statement. In the second
+example, the } flag is the one executed last, and it will filter based on the result
+of all the statements in between parentheses. (The first statement in a line or between
+parentheses implicitely begins with a + flag.)</p>
+
+<p>Examples:</p>
+
+<pre>#Select all pyro cosmetics that are head replacements OR that can also
+#be worn by the medic.
+class:Pyro}(equip:^Head Replacement$+class:Medic)
+
+#Select the cosmetics between 2009 and 2012 IF they are either backpacks
+#for the Pyro, or shoes for the Scout ONLY.
+date:2009-01-01/2012-12-31}(class:^Pyro$}equip:^Back$+(class:^Scout$}equip:^Feet$))
+
+#select all Smissmas 2022 hats for the Demoman, including the specific paths of
+#all-class cosmetics.
+update:smissmas 2022}(class:Demo+(class:All classes}path:demo))
+</pre>
+
+<h2>Commands</h2>
+
+<p>When at the start of a line, some words have special meanings.</p>
+
+<h3>Lists</h3>
+
+<p>If you want to store the result of a search to use it later,
+you can use the "list" command. Results found while using this
+command will not affect the results found in previous lines. example:</p>
+
+<pre>list foo update:Smissmas 2022!list:bar</pre>
+
+<p>This will create a list named "foo" that contains the cosmetics
+released in the Smissmas 2022 update, apart from the ones that are
+in the already existing list "bar".
+</p>
+
+<h3>keep and remove</h3>
+
+<p>These commands specify wether the content of the configuration file
+must be kept in the game with everything removed, or removed from the
+game with everything else kept in. Only one of these commands must be
+used. If not specified, the program will assume the <code>remove</code>
+command.</p>
+
+<h3>erase</h3>
+
+<p>The <code>erase</code> command allows to render some hats that would
+have been replaced with the default hat invisible. For example, writing:</p>
+
+<pre>erase hat:"MONOCULUS!"
+</pre>
+
+<p>Will render the MONOCULUS! invisible, even though this hat is normally
+replaced with the default headgears.<br>
+Note: this command is only useful if you use nhcustom2 with the bgum version
+of no-hats-mod.
+</p>
+
+<h2>Other</h2>
+
+<h3>Input and output folders</h3>
+
+<p>The input folder is where an <strong>uncompiled</strong> version of no-hats-bgum
+must be placed. The path should start with <code>input/models/</code>. The
+program will refuse to run if there isn't an input folder next to it and
+no other is specified with the "-i" argument. After the program is run, results
+will be placed in the output folder. Note that the output folder is <em>not
+wiped</em> between runs, so you must delete its content manually.</p>
+
+<h3>Compiling</h3>
+
+<p>On Linux, you can simply use
+the makefile in the repository, but you'll have to install
+<a href="https://msys2.org/">MSYS2</a> if you're on Windows and use
+MinGW64 when executing the makefile.</p>
+
+<p>This program has only been tested with glibc.</p>
+
+<p>https://git.pevhs.ch/nhcustom2.git</p>
+
+<h2>More examples</h2>
+
+<pre>#find hats that can be worn by mutiple classes but that are not all-class
+#this is because the classes in the database are separated with a pipe.
+class:"\|"
+
+#deselect hats that came out between 2008 and march 1st, 2013, except
+#if they can be worn by the soldier (alongside other classes)
+!date:2008-01-01/2013-03-01!class:Soldier
+
+#find all the hats containing the string "aaa"
+hat:aaa
+
+#find only the 1st style of the Millennial Mercenary
+hat:millennial mercenary!path:style
+
+#find every path with the word "scout" in them
+path:scout
+
+#find only the first style of the Foppish Physician
+hat:foppish physician!path:necktie
+
+#find only the third style of the medic cosmetics from Smissmas 2022
+update:Smissmas 2022}class:^Medic$}path:style3
+
+#create a list containing the Engineer's shirts and all VALVe-made hats for the spy
+list mylist class:^Engineer$}equip:Shirt+(class:^Spy$}equip:Hat}path:models/player/items)
+
+#find the Teufort Tooth Kicket only for the soldier and engineer
+hat:Teufort Tooth Kicker}(path:soldier+path:engineer)
+
+#find the first style of the All-Father for the heavy and soldier only
+hat:All-Father}(path:heavy+path:soldier)!path:s2
+</pre>
+
+
+</main>
+</div>
+
+
+</body></html>

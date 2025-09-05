@@ -1,9 +1,10 @@
-
-*/out_nhu2/uncompiled/*/*.qc
-*/compiled/
 *.vpk
 _*
+._*
 items_game.txt
+vpkeditcli*
+.workingDirectory.txt
+.windowsTF2dir.txt
 
 #custom script which has no use to anyone else
 actions.sh

@@ -5,7 +5,7 @@ vtxdir="$wd/out_nhu2/0kb_files"
 srcdir="$wd/out_nhu2/uncompiled"
 outdir="$wd/compiled"
 out_studiomdl="$WINTF2DIR/tf/models"
-qclist="$wd/_TMP_qclist"
+qclist="$wd/._TMP_qclist"
 
 [ -z "$wd" ] && echo "err: no working dir given" && exit 1
 [ ! -d "$srcdir" ] && echo "err: source dir '$srcdir' not found" && exit 1

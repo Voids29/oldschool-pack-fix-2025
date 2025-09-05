@@ -3,9 +3,9 @@
 # Exit on any error
 set -e
 
-# Check if _TMP exists
-if [ ! -f "./_TMP" ]; then
-    echo "Error: _TMP not found in current directory" >&2
+# Check if ._TMP exists
+if [ ! -f "./._TMP" ]; then
+    echo "Error: ._TMP not found in current directory" >&2
     exit 1
 fi
 
@@ -19,8 +19,8 @@ fi
 temp_file=$(mktemp) || { echo "Error: Failed to create temporary file" >&2; exit 1; }
 trap 'rm -f "$temp_file"' EXIT  # Clean up temp file on script exit
 
-# Copy _TMP to temp file
-cp ./_TMP "$temp_file" || { echo "Error: Failed to copy _TMP to temp file" >&2; exit 1; }
+# Copy ._TMP to temp file
+cp ./._TMP "$temp_file" || { echo "Error: Failed to copy ._TMP to temp file" >&2; exit 1; }
 
 # Read replacements.txt line by line
 while IFS='|' read -r old_string new_string; do
@@ -37,6 +37,6 @@ while IFS='|' read -r old_string new_string; do
 done < ./replacements.txt
 
 # Replace original file with modified one
-mv "$temp_file" ./_TMP || { echo "Error: Failed to move temp file to _TMP" >&2; exit 1; }
+mv "$temp_file" ./._TMP || { echo "Error: Failed to move temp file to ._TMP" >&2; exit 1; }
 
-echo "String replacements completed in _TMP"
+echo "String replacements completed in ._TMP"
