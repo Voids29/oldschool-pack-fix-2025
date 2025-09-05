@@ -1,7 +1,7 @@
 # NHM_Factory
 This tool is used to generate the base of the no-hats-addon.
-You can clone these repos with the links found in the root [README](README.md) of this branch
-[README.md](/README.md)
+You can clone these repos with the links found in the root [README.md](/README.md) of this branch
+
  You will have to compile them yourself.
 
 ## Usage
