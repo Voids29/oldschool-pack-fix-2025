@@ -16,9 +16,9 @@ For editing the "config.txt" file, I highly encourage you to go read the documen
 - [config.txt examples](https://pevhs.ch/tf2/nhcustom2/config_example)
 
 If these two links are down, I have made a local copies in the in this repository under "/.documentation_backup".
-- [config.txt examples(browser view)](https://html-preview.github.io/?url=https://github.com/Voids29/oldschool-pack-fix-2025/blob/no-hats-addon/nhcustom2/.documentation_backup/config_example.txt.html)
+- [config.txt examples(browser view)](https://html-preview.github.io/?url=https://github.com/Voids29/oldschool-pack-fix-2025/blob/no-hats-addon/.documentation_backup/config_example.txt.html)
 - [config.txt examples](/.documentation_backup/config_example.txt.html)
-- [NHCustom2(browser view)](https://html-preview.github.io/?url=https://github.com/Voids29/oldschool-pack-fix-2025/blob/no-hats-addon/nhcustom2/.documentation_backup/nhcustom2.html)
+- [NHCustom2(browser view)](https://html-preview.github.io/?url=https://github.com/Voids29/oldschool-pack-fix-2025/blob/no-hats-addon/.documentation_backup/nhcustom2.html)
 - [NHCustom2](/.documentation_backup/nhcustom2.html)
 
 Once you have the config.txt configured to your liking, execute nhcustom2.sh. A modified copy of the raw compiled nohatsbgum should appear in the "output" directory with the applied configuration you sepcified in config.txt.
