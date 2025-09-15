@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_wrench/c_wrench.mdl"
 
 $bodygroup "c_wrench"
 {
-	studio "w_wrench_reference.smd"
+	studio "c_wrench_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -23,16 +23,16 @@ $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "wrench"      }
-	{ "wrench"      }
-	{ "wrench"      }
-	{ "wrench"      }
-	{ "wrench"      }
-	{ "wrench"      }
-	{ "wrench"      }
-	{ "wrench"      }
-	{ "wrench_gold" }
-	{ "wrench_gold" }
+	{ "wrench"			}
+	{ "wrench"			}
+	{ "wrench"			}
+	{ "wrench"			}
+	{ "wrench"			}
+	{ "wrench"			}
+	{ "wrench"			}
+	{ "wrench"			}
+	{ "wrench_gold"	}
+	{ "wrench_gold"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 19.92 1.32 rotate 0 90 -90

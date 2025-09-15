@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/engineer/3/jag/// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_jag\c_jag.mdl"
 
@@ -18,8 +18,8 @@ $contents "solid"
 
 $illumposition 0 -1.31 10.937
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/engineer/3/jag/"
+$cdmaterials "console/models/weapons/shared"
 
 $attachment "pedestal_0" "weapon_bone" 0 12.47 0.15 rotate -90 -90 0
 $attachment "icon_camera" "weapon_bone" 19.77 16.64 19.66 rotate 40.68 -167.1 154.3

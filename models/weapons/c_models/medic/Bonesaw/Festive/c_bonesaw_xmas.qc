@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_bonesaw/c_bonesaw_xmas.mdl"
 
 $bodygroup "Body"
 {
-	studio "w_bonesaw_reference.dmx.smd"
+	studio "c_bonesaw_reference.smd"
 }
 
 
@@ -38,7 +38,7 @@ $sequence "idle" {
 	loop
 }
 
-$collisionmodel "c_bonesaw_xmas_physics.smd"
+$collisionmodel "c_bonesaw_physics.smd"
 {
 	$mass 1
 	$inertia 1

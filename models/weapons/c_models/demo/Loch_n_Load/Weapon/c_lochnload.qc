@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/demo/1/loch/// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_lochnload/c_lochnload.mdl"
 
@@ -17,13 +17,14 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0 3.67 8.271
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/1/loch/"
+$cdmaterials "console/models/weapons/shared"
 
 $attachment "muzzle" "weapon_bone_1" 0 8.47 26.17 rotate 0 0 0
 $attachment "unusual_0" "weapon_bone_1" 0 9.87 25.89 rotate -89.64 90 -90

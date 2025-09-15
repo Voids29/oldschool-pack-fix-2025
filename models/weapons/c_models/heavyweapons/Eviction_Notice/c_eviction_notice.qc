@@ -1,10 +1,10 @@
-// Created by Crowbar 0.74
+console/models/weapons/heavyweapons/3/brass_knuckes/// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_eviction_notice/c_eviction_notice.mdl"
 
 $bodygroup "body"
 {
-	studio "eviction_notice.smd"
+	studio "c_eviction_notice_reference.smd"
 }
 
 
@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -0.912 -6.119 1.215
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/heavyweapons/3/brass_knuckes/"
 
 $attachment "pedestal_0" "bip_hand_L" -7.2 -4.96 12.45 rotate 16.28 154.53 -93.11
 $attachment "icon_camera" "bip_hand_L" -22.28 54.87 1.95 rotate -5.42 -68.58 -58.47

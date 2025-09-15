@@ -18,16 +18,16 @@ $cdmaterials "console\models\player\medic\"
 
 $texturegroup "skinfamilies"
 {
-	{ "medic_hands_red" "v_medic_red" }
-	{ "medic_hands_blu" "v_medic_blu" }
-	{ "medic_hands_red" "v_medic_red" }
-	{ "medic_hands_blu" "v_medic_blu" }
-	{ "medic_hands_red" "v_medic_red" }
-	{ "medic_hands_blu" "v_medic_blu" }
-	{ "medic_hands_red" "v_medic_red" }
-	{ "medic_hands_blu" "v_medic_blu" }
-	{ "medic_hands_red" "v_medic_red" }
-	{ "medic_hands_blu" "v_medic_blu" }
+	{ "medic_hands_red"	"v_medic_red"	}
+	{ "medic_hands_blu"	"v_medic_blu"	}
+	{ "medic_hands_red"	"v_medic_red"	}
+	{ "medic_hands_blu"	"v_medic_blu"	}
+	{ "medic_hands_red"	"v_medic_red"	}
+	{ "medic_hands_blu"	"v_medic_blu"	}
+	{ "medic_hands_red"	"v_medic_red"	}
+	{ "medic_hands_blu"	"v_medic_blu"	}
+	{ "medic_hands_red"	"v_medic_red"	}
+	{ "medic_hands_blu"	"v_medic_blu"	}
 }
 
 $attachment "weapon_bone_L" "weapon_bone_L" 0 0 0 rotate 0 0 0

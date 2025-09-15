@@ -14,13 +14,12 @@ $contents "solid"
 
 $illumposition -2.591 -26.825 -14.287
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/heavyweapons/1/canton/"
 
 $texturegroup "skinfamilies"
 {
-	{ "canton"     }
-	{ "canton_blu" }
+	{ "canton_red"	}
+	{ "canton_blu"	}
 }
 
 $attachment "eject_brass" "weapon_bone" -5.51 -7.54 14.86 rotate 0 154.21 180

@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/demo/3/shard/// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_scotland_shard/c_scotland_shard.mdl"
 
@@ -15,7 +15,7 @@ $contents "solid"
 
 $illumposition 0.031 -0.042 9.81
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/3/shard/"
 
 $attachment "pedestal_0" "weapon_bone" 0 6.9 0 rotate -90 88.29 0
 $attachment "icon_camera" "weapon_bone" -11 5.56 -27.4 rotate -67.61 0.64 101.99

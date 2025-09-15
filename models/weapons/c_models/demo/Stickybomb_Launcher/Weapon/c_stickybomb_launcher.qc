@@ -23,16 +23,16 @@ $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "sticky_launcher"      }
-	{ "sticky_launcher"      }
-	{ "sticky_launcher"      }
-	{ "sticky_launcher"      }
-	{ "sticky_launcher"      }
-	{ "sticky_launcher"      }
-	{ "sticky_launcher"      }
-	{ "sticky_launcher"      }
-	{ "sticky_launcher_gold" }
-	{ "sticky_launcher_gold" }
+	{ "sticky_launcher"		}
+	{ "sticky_launcher"		}
+	{ "sticky_launcher"		}
+	{ "sticky_launcher"		}
+	{ "sticky_launcher"		}
+	{ "sticky_launcher"		}
+	{ "sticky_launcher"		}
+	{ "sticky_launcher"		}
+	{ "sticky_launcher_gold"	}
+	{ "sticky_launcher_gold"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 1.91 24.79 rotate 0 0 0

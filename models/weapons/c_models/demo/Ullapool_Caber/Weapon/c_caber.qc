@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition 0.259 0.058 7.427
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/demo/3/caber/"
 
 $attachment "pedestal_0" "weapon_bone" 0 7.13 0 rotate -66.56 -90 0
 $attachment "icon_camera" "weapon_bone" 19.65 3.33 -22.2 rotate -48.7 169.69 61.58

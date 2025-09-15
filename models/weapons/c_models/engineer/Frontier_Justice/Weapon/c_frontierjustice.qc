@@ -19,10 +19,10 @@ $cdmaterials "console\models\weapons\scout\1\force"
 
 $texturegroup "skinfamilies"
 {
-	{ "frontier_justice_red"      }
-	{ "frontier_justice_blu"      }
-	{ "frontier_justice_gold_red" }
-	{ "frontier_justice_gold_blu" }
+	{ "frontier_justice_red"			}
+	{ "frontier_justice_blu"			}
+	{ "frontier_justice_gold_red"	}
+	{ "frontier_justice_gold_blu"	}
 }
 
 $attachment "muzzle" "muzzle" 0 0 0 rotate 0 0 0

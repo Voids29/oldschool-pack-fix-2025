@@ -18,7 +18,8 @@ $contents "solid"
 
 $illumposition -4.898 -26.949 -10.595
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/heavyweapons/1/battling_grass/"
+$cdmaterials "console/models/weapons/shared"
 
 $attachment "muzzle" "weapon_bone" 0 -7.76 57.76 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" -8.57 -10.99 5.85 rotate 0 154.21 180

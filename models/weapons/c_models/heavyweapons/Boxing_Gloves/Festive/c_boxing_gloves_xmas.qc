@@ -21,8 +21,8 @@ $texturegroup "skinfamilies"
 {
 	{ "glove_red" }
 	{ "glove_blu" }
-	{ "GRU_red"   }
-	{ "GRU_blu"   }
+	{ "gru_red"   }
+	{ "gru_blu"   }
 }
 
 $attachment "pedestal_0" "bip_hand_R" 6.21 0.8 -12.65 rotate -8.56 42.47 -108.93
@@ -53,7 +53,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "c_boxing_gloves_xmas_physics.smd"
+$collisionmodel "c_boxing_gloves_physics.smd"
 {
 	$mass 5
 	$inertia 1

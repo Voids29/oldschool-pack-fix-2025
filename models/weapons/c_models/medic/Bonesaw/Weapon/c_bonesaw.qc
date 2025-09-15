@@ -4,7 +4,7 @@ $modelname "weapons\c_models\c_bonesaw\c_bonesaw.mdl"
 
 $bodygroup "Body"
 {
-	studio "w_bonesaw_reference.dmx.smd"
+	studio "c_bonesaw_reference.smd"
 }
 
 

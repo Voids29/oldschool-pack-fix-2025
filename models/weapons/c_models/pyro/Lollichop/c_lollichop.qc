@@ -8,7 +8,7 @@ $bodygroup "c_fireaxe_reference"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "item"
 
 $contents "solid"
 
@@ -18,8 +18,8 @@ $cdmaterials "console\models\weapons\pyro\3\lollipop"
 
 $texturegroup "skinfamilies"
 {
-	{ "lollipop_red" }
-	{ "lollipop_blu" }
+	{ "lollipop_red"	}
+	{ "lollipop_blu"	}
 }
 
 $attachment "pedestal_0" "weapon_bone" 0 12.87 0.88 rotate -70.62 90 -180

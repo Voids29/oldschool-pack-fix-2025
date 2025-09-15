@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/pyro/3/sledge/// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_sledgehammer/c_sledgehammer.mdl"
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0 -2.458 11.492
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/3/sledge/"
 
 $attachment "pedestal_0" "weapon_bone" 0 12.87 0.88 rotate -70.62 90 -180
 $attachment "icon_camera" "weapon_bone" 34 26.35 20.35 rotate 29.47 -162.7 153.93

@@ -19,8 +19,8 @@ $cdmaterials ""
 
 $texturegroup "skinfamilies"
 {
-	{ "pompadour"     }
-	{ "pompadour_blu" }
+	{ "pompadour_red"	}
+	{ "pompadour_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 4.68 37.76 rotate -90 0 0

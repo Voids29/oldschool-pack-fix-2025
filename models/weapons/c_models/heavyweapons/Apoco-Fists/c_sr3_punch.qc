@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -0.001 1.277 -0.131
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/heavyweapons/3/apocofists/"
 
 $attachment "icon_camera" "bip_hand_R" 17.05 -57.56 -5.29 rotate 13.97 102.28 -90.18
 $attachment "pedestal_0" "bip_hand_R" 6.21 0.8 -12.65 rotate -8.56 42.47 -108.93

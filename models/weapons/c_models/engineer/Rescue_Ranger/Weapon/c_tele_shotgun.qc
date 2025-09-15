@@ -1,10 +1,10 @@
-// Created by Crowbar 0.74
+console/models/weapons/engineer/1/telegun/// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_tele_shotgun\c_tele_shotgun.mdl"
 
 $bodygroup "body"
 {
-	studio "telegun.smd"
+	studio "c_telegun_shotgun_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -18,13 +18,13 @@ $contents "solid"
 
 $illumposition 0.048 -15.233 2.243
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/engineer/1/telegun/"
+$cdmaterials "console/models/weapons/shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "telegun"      }
-	{ "telegun_blue" }
+	{ "telegun_red"	}
+	{ "telegun_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 3.73 34.92 rotate -90 0 0

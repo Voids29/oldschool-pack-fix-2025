@@ -4,11 +4,11 @@ $modelname "weapons/c_models/c_hippocrates_bust/c_hippocrates_bust.mdl"
 
 $bodygroup "Body"
 {
-	studio "c_hippocrates_bust.smd"
+	studio "c_hippocrates_bust_reference.smd"
 }
 
 
-$surfaceprop "stone"
+$surfaceprop "rock"
 
 $contents "solid"
 

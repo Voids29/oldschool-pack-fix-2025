@@ -8,7 +8,7 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "item"
 
 $contents "solid"
 
@@ -20,16 +20,16 @@ $cdmaterials "console\models\weapons\shared\festives"
 
 $texturegroup "skinfamilies"
 {
-	{ "lights_r_2" "lights_r_1" "lights_r_3" }
-	{ "lights_b_2" "lights_b_1" "lights_b_3" }
-	{ "lights_r_2" "lights_r_1" "lights_r_3" }
-	{ "lights_b_2" "lights_b_1" "lights_b_3" }
-	{ "lights_r_2" "lights_r_1" "lights_r_3" }
-	{ "lights_b_2" "lights_b_1" "lights_b_3" }
-	{ "lights_r_2" "lights_r_1" "lights_r_3" }
-	{ "lights_b_2" "lights_b_1" "lights_b_3" }
-	{ "lights_r_2" "lights_r_1" "lights_r_3" }
-	{ "lights_b_2" "lights_b_1" "lights_b_3" }
+	{ "lights_r_2"		"lights_r_1"	"lights_r_3"	}
+	{ "lights_b_2"	"lights_b_1"	"lights_b_3"	}
+	{ "lights_r_2"		"lights_r_1"	"lights_r_3"	}
+	{ "lights_b_2"	"lights_b_1"	"lights_b_3"	}
+	{ "lights_r_2"		"lights_r_1"	"lights_r_3"	}
+	{ "lights_b_2"	"lights_b_1"	"lights_b_3"	}
+	{ "lights_r_2"		"lights_r_1"	"lights_r_3"	}
+	{ "lights_b_2"	"lights_b_1"	"lights_b_3"	}
+	{ "lights_r_2"		"lights_r_1"	"lights_r_3"	}
+	{ "lights_b_2"	"lights_b_1"	"lights_b_3"	}
 }
 
 $cbox 0 0 0 0 0 0

@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/engineer/3/spikewrench/// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_spikewrench\c_spikewrench.mdl"
 
@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -0.188 -2.178 9.722
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/engineer/3/spikewrench/"
 
 $attachment "icon_camera" "weapon_bone" 25.8 15.49 24.58 rotate 41.43 -168.52 157.09
 $attachment "pedestal_0" "weapon_bone" 0 13.27 0.15 rotate -90 -90 0

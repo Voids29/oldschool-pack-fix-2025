@@ -18,8 +18,8 @@ $contents "solid"
 
 $illumposition 0.018 -3.874 3.405
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/pyro/3/backstratcha/"
+$cdmaterials "console/models/weapons/shared"
 
 $attachment "pedestal_0" "weapon_bone" 0 12.87 0.88 rotate -70.62 90 180
 $attachment "icon_camera" "weapon_bone" -22.75 40.77 33 rotate 43.84 -47.66 2.9

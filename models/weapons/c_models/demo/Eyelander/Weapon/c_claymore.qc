@@ -18,10 +18,10 @@ $cdmaterials "console\models\weapons\demo\3\claymore"
 
 $texturegroup "skinfamilies"
 {
-	{ "claymore"      }
-	{ "claymore"      }
-	{ "claymore_gold" }
-	{ "claymore_gold" }
+	{ "claymore"			}
+	{ "claymore"			}
+	{ "claymore_gold"	}
+	{ "claymore_gold"	}
 }
 
 $attachment "pedestal_0" "weapon_bone" 0 18.9 -0.01 rotate 0 133.32 90

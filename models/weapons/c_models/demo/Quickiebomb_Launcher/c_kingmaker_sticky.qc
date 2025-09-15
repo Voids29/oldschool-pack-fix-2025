@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -3.072 -5.258 -2.423
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/demo/2/quickie/"
 
 $attachment "pedestal_0" "weapon_bone" 0 -2.1 7.49 rotate -90 -90 0
 $attachment "icon_camera" "weapon_bone" 34.54 9.56 20.1 rotate 17.79 -162.07 102.61

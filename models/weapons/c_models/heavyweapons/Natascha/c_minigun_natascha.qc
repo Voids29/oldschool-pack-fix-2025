@@ -2,13 +2,13 @@
 
 $modelname "weapons\c_models\c_minigun\c_minigun_natascha.mdl"
 
-$bodygroup "w_minigun"
+$bodygroup "minigun"
 {
-	studio "w_minigun_reference.smd"
+	studio "c_minigun_reference.smd"
 }
-$bodygroup "a"
+$bodygroup "ludmila"
 {
-	studio "c_w_ludmila_reference.smd"
+	studio "c_minigun_natascha_reference.smd"
 }
 
 

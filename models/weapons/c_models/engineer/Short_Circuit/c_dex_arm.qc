@@ -4,7 +4,7 @@ $modelname "workshop_partner/weapons/c_models/c_dex_arm/c_dex_arm.mdl"
 
 $bodygroup "body"
 {
-	studio "short_circuit.smd"
+	studio "c_dex_arm_reference.smd"
 }
 
 
@@ -18,8 +18,8 @@ $cdmaterials "console\models\weapons\lowpoly\"
 
 $texturegroup "skinfamilies"
 {
-	{ "short_circuit"      }
-	{ "short_circuit_blue" }
+	{ "short_circuit_red"	}
+	{ "short_circuit_blu"	}
 }
 
 $attachment "muzzle" "arm_attach_R" 0 25.44 0 rotate 0 90 -90

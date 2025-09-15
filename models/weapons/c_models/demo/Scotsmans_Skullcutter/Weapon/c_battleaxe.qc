@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/demo/3/battleaxe/// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_battleaxe\c_battleaxe.mdl"
 
@@ -18,7 +18,8 @@ $contents "solid"
 
 $illumposition 0.053 0.01 17.587
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/3/battleaxe/"
+$cdmaterials "console/models/weapons/shared"
 
 $attachment "pedestal_0" "weapon_bone" 0 17.93 0 rotate 14.01 28.21 -96
 $attachment "icon_camera" "weapon_bone" 13.76 42.82 -49.84 rotate -64.94 -129.32 95.11

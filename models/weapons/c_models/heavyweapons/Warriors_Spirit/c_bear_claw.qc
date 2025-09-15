@@ -14,13 +14,12 @@ $contents "solid"
 
 $illumposition 0.173 2.999 2.032
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/heavyweapons/3/bear_claws/"
 
 $texturegroup "skinfamilies"
 {
-	{ "bear_claws_red"  }
-	{ "bear_claws_blue" }
+	{ "bear_claws_red"	}
+	{ "bear_claws_blu"	}
 }
 
 $attachment "pedestal_0" "bip_hand_R" 6.21 0.8 -12.65 rotate -8.56 42.47 -108.93
@@ -34,8 +33,8 @@ $hboxset "default"
 $hbox 0 "bip_hand_L" -5.020405 -15.614769 -7.470188 8.160439 15.059635 7.670985
 $hbox 0 "bip_hand_R" -7.561547 -15.507355 -8.559092 5.168492 16.065876 8.443671
 
-$definebone "bip_hand_R" "" -13.699295 0.255629 -3.332048 -30.402302 -68.278929 87.301163 0 0 0 0 0 0
-$definebone "bip_hand_L" "" 13.591048 0.430976 -3.287867 29.302666 71.288187 -95.090918 0 0 0 0 0 0
+$definebone "bip_hand_R" "" -13.699295 0.255629 -3.332048 -30.402304 -68.278931 87.301163 0 0 0 0 0 0
+$definebone "bip_hand_L" "" 13.591048 0.430976 -3.287867 29.302666 71.288185 -95.090919 0 0 0 0 0 0
 
 
 $sequence "idle" {

@@ -15,13 +15,12 @@ $contents "solid"
 $illumposition -2.939 -9.995 4.37
 
 $cdmaterials "models\workshop\weapons\c_models\c_invasion_wrangler\"
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/engineer/2/wrangler_alien/"
 
 $texturegroup "skinfamilies"
 {
-	{ "wrangler_alien"      "c_invasion_wrangler_laser"      }
-	{ "wrangler_alien_blue" "c_invasion_wrangler_laser_blue" }
+	{ "wrangler_alien_red"	"c_invasion_wrangler_laser"			}
+	{ "wrangler_alien_blu"		"c_invasion_wrangler_laser_blue"	}
 }
 
 $attachment "pedestal_0" "weapon_bone" 0 2 5 rotate -90 -90 0

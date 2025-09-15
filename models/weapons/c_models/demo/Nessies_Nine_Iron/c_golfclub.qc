@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/demo/3/9_iron/// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_golfclub/c_golfclub.mdl"
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -3.108 0.663 20.197
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/3/9_iron/"
 
 $attachment "pedestal_0" "weapon_bone" 0 18.9 -0.01 rotate 0 133.32 90
 $attachment "icon_camera" "weapon_bone" -23.04 -0.38 52.72 rotate 62.16 38.21 5.75

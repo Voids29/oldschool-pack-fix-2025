@@ -37,7 +37,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "c_sandwich_xmas_physics.smd"
+$collisionmodel "c_sandwich_physics.smd"
 {
 	$mass 1
 	$inertia 1

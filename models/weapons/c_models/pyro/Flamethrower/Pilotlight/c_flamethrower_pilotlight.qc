@@ -9,17 +9,16 @@ $contents "solid"
 $illumposition 0 0 0
 
 $cdmaterials "console\misc\"
-$cdmaterials ""
 
 $cbox 0 0 0 0 0 0
 
 $bbox 0 0 0 0 0 0
 
-$definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "dummy_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
 $sequence "idle" {
-	"c_flamethrower_pilotlight_anims\idle.smd"
+	"c_flamethrower_xmas_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

@@ -14,8 +14,8 @@ $contents "solid"
 
 $illumposition 0.349 0 80.672
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/demo/2/persian_shield/"
+$cdmaterials "console/models/weapons/sniper/1/bow/"
 
 $cbox 0 0 0 0 0 0
 

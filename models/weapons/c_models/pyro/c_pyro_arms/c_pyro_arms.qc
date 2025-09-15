@@ -19,16 +19,16 @@ $cdmaterials ""
 
 $texturegroup "skinfamilies"
 {
-	{ "v_pyro_red" }
-	{ "v_pyro_blu" }
-	{ "v_pyro_red" }
-	{ "v_pyro_blu" }
-	{ "v_pyro_red" }
-	{ "v_pyro_blu" }
-	{ "v_pyro_red" }
-	{ "v_pyro_blu" }
-	{ "v_pyro_red" }
-	{ "v_pyro_blu" }
+	{ "v_pyro_red"	}
+	{ "v_pyro_blu"	}
+	{ "v_pyro_red"	}
+	{ "v_pyro_blu"	}
+	{ "v_pyro_red"	}
+	{ "v_pyro_blu"	}
+	{ "v_pyro_red"	}
+	{ "v_pyro_blu"	}
+	{ "v_pyro_red"	}
+	{ "v_pyro_blu"	}
 }
 
 $attachment "weapon_bone_L" "weapon_bone_L" 0 0 0 rotate 0 0 0

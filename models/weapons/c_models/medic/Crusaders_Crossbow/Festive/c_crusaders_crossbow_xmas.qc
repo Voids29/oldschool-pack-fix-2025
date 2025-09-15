@@ -18,7 +18,7 @@ $contents "solid"
 
 $illumposition 0 -1.72 1.415
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/medic/1/x_bow"
 
 $texturegroup "skinfamilies"
 {
@@ -56,7 +56,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "c_crusaders_crossbow_xmas_physics.smd"
+$collisionmodel "c_crusaders_crossbow_physics.smd"
 {
 	$mass 6.486715
 	$inertia 1

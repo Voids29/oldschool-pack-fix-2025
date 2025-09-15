@@ -4,7 +4,7 @@ $modelname "weapons\c_models\c_pda_engineer\c_PDA_Engineer.mdl"
 
 $bodygroup "Body"
 {
-	studio "w_PDA_Engineer_reference.dmx.smd"
+	studio "c_pda_engineer_reference.smd"
 }
 
 

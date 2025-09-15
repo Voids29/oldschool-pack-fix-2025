@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/demo/3/claid_mor/// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_claidheamohmor\c_claidheamohmor.mdl"
 
@@ -18,13 +18,13 @@ $contents "solid"
 
 $illumposition 0 0 23.885
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/demo/3/claid_mor/"
+$cdmaterials "console/models/weapons/shared/"
 
 $texturegroup "skinfamilies"
 {
-	{ "claid_mor"      }
-	{ "claid_mor_blue" }
+	{ "claid_mor_red"      }
+	{ "claid_mor_blu" }
 }
 
 $attachment "pedestal_0" "weapon_bone" 0 23.2 0 rotate 14.01 28.21 -96

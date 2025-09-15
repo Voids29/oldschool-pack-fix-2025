@@ -1,10 +1,10 @@
-// Created by Crowbar 0.74
+console/models/weapons/pyro/2/detonator/// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_detonator/c_detonator.mdl"
 
 $bodygroup "body"
 {
-	studio "detonator.smd"
+	studio "c_detonator_reference.smd"
 }
 $bodygroup "shell"
 {
@@ -23,13 +23,13 @@ $contents "solid"
 
 $illumposition 0.115 -9.065 3.453
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/pyro/2/detonator/"
+$cdmaterials "console/models/weapons/shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "detonator"     "detonator_flare_red" }
-	{ "detonator_blu" "detonator_flare_blu" }
+	{ "detonator_red"	"detonator_flare_red"	}
+	{ "detonator_blu"	"detonator_flare_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 5.56 21.59 rotate -90 0 0
@@ -46,9 +46,6 @@ $cbox 0 0 0 0 0 0
 
 $bbox 22 3 12 -4 -3 -5
 
-$hboxset "default"
-$hbox 0 "weapon_bone" -2.08 -4.91 -3.5 2.08 11 7
-$hbox 0 "weapon_bone_2" -3 -2.02 -1.36 3 7 13.5
 $hboxset "default"
 $hbox 0 "weapon_bone" -2.08 -4.327 -24.094 2.08 6.49 9.201
 $hbox 0 "weapon_bone_2" -1.954 -2.015 -1.358 1.954 4.189 9.462

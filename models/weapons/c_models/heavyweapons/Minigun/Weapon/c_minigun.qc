@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_minigun\c_minigun.mdl"
 
-$bodygroup "w_minigun"
+$bodygroup "minigun"
 {
-	studio "w_minigun_reference.smd"
+	studio "c_minigun_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -19,23 +19,20 @@ $contents "solid"
 $illumposition -4.893 -23.251 -7.823
 
 $cdmaterials "console\models\weapons\heavyweapons\1\minigun"
-$cdmaterials "console\models\weapons\heavyweapons\1\natasha"
 $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "minigun"      }
-	{ "minigun"      }
-	{ "minigun"      }
-	{ "minigun"      }
-	{ "minigun"      }
-	{ "minigun"      }
-	{ "minigun"      }
-	{ "minigun"      }
-	{ "minigun_gold" }
-	{ "minigun_gold" }
-	{ "natasha"      }
-	{ "natasha"      }
+	{ "minigun"			}
+	{ "minigun"			}
+	{ "minigun"			}
+	{ "minigun"			}
+	{ "minigun"			}
+	{ "minigun"			}
+	{ "minigun"			}
+	{ "minigun"			}
+	{ "minigun_gold"	}
+	{ "minigun_gold"	}
 }
 
 $attachment "pedestal_0" "weapon_bone" 0 -11.89 23.22 rotate -90 -90 0

@@ -4,7 +4,7 @@ $modelname "workshop_partner/weapons/c_models/c_dex_shotgun/c_dex_shotgun.mdl"
 
 $bodygroup "Body"
 {
-	studio "widowmaker.smd"
+	studio "c_dex_shotgun_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0.019 -8.063 0.514
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/engineer/1/widowmaker/"
 
 $attachment "muzzle" "weapon_bone" 0 5.13 25.3 rotate -90 0 0
 $attachment "icon_camera" "weapon_bone" 35.08 -8.06 25.24 rotate 12.48 164.98 69.37

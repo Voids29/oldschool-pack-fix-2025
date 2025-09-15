@@ -18,10 +18,10 @@ $cdmaterials "console\models\weapons\medic\1\blutsauger"
 
 $texturegroup "skinfamilies"
 {
-	{ "blutsauger_red"  }
-	{ "blutsauger_blu"  }
-	{ "blutsauger_gold" }
-	{ "blutsauger_gold" }
+	{ "blutsauger_red"		}
+	{ "blutsauger_blu"		}
+	{ "blutsauger_gold"	}
+	{ "blutsauger_gold"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0.19 6.06 23.24 rotate -89 0 0

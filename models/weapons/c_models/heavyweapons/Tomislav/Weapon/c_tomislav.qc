@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_tomislav/c_tomislav.mdl"
 
 $bodygroup "body"
 {
-	studio "tomislav.smd"
+	studio "c_tomislav_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,20 +12,22 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "cloth"
+$surfaceprop "metal"
 
 $contents "solid"
 
 $illumposition -3.375 -28.703 -13.671
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/heavyweapons/1/tomislav/"
+$cdmaterials "console/models/weapons/shared"
+
 
 $texturegroup "skinfamilies"
 {
-	{ "tomislav"      }
-	{ "tomislav"      }
-	{ "tomislav_gold" }
-	{ "tomislav_gold" }
+	{ "tomislav"			}
+	{ "tomislav"			}
+	{ "tomislav_gold"	}
+	{ "tomislav_gold"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 -7.01 65.86 rotate -90 0 0

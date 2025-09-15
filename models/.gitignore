@@ -1,0 +1,8 @@
+# This is here to make sure any test compiles are not comitted
+!*.gitignore
+!*.qc
+!*.qci
+!*.smd
+!*.dmx
+!*.vrd
+!*.vta

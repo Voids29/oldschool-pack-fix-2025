@@ -4,7 +4,7 @@ $modelname "workshop\weapons\c_models\c_fists_of_steel\c_fists_of_steel.mdl"
 
 $bodygroup "studio"
 {
-	studio "ref.smd"
+	studio "c_fists_of_steel_reference.smd"
 }
 
 
@@ -18,8 +18,8 @@ $cdmaterials "console\models\weapons\lowpoly\"
 
 $texturegroup "skinfamilies"
 {
-	{ "fists_of_steel"      }
-	{ "fists_of_steel_blue" }
+	{ "fists_of_steel_red"	}
+	{ "fists_of_steel_blu"	}
 }
 
 $attachment "pedestal_0" "bip_hand_R" 6.21 0.8 -12.65 rotate -8.56 42.47 -108.93

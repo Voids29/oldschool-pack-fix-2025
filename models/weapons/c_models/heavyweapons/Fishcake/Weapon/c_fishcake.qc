@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition 1.879 0.465 0.706
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/heavyweapons/2/fishcake/"
 
 $texturegroup "skinfamilies"
 {

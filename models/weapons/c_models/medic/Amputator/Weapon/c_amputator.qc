@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_amputator/c_amputator.mdl"
 
 $bodygroup "c_amputator_reference"
 {
-	studio "c_amputator.smd"
+	studio "c_amputator_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -18,13 +18,13 @@ $contents "solid"
 
 $illumposition 0.005 -9.179 1.3
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/medic/3/amputator/"
+$cdmaterials "console/models/weapons/shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "amputator_red"  }
-	{ "amputator_blue" }
+	{ "amputator_red"	}
+	{ "amputator_blu"	}
 }
 
 $attachment "pedestal_0" "weapon_bone" 0 3 7.99 rotate -90 -90 0

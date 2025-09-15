@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/heavyweapons/2/sandwich/// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_buffalo_steak\plate_buffalo_steak.mdl"
 
@@ -14,7 +14,8 @@ $contents "solid"
 
 $illumposition 0.042 0 7.025
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/heavyweapons/2/sandwich/"
+$cdmaterials "console/models/weapons/heavyweapons/2/tatonka/"
 
 $cbox 0 0 0 0 0 0
 

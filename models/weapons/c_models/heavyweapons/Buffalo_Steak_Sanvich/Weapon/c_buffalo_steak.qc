@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 1.708 -0.562 0.185
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/heavyweapons/2/tatonka/"
 
 $attachment "icon_camera" "weapon_bone" 8.33 10.34 11.55 rotate 43.99 -113.75 137.66
 $attachment "pedestal_0" "weapon_bone" 2.53 -1.26 0 rotate 14.01 28.21 -96

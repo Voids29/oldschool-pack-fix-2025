@@ -14,7 +14,6 @@ $contents "solid"
 
 $illumposition 0.042 0 7.025
 
-$cdmaterials "console\models\weapons\heavyweapons\2"
 $cdmaterials "console\models\weapons\heavyweapons\2\sandwich"
 
 $cbox 0 0 0 0 0 0

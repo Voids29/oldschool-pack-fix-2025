@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_flameball/c_flameball.mdl"
 
 $bodygroup "body"
 {
-	studio "c_flameball.smd"
+	studio "c_flameball_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,7 +12,7 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -41,14 +41,19 @@ $cbox 0 0 0 0 0 0
 
 $bbox -6.799 -8.624 -10.595 63.152 10.546 11.242
 
-$definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "barrel" "weapon_bone" -0.945549 4.04253 43.014709 0 0 0 0 0 0 0 0 0
-$definebone "needle" "weapon_bone" 8.54328 5.751522 36.213001 17.300007 0 -12.500003 0 0 0 0 0 0
-$definebone "weapon_bone_1" "weapon_bone" 0 -1.482443 5.196273 0 0 0 0 0 0 0 0 0
-$definebone "hlp_lever" "weapon_bone" 0 -0.865427 10.1161 0 0 -0.024523 0 0 0 0 0 0
+$definebone "weapon_bone" "" 0.000000 0.000000 0.000000 0.000688 0.000688 89.999985 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "barrel" "weapon_bone" -0.945549 4.042523 43.014706 -0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "needle" "weapon_bone" 7.714844 5.648433 36.249996 17.300062 0.000286 -12.499018 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000001
+$definebone "weapon_bone_1" "weapon_bone" 0.000000 -1.482444 5.196272 -0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "hlp_lever" "weapon_bone" 0.000000 -0.865429 10.116099 -0.000000 0.000000 -0.024694 -0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+
+$bonemerge "weapon_bone"
+$bonemerge "barrel"
+$bonemerge "needle"
+$bonemerge "weapon_bone_1"
+$bonemerge "hlp_lever"
 
 $proceduralbones "c_flameball.vrd"
-
 
 $poseparameter "charge_level" 0 1 loop 0
 $poseparameter "reload" 0 1 loop 0
@@ -69,52 +74,8 @@ $weightlist "weights_layer_barrel" {
 	 "hlp_lever" 0
 }
 
-$animation "a_needle_empty_corrective_animation" "c_flameball_anims\a_needle_empty_corrective_animation.smd" {
-}
-
-$animation "a_needle_full_corrective_animation" "c_flameball_anims\a_needle_full_corrective_animation.smd" {
-}
-
-$animation "a_barrel_empty_corrective_animation" "c_flameball_anims\a_barrel_empty_corrective_animation.smd" {
-}
-
-$animation "a_barrel_full_corrective_animation" "c_flameball_anims\a_barrel_full_corrective_animation.smd" {
-}
-
-$animation "a_needle_empty" "c_flameball_anims\a_needle_empty.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	subtract "a_needle_empty_corrective_animation" 0
-	weightlist "weights_layer_needle"
-}
-
-$animation "a_needle_full" "c_flameball_anims\a_needle_full.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	subtract "a_needle_full_corrective_animation" 0
-	weightlist "weights_layer_needle"
-}
-
-$animation "a_barrel_base" "c_flameball_anims\a_barrel_base.smd" {
-	fps 30
-}
-
-$animation "a_barrel_empty" "c_flameball_anims\a_barrel_empty.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	subtract "a_barrel_empty_corrective_animation" 0
-	weightlist "weights_layer_barrel"
-}
-
-$animation "a_barrel_full" "c_flameball_anims\a_barrel_full.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	subtract "a_barrel_full_corrective_animation" 0
-	weightlist "weights_layer_barrel"
-}
-
-$sequence "ref" {
-	"c_flameball_anims\ref.smd"
+$sequence "idle" {
+	"c_flameball_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	addlayer "layer_needle"
@@ -123,11 +84,39 @@ $sequence "ref" {
 	loop
 }
 
+
+$animation "a_needle_empty" "c_flameball_anims\a_needle_empty.smd" {
+	fps 30
+	weightlist "weights_layer_needle"
+}
+
+$animation "a_needle_half" "c_flameball_anims\a_needle_half.smd" {
+	fps 30
+	weightlist "weights_layer_needle"
+}
+
+$animation "a_needle_full" "c_flameball_anims\a_needle_full.smd" {
+	fps 30
+	weightlist "weights_layer_needle"
+}
+
+$animation "a_barrel_empty" "c_flameball_anims\a_barrel_empty.smd" {
+	fps 30
+	weightlist "weights_layer_barrel"
+}
+
+$animation "a_barrel_full" "c_flameball_anims\a_barrel_full.smd" {
+	fps 30
+	weightlist "weights_layer_barrel"
+}
+
+
 $sequence "layer_needle" {
 	"a_needle_empty"
+	"a_needle_half"
 	"a_needle_full"
 	blend "charge_level" 0 1
-	blendwidth 2
+	blendwidth 3
 	delta
 	fadein 0.2
 	fadeout 0.2
@@ -150,5 +139,4 @@ $collisionmodel "c_flameball_physics.smd"
 	$damping 0
 	$rotdamping 0
 	$rootbone " "
-	$concave
 }

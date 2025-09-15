@@ -14,8 +14,8 @@ $contents "solid"
 
 $illumposition 0.042 0 7.025
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/heavyweapons/2/chocolate/"
+$cdmaterials "console/models/weapons/heavyweapons/2/sandwich"
 
 $texturegroup "skinfamilies"
 {

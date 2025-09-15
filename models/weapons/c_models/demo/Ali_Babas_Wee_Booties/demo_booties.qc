@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0 78.511 0
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/1/booties/"
 
 $attachment "icon_camera" "p_root" 10.64 -9.14 -12.39 rotate -48.84 123.41 50.9
 $attachment "pedestal_0" "p_root" -6 0 0 rotate -90 0 0

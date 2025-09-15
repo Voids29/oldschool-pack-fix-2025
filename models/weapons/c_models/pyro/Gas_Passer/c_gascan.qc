@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_gascan/c_gascan.mdl"
 
 $bodygroup "body"
 {
-	studio "c_gascan.smd"
+	studio "c_gascan_reference.smd"
 }
 
 
@@ -18,8 +18,8 @@ $cdmaterials "console\models\weapons\pyro\2\gascan"
 
 $texturegroup "skinfamilies"
 {
-	{ "gascan_red" }
-	{ "gascan_blu" }
+	{ "gascan_red"	}
+	{ "gascan_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 4.46 19.89 rotate -90 0 0
@@ -34,7 +34,7 @@ $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
 $sequence "ref" {
-	"c_gascan_anims\ref.smd"
+	"c_gascan_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

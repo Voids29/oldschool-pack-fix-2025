@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_russian_riot/c_russian_riot.mdl"
 
 $bodygroup "body"
 {
-	studio "c_russian_riot.smd"
+	studio "c_russian_riot_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -18,8 +18,7 @@ $contents "solid"
 
 $illumposition -0.019 -9.654 0.047
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/heavyweapons/2/riot/"
 
 $attachment "muzzle" "weapon_bone" 0 4.06 34.92 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" -0.8 3.25 10.76 rotate -11.66 162.02 12

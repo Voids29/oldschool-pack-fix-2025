@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_ubersaw/c_ubersaw.mdl"
 
 $bodygroup "body"
 {
-	studio "c_uberesaw_reference.smd"
+	studio "c_ubersaw_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -57,21 +57,6 @@ $weightlist "weights_layer_UberSyringe" {
 	 "weapon_bone1a" 1
 }
 
-$animation "a_UberSyringe_base" "c_ubersaw_anims\a_UberSyringe_base.smd" {
-	fps 30
-}
-
-$animation "a_UberSyringe_empty" "c_ubersaw_anims\a_UberSyringe_empty.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	weightlist "weights_layer_UberSyringe"
-}
-
-$animation "a_UberSyringe_full" "c_ubersaw_anims\a_UberSyringe_full.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	weightlist "weights_layer_UberSyringe"
-}
 
 $sequence "idle" {
 	"c_ubersaw_anims\idle.smd"
@@ -80,6 +65,16 @@ $sequence "idle" {
 	addlayer "layer_UberSyringe"
 	fps 30
 	loop
+}
+
+$animation "a_UberSyringe_empty" "c_ubersaw_anims\a_UberSyringe_empty.smd" {
+	fps 30
+	weightlist "weights_layer_UberSyringe"
+}
+
+$animation "a_UberSyringe_full" "c_ubersaw_anims\a_UberSyringe_full.smd" {
+	fps 30
+	weightlist "weights_layer_UberSyringe"
 }
 
 $sequence "layer_UberSyringe" {

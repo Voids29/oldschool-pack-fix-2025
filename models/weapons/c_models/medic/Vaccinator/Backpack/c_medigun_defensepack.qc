@@ -8,19 +8,18 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 2.599 6.887 3.493
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/medic/2/vaccination/"
 
 $texturegroup "skinfamilies"
 {
-	{ "medigun_defensepack_red" }
-	{ "medigun_defensepack_blu" }
+	{ "vac_defensepack_red" }
+	{ "vac_defensepack_blu" }
 }
 
 $cbox 0 0 0 0 0 0

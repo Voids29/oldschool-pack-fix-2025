@@ -23,16 +23,16 @@ $cdmaterials "console\models\player\engineer\"
 
 $texturegroup "skinfamilies"
 {
-	{ "v_engineer_red" "robot_arm_red" }
-	{ "v_engineer_blu" "robot_arm_blu" }
-	{ "v_engineer_red" "robot_arm_red" }
-	{ "v_engineer_blu" "robot_arm_blu" }
-	{ "v_engineer_red" "robot_arm_red" }
-	{ "v_engineer_blu" "robot_arm_blu" }
-	{ "v_engineer_red" "robot_arm_red" }
-	{ "v_engineer_blu" "robot_arm_blu" }
-	{ "v_engineer_red" "robot_arm_red" }
-	{ "v_engineer_blu" "robot_arm_blu" }
+	{ "v_engineer_red"	"robot_arm_red"	}
+	{ "v_engineer_blu"	"robot_arm_blu"	}
+	{ "v_engineer_red"	"robot_arm_red"	}
+	{ "v_engineer_blu"	"robot_arm_blu"	}
+	{ "v_engineer_red"	"robot_arm_red"	}
+	{ "v_engineer_blu"	"robot_arm_blu"	}
+	{ "v_engineer_red"	"robot_arm_red"	}
+	{ "v_engineer_blu"	"robot_arm_blu"	}
+	{ "v_engineer_red"	"robot_arm_red"	}
+	{ "v_engineer_blu"	"robot_arm_blu"	}
 }
 
 $attachment "weapon_bone_L" "weapon_bone_L" 0 0 0 rotate 0 0 0

@@ -14,8 +14,8 @@ $contents "solid"
 
 $illumposition 0.349 0 80.672
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/demo/2/persian_shield/"
+$cdmaterials "console/models/weapons/sniper/1/bow/"
 
 $attachment "pedestal_0" "weapon_targe" 2.09 -7.47 -4 rotate 19.57 -33.74 -110.92
 $attachment "icon_camera" "weapon_targe" 21.61 -20.3 -11.78 rotate -22.11 144.01 104.45

@@ -2,7 +2,7 @@
 
 $modelname "workshop/weapons/c_models/c_iron_curtain/c_iron_curtain.mdl"
 
-$bodygroup "w_minigun"
+$bodygroup "minigun"
 {
 	studio "c_iron_curtain_reference.smd"
 }
@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -4.779 -24.797 -12.427
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/heavyweapons/1/iron_curtain/"
 
 $attachment "muzzle" "weapon_bone" 0 -7.76 57.76 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" -8.57 -10.99 5.85 rotate 0 154.21 -180

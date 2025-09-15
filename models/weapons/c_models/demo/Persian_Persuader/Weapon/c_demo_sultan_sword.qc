@@ -18,7 +18,9 @@ $contents "solid"
 
 $illumposition -0.014 2.598 15.586
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/3/sultan_sword/"
+$cdmaterials "console/models/weapons/shared"
+
 
 $attachment "pedestal_0" "weapon_bone" 0.26 16.01 -0.27 rotate 59.21 118.8 20.53
 $attachment "icon_camera" "weapon_bone" -49.36 41.49 -13.75 rotate -15.15 -20.51 -32.68

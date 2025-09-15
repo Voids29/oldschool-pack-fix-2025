@@ -28,10 +28,10 @@ $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "grenade_launcher"      }
-	{ "grenade_launcher"      }
-	{ "grenade_launcher_gold" }
-	{ "grenade_launcher_gold" }
+	{ "grenade_launcher"			}
+	{ "grenade_launcher"			}
+	{ "grenade_launcher_gold"	}
+	{ "grenade_launcher_gold"	}
 }
 
 $attachment "muzzle" "weapon_bone_3" 0 -2.79 6.78 rotate 0 0 0

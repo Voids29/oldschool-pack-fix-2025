@@ -1,4 +1,4 @@
-// Created by Crowbar 0.74
+console/models/weapons/pyro/1/regreaser/// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_degreaser/c_degreaser.mdl"
 
@@ -18,12 +18,13 @@ $contents "solid"
 
 $illumposition -1.256 -27.946 -1.699
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/1/regreaser/"
+$cdmaterials "console/models/weapons/shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "regreaser_red" }
-	{ "regreaser_blu" }
+	{ "regreaser_red"	}
+	{ "regreaser_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 3.13 -0.62 48.12 rotate -84.27 -90 90

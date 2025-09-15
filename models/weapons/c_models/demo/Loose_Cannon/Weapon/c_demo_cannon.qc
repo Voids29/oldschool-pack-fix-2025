@@ -23,13 +23,14 @@ $contents "solid"
 
 $illumposition -0.01 -8.462 2.29
 
-$cdmaterials "console\models\weapons\c_items\"
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/1/lost_cannon/"
+$cdmaterials "console/models/weapons/shared"
+
 
 $texturegroup "skinfamilies"
 {
-	{ "cannonball"      }
-	{ "cannonball_blue" }
+	{ "cannonball_red"	}
+	{ "cannonball_blu"	}
 }
 
 $attachment "cannon_fuse" "weapon_bone" -0.04 5.07 -0.22 rotate 72.78 -107.43 -101.93

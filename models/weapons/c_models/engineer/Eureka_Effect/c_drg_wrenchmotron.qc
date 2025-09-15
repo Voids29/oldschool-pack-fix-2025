@@ -14,13 +14,12 @@ $contents "solid"
 
 $illumposition -0.153 1.278 12.876
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/engineer/3/wrenchmotron/"
 
 $texturegroup "skinfamilies"
 {
-	{ "wrenchmotron"     }
-	{ "wrenchmotron_blu" }
+	{ "wrenchmotron_red"	}
+	{ "wrenchmotron_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 19.92 1.32 rotate 0 0 0

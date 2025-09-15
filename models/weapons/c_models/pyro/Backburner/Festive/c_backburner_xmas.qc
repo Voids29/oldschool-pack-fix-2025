@@ -2,13 +2,13 @@
 
 $modelname "weapons/c_models/c_flamethrower/c_backburner_xmas.mdl"
 
-$bodygroup "w_flamethrower"
+$bodygroup "flamethrower"
 {
 	studio "c_backburner_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -19,8 +19,8 @@ $cdmaterials "console\models\weapons\pyro\1\flamethrower"
 
 $texturegroup "skinfamilies"
 {
-	{ "flamethrower_red" "backburner_red" }
-	{ "flamethrower_blu" "backburner_blu" }
+	{ "flamethrower_red"	"backburner_red"	}
+	{ "flamethrower_blu"	"backburner_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0.64 2.35 58.05 rotate -81.92 -90 90

@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_flamethrower\c_flamethrower.mdl"
 
-$bodygroup "w_flamethrower"
+$bodygroup "body"
 {
-	studio "w_flamethrower_reference.smd"
+	studio "c_flamethrower_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,7 +12,7 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -23,16 +23,16 @@ $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "flamethrower_red"  }
-	{ "flamethrower_blu"  }
-	{ "flamethrower_red"  }
-	{ "flamethrower_blu"  }
-	{ "flamethrower_red"  }
-	{ "flamethrower_blu"  }
-	{ "flamethrower_red"  }
-	{ "flamethrower_blu"  }
-	{ "flamethrower_gold" }
-	{ "flamethrower_gold" }
+	{ "flamethrower_red"	}
+	{ "flamethrower_blu"	}
+	{ "flamethrower_red"	}
+	{ "flamethrower_blu"	}
+	{ "flamethrower_red"	}
+	{ "flamethrower_blu"	}
+	{ "flamethrower_red"	}
+	{ "flamethrower_blu"	}
+	{ "flamethrower_gold"	}
+	{ "flamethrower_gold"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0.64 2.35 58.05 rotate -81.92 -90 90
@@ -53,7 +53,7 @@ $hboxset "default"
 $hbox 0 "weapon_bone" -9.428 -17.594999 -15.792 8.475 8.078 72.990997
 
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "c_weapon_stattrack" "weapon_bone" 2.856705 4.64531 28.596407 -0.000057 47.60592 -90.000037 0 0 0 0 0 0
+$definebone "c_weapon_stattrack" "weapon_bone" 2.856705 4.645310 28.596407 0 47.605919 -90 0 0 0 0 0 0
 
 $bonemerge "weapon_bone"
 $bonemerge "c_weapon_stattrack"

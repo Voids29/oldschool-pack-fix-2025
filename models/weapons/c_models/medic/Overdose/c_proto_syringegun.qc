@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_proto_syringegun/c_proto_syringegun.mdl"
 
 $bodygroup "c_syringegun_mesh"
 {
-	studio "c_proto_syringegun.smd"
+	studio "c_proto_syringegun_reference.smd"
 }
 
 
@@ -30,9 +30,6 @@ $cbox 0 0 0 0 0 0
 
 $bbox -14.626 -7.317 -7.563 18.062 5.458 13.085
 
-$definebone "weapon_bone" "" 0 6.595457 -2.349024 1.570796 0 -0.008832 0 0 0 0 0 0
-$definebone "vm_weapon_bone_1" "weapon_bone" -0.012532 9.649513 -1.41893 0 0 0 0 0 0 0 0 0
-$definebone "vm_weapon_bone" "weapon_bone" 0.022017 3.426733 2.49284 0 0 0 0 0 0 0 0 0
 
 
 $sequence "idle" {
@@ -51,3 +48,5 @@ $collisionmodel "c_proto_syringegun_physics.smd"
 	$rootbone " "
 
 }
+
+$include "DefineBones.qci"

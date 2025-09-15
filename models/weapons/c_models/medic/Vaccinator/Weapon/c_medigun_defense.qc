@@ -13,14 +13,14 @@ $bodygroup "hose"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 1.953 -13.093 -4.785
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/medic/2/vaccination/"
+$cdmaterials "console/models/weapons/pyro/2/melter/"
 
 $texturegroup "skinfamilies"
 {
@@ -47,14 +47,15 @@ $hbox 0 "joint_hose04" -2.946418 -1.899528 -1.710883 9.576198 2.040383 1.70119
 $hbox 0 "joint_hose05" -3.046405 -1.900713 -1.709742 1.811378 2.039198 1.702357
 
 $definebone "weapon_bone_L" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "joint_lever" "weapon_bone_L" 0 -0.934865 4.492331 0 0 0 0 0 0 0 0 0
-$definebone "weapon_bone" "weapon_bone_L" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "vm_weapon_bone_L" "joint_lever" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "joint_hose01" "weapon_bone_L" 0 -0.90196 -5.938788 89.602117 0 0 0 0 0 0 0 0
-$definebone "joint_hose02" "joint_hose01" 6.002584 0 0 0 -0.00848 0 0 0 0 0 0 0
-$definebone "joint_hose03" "joint_hose02" 7.954305 0 0 0 0.406342 0 0 0 0 0 0 0
-$definebone "joint_hose04" "joint_hose03" 6.692223 0 0 0 0 0 0 0 0 0 0 0
-$definebone "joint_hose05" "joint_hose04" 7.928383 0 0 0 0 0 0 0 0 0 0 0
+$definebone "weapon_bone" "weapon_bone_L" 0 0 0 -0 0 0 0 0 0 0 0 0
+$definebone "joint_lever" "weapon_bone_L" 0 -0.934865 4.492331 -0 0 0 0 0 0 0 0 0
+$definebone "vm_weapon_bone_L" "joint_lever" 0 0 0 -0 0 0 0 0 0 0 0 0
+$definebone "joint_hose01" "weapon_bone_L" 0 -0.901960 -5.938788 89.602119 0 0 0 0 0 0 0 0
+$definebone "joint_hose02" "joint_hose01" 6.002584 0 0 -0 -0.008480 0 0 0 0 0 0 0
+$definebone "joint_hose03" "joint_hose02" 7.954304 0 0 -0 0.406342 0 0 0 0 0 0 0
+$definebone "joint_hose04" "joint_hose03" 6.692223 -0 0 -0 0 0 0 0 0 0 0 0
+$definebone "joint_hose05" "joint_hose04" 7.928383 0 0 -0 0 0 0 0 0 0 0 0
+
 
 $bonemerge "weapon_bone_L"
 $bonemerge "weapon_bone"
