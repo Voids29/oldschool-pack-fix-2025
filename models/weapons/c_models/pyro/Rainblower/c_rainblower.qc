@@ -36,8 +36,8 @@ $hbox 0 "weapon_bone" -11.745436 -17.752283 -13.575488 12.438654 12.103786 71.49
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_rainblower_anims\ref.smd"
+$sequence "idle" {
+	"c_rainblower_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

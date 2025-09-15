@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_rocketpack/c_rocketpack.mdl"
 
 $bodygroup "body"
 {
-	studio "c_rocketpack.smd"
+	studio "c_rocketpack_reference.smd"
 }
 
 

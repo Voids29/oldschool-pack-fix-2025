@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -0.089 -3.793 14.743
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/3/reefer_hammer/"
 
 $attachment "icon_camera" "weapon_bone" 38.15 33.01 24.16 rotate 29.47 -162.7 156.03
 $attachment "pedestal_0" "weapon_bone" 0 12.87 0.88 rotate -70.62 90 -180

@@ -14,12 +14,12 @@ $contents "solid"
 
 $illumposition 0.015 -2.669 11.596
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/3/mailbox/"
 
 $texturegroup "skinfamilies"
 {
-	{ "mailbox"      }
-	{ "mailbox_blue" }
+	{ "mailbox_red"	}
+	{ "mailbox_blu"	}
 }
 
 $attachment "icon_camera" "weapon_bone" 36.12 29.44 21.62 rotate 29.47 -162.7 153.93
@@ -35,8 +35,8 @@ $hbox 0 "weapon_bone" -5.055131 -9.88014 -5.19293 4.679807 34.739132 10.665766
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_mailbox_anims\ref.smd"
+$sequence "idle" {
+	"c_mailbox_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

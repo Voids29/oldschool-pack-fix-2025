@@ -19,7 +19,7 @@ $bodygroup "sentry1_range_mini"
 
 $shadowlod
 {
-	replacemodel "sentry_blueprint.smd" "sentry_blueprint_lod1.smd"
+	replacemodel "sentry_blueprint.smd" "sentry_blueprint.smd"
 	replacemodel "sentry_range.smd" "sentry_range_lod1.smd"
 	replacemodel "sentry_range_mini.smd" "sentry_range_mini_lod1.smd"
 	nofacial

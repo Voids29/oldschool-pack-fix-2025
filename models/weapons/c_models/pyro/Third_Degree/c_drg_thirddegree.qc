@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_drg_thirddegree/c_drg_thirddegree.mdl"
 
 $bodygroup "Body"
 {
-	studio "third_degree.smd"
+	studio "c_third_degree_reference.smd"
 }
 
 
@@ -14,12 +14,12 @@ $contents "solid"
 
 $illumposition -0.01 -0.538 9.939
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/3/third degree/"
 
 $texturegroup "skinfamilies"
 {
-	{ "third_degree"      }
-	{ "third_degree_blue" }
+	{ "third_degree_red"	}
+	{ "third_degree_blu"	}
 }
 
 $attachment "electrode_0" "weapon_bone" 0 26 11.12 rotate 0 0 0
@@ -30,7 +30,7 @@ $cbox 0 0 0 0 0 0
 
 $bbox -10.156 -1.75 -11.642 11.232 1.729 31.52
 
-$definebone "weapon_bone" "" -17.344074 36.626377 -1.425141 0 -0.000057 89.999982 0 0 0 0 0 0
+$definebone "weapon_bone" "" 0.000000 -0.046162 0.046164  -0.000012 0.000010 -0.000010 0 0 0 0
 
 
 $sequence "idle" {

@@ -16,13 +16,13 @@ $illumposition 0.168 -19.394 -6.666
 
 $mostlyopaque
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/pyro/1/flamer_alien/"
+$cdmaterials "console/models/weapons/pyro/1/flamethrower/"
 
 $texturegroup "skinfamilies"
 {
-	{ "flamer_alien"      }
-	{ "flamer_alien_blue" }
+	{ "flamer_alien_red"	}
+	{ "flamer_alien_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0.64 2.35 53.1 rotate -89.49 90 -90

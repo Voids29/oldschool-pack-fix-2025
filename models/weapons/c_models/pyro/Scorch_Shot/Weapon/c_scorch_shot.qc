@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_scorch_shot/c_scorch_shot.mdl"
 
 $bodygroup "body"
 {
-	studio "scorch_shot.smd"
+	studio "c_scorch_shot_reference.smd"
 }
 $bodygroup "shell"
 {
@@ -17,19 +17,19 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0.085 -7.831 1.679
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/pyro/2/scorch/"
+$cdmaterials "console/models/weapons/shared/"
 
 $texturegroup "skinfamilies"
 {
-	{ "scorch"     "flare_red" }
-	{ "scorch_blu" "flare_blu" }
+	{ "scorch_red"	"flare_red"	}
+	{ "scorch_blu"	"flare_blu"		}
 }
 
 $attachment "muzzle" "weapon_bone" 0 4.46 18.29 rotate -90 0 0

@@ -18,12 +18,13 @@ $contents "solid"
 
 $illumposition -1.799 0.211 13.017
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/3/powerjack/"
+$cdmaterials "console/models/weapons/shared/"
 
 $texturegroup "skinfamilies"
 {
-	{ "powerjack_Red"  }
-	{ "powerjack_blue" }
+	{ "powerjack_red"	}
+	{ "powerjack_blu"	}
 }
 
 $attachment "pedestal_0" "weapon_bone" 0 13.94 0.88 rotate -70.62 90 180
@@ -40,7 +41,7 @@ $cbox 0 0 0 0 0 0
 
 $bbox -5.454 -9.735 -10.009 5.034 6.138 36.044
 
-$definebone "weapon_bone" "" 0 0 0 -0.394596 -1.488029 85.247871 0 0 0 0 0 0
+$definebone "weapon_bone" "" 0 0 0 -0.394596 -1.488029 0 0 0 0 0 0 0
 
 
 $sequence "idle" {

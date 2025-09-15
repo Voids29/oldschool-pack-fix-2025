@@ -8,18 +8,18 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "rock"
 
 $contents "solid"
 
 $illumposition 0.309 -4.905 12.587
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/3/reft_fireaxe/"
 
 $texturegroup "skinfamilies"
 {
-	{ "reft_fireaxe"     }
-	{ "reft_fireaxe_blu" }
+	{ "reft_fireaxe_red"	}
+	{ "reft_fireaxe_blu"	}
 }
 
 $attachment "axe_blade" "weapon_bone" 0.09 18.99 13.35 rotate 0 0 0

@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_drg_phlogistinator/c_drg_phlogistinator.
 
 $bodygroup "studio"
 {
-	studio "reference.smd"
+	studio "c_drg_phlogistinator_reference.smd"
 }
 
 
@@ -16,12 +16,12 @@ $illumposition 0 -21.594 0.363
 
 $mostlyopaque
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/1/phlogistinator/"
 
 $texturegroup "skinfamilies"
 {
-	{ "phlogistinator"      }
-	{ "phlogistinator_blue" }
+	{ "phlogistinator_red"	}
+	{ "phlogistinator_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0.64 3.45 58.16 rotate -90 0 0

@@ -8,18 +8,18 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0 -8.339 2.4
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/2/melter/"
 
 $texturegroup "skinfamilies"
 {
-	{ "mm_red" }
-	{ "mm_blu" }
+	{ "melter_liquid_red"	}
+	{ "melter_liquid_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 4.08 21.66 rotate -90 0 0
@@ -34,12 +34,12 @@ $hboxset "default"
 $hbox 0 "weapon_bone" -4.09471 -7.408167 -2.947421 4.103282 10.600836 21.24523
 $hbox 0 "muzzle_bone" -4.09471 -4.920205 -18.705637 4.103282 7.131434 5.487014
 
-$definebone "c_drg_manmelter" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "weapon_bone" "c_drg_manmelter" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "muzzle_bone" "weapon_bone" 0 3.469401 15.758216 0 0 0 0 0 0 0 0 0
-$definebone "liquid" "weapon_bone" 0 7.928704 2.408003 0 0 -89.999982 0 0 0 0 0 0
+$definebone "weapon_bone" "" 0 -0.019739 0.019739 -0.000172 -0.000573 -0.000516 0 0 0 0 0 0
+$definebone "muzzle_bone" "weapon_bone" 0 -15.738477 3.449663 0 0 89.999985 0 0 0 0 0 0
+$definebone "liquid" "weapon_bone" 0.000000 -2.388266 7.031005 0 0.000000 0.000000 0.000000 0.000000 0.000000 0 0.000000 0.000000
 
-$bonemerge "c_drg_manmelter"
+
+$bonemerge "liquid"
 $bonemerge "weapon_bone"
 $bonemerge "muzzle_bone"
 
@@ -54,9 +54,9 @@ $jigglebone "liquid"
 		yaw_stiffness 100
 		yaw_damping 5
 		allow_length_flex
-		along_stiffness 100
+		along_stiffness 5
 		along_damping 0
-		angle_constraint 0.087266
+		angle_constraint 5
 	}
 }
 

@@ -15,12 +15,12 @@ $contents "solid"
 
 $illumposition -0.48 -1.73 17.611
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/3/neon_annihilator/"
 
 $texturegroup "skinfamilies"
 {
-	{ "neon_annihilator"     "neon_annihilator_broken"     }
-	{ "neon_annihilator_blu" "neon_annihilator_broken_blu" }
+	{ "neon_annihilator_red"	"neon_annihilator_broken_red"	}
+	{ "neon_annihilator_blu"		"neon_annihilator_broken_blu"	}
 }
 
 $attachment "pedestal_0" "weapon_bone" 0.22 15.93 0.43 rotate 26.76 14.77 -81.8
@@ -30,13 +30,11 @@ $cbox 0 0 0 0 0 0
 
 $bbox -6.652 -6.067 -15.346 10.121 5.112 50.569
 
-$definebone "weapon_bone" "" 0 0 0 -0.000172 -0.000172 89.999921 0 0 0 0 0 0
-$definebone "neonsign" "weapon_bone" -0.000004 4.326129 0.000017 0 0.471239 0 0 0 0 0 0 0
-$definebone "neonsign1" "weapon_bone" -0.000004 4.326129 0.000017 0 0.471239 0 0 0 0 0 0 0
+$definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_sd_neonsign_anims\ref.smd"
+$sequence "idle" {
+	"c_sd_neonsign_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
