@@ -2,9 +2,9 @@
 
 $modelname "weapons\w_models\w_baseball.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_low_baseball_reference.smd"
+	studio "w_baseball_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/scout/3/wod/"
 
 $cbox 0 0 0 0 0 0
 

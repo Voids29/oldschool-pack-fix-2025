@@ -2,13 +2,13 @@
 
 $modelname "weapons/c_models/c_xms_urinejar.mdl"
 
-$bodygroup "urinejar"
+$bodygroup "body"
 {
 	studio "c_urinejar_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "glassbottle"
 
 $contents "solid"
 

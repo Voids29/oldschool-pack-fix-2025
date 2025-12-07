@@ -2,7 +2,7 @@
 
 $modelname "weapons\c_models\c_pickaxe\c_pickaxe_s2.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
 	studio "c_pickaxe_s2_reference.smd"
 }
@@ -29,8 +29,8 @@ $hbox 0 "weapon_bone" -11.612 -6.559 -2.116 11.679 24.813999 2.17
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_pickaxe_s2_anims\ref.smd"
+$sequence "idle" {
+	"c_pickaxe_s2_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

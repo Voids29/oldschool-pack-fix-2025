@@ -2,19 +2,19 @@
 
 $modelname "workshop\weapons\c_models\c_kingmaker_sticky\w_kingmaker_stickybomb.mdl"
 
-$bodygroup "studio"
+$bodygroup "body"
 {
-	studio "w_kingmaker_stickybomb.smd"
+	studio "w_kingmaker_stickybomb_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "demoman_grenade"
 
 $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/2/quickie/"
 
 $texturegroup "skinfamilies"
 {

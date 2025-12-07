@@ -2,19 +2,19 @@
 
 $modelname "weapons\w_models\w_rocket.mdl"
 
-$bodygroup "w_rocket"
+$bodygroup "body"
 {
-	studio "low_rocket_reference.smd"
+	studio "w_rocket_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "demoman_grenade"
 
 $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/soldier/1/rocket_launcher/"
 
 $attachment "trail" "cylinder" 0 0 -9.64 rotate 90 0 0
 

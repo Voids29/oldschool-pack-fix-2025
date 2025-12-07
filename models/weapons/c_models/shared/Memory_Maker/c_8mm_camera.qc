@@ -2,13 +2,13 @@
 
 $modelname "weapons/c_models/c_8mm_camera/c_8mm_camera.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "c_8mm_camera.smd"
+	studio "c_8mm_camera_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "item"
 
 $contents "solid"
 
@@ -21,7 +21,6 @@ $cbox 0 0 0 0 0 0
 $bbox -7.162 -2.669 -6.512 8.541 6.772 14.603
 
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "jiggle1" "weapon_bone" 3.625332 2.205009 6.312356 0 90 0 0 0 0 0 0 0
 
 $jigglebone "jiggle1"
 {

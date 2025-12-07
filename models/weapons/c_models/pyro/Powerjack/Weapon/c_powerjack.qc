@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_powerjack/c_powerjack.mdl"
 
 $bodygroup "body"
 {
-	studio "ref.smd"
+	studio "c_powerjack_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -41,7 +41,7 @@ $cbox 0 0 0 0 0 0
 
 $bbox -5.454 -9.735 -10.009 5.034 6.138 36.044
 
-$definebone "weapon_bone" "" 0 0 0 -0.394596 -1.488029 0 0 0 0 0 0 0
+$definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
 $sequence "idle" {

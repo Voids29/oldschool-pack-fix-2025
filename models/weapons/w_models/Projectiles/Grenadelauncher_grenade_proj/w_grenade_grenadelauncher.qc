@@ -2,9 +2,9 @@
 
 $modelname "weapons\w_models\w_grenade_grenadelauncher.mdl"
 
-$bodygroup "studio"
+$bodygroup "body"
 {
-	studio "w_grenade_grenadelow_reference.smd"
+	studio "w_grenade_grenadelauncher_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0.329 -0.1 0.024
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/1/grenade_launcher/"
 
 $texturegroup "skinfamilies"
 {

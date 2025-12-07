@@ -2,7 +2,7 @@
 
 $modelname "weapons\c_models\c_rocketboots_soldier.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
 	studio "c_rocketboots_soldier_reference.smd"
 }
@@ -23,10 +23,8 @@ $cbox 0 0 0 0 0 0
 
 $bbox -10.243 -12.967 -6.391 8.905 12.999 9.487
 
-$definebone "bip_knee_R" "" -5.964981 -0.087518 22.848499 77.898751 82.827279 -175.247997 0 0 0 0 0 0
-$definebone "bip_foot_R" "bip_knee_R" 17.962708 0.000009 -0.000016 -9.601568 93.088341 108.478738 0 0 0 0 0 0
-$definebone "bip_knee_L" "" 5.964956 -0.087521 22.848518 77.898574 97.172883 175.248065 0 0 0 0 0 0
-$definebone "bip_foot_L" "bip_knee_L" 17.962711 -0.000045 0.000034 9.601165 86.911295 -71.52277 0 0 0 0 0 0
+$definebone "bip_foot_R" "" 17.962708 0.000009 -0.000016 -9.601568 93.088341 108.478738 0 0 0 0 0 0
+$definebone "bip_foot_L" "" 17.962711 -0.000045 0.000034 9.601165 86.911295 -71.52277 0 0 0 0 0 0
 $definebone "p_root" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 $bonemerge "p_root"

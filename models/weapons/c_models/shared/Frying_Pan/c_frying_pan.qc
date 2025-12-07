@@ -2,9 +2,9 @@
 
 $modelname "weapons/c_models/c_frying_pan/c_frying_pan.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "pan.smd"
+	studio "c_frying_pan_reference.smd"
 }
 
 

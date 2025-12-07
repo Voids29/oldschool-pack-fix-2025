@@ -2,29 +2,19 @@
 
 $modelname "weapons/c_models/stattrack.mdl"
 
-$bodygroup "body"
-{
-	studio "clock.smd"
-}
-
-
 $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 2.371 -35.752 -4.05
+$illumposition 0 0 0
 
-$cdmaterials "console\misc\"
-$cdmaterials ""
+$cdmaterials "console/misc/"
 
 $cbox 0 0 0 0 0 0
 
 $bbox 0 0 0 0 0 0
 
-$definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
-
-$bonemerge "weapon_bone"
-
+$definebone "dummy_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 $sequence "idle" {
 	"stattrack_anims\idle.smd"

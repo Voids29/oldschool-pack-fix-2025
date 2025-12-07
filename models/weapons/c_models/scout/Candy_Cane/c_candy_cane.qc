@@ -2,25 +2,24 @@
 
 $modelname "workshop\weapons\c_models\c_candy_cane\c_candy_cane.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "candy_cane.smd"
+	studio "c_candy_cane_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "plastic"
 
 $contents "solid"
 
 $illumposition 0.099 2.142 11.515
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/3/candy_cane/"
 
 $texturegroup "skinfamilies"
 {
-	{ "candy_cane_red"  }
-	{ "candy_cane_blue" }
+	{ "candy_cane_red"	}
+	{ "candy_cane_blu"	}
 }
 
 $attachment "icon_camera" "weapon_bone" 25.75 18.73 -11.28 rotate -18.12 -167.71 143.92

@@ -1,4 +1,4 @@
-console/models/weapons/engineer/3/spikewrench/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_spikewrench\c_spikewrench.mdl"
 

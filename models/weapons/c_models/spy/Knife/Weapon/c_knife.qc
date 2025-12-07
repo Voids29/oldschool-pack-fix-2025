@@ -24,16 +24,16 @@ $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "knife"      }
-	{ "knife"      }
-	{ "knife"      }
-	{ "knife"      }
-	{ "knife"      }
-	{ "knife"      }
-	{ "knife"      }
-	{ "knife"      }
-	{ "knife_gold" }
-	{ "knife_gold" }
+	{ "knife"		}
+	{ "knife"		}
+	{ "knife"		}
+	{ "knife"		}
+	{ "knife"		}
+	{ "knife"		}
+	{ "knife"		}
+	{ "knife"		}
+	{ "knife_gold"	}
+	{ "knife_gold"	}
 }
 
 $attachment "unusual_0" "vm_weapon_bone_1" 0.37 6.75 0 rotate 0 90 0

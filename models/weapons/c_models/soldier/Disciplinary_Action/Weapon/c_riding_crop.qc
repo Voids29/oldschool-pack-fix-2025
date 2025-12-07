@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_riding_crop/c_riding_crop.mdl"
 
 $bodygroup "body"
 {
-	studio "whip.smd"
+	studio "c_riding_crop_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,14 +12,14 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "cloth"
+$surfaceprop "default"
 
 $contents "solid"
 
 $illumposition 2.186 -0.002 13.669
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/soldier/3/lowcrop/"
+$cdmaterials "console/models/weapons/shared/"
 
 $attachment "pedestal_0" "weapon_bone" 0 13.72 0 rotate -10.49 -133.7 105.66
 $attachment "icon_camera" "weapon_bone" -8.61 -0.68 29.83 rotate 63.35 48 -91.15
@@ -48,12 +48,12 @@ $jigglebone "jb3"
 		yaw_damping 7
 		along_stiffness 100
 		along_damping 0
-		angle_constraint 30.000001
+		angle_constraint 30
 	}
 }
 
-$sequence "ref" {
-	"c_riding_crop_anims\ref.smd"
+$sequence "idle" {
+	"c_riding_crop_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

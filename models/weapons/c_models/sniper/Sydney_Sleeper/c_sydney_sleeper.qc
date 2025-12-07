@@ -2,25 +2,24 @@
 
 $modelname "workshop/weapons/c_models/c_sydney_sleeper/c_sydney_sleeper.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "sleeper.smd"
+	studio "c_sydney_sleeper_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0.055 -16.793 1.961
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/sniper/1/sleeper/"
 
 $texturegroup "skinfamilies"
 {
-	{ "sleeper"     }
-	{ "sleeper_blu" }
+	{ "sleeper_red"	}
+	{ "sleeper_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 3.9 51.9 rotate -90 0 0

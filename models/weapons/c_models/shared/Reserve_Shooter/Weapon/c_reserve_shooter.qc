@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_reserve_shooter/c_reserve_shooter.mdl"
 
 $bodygroup "body"
 {
-	studio "reserve_shooter.smd"
+	studio "c_reserve_shooter_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,14 +12,15 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -0.091 -15.08 1.191
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/shared/shotguns/"
+$cdmaterials "console/models/weapons/scout/1/force"
+$cdmaterials "console/models/weapons/shared/"
 
 $attachment "muzzle" "weapon_bone" 0 3.74 34.74 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" -0.8 3.25 10.76 rotate -11.66 162.02 12
@@ -41,8 +42,8 @@ $definebone "weapon_bone_1" "weapon_bone" 0 1.394091 25.965828 0 0 0 0 0 0 0 0 0
 $definebone "vm_weapon_bone" "weapon_bone" 0 3.024372 11.964564 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_reserve_shooter_anims\ref.smd"
+$sequence "idle" {
+	"c_reserve_shooter_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

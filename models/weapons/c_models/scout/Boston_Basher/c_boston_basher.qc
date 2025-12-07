@@ -2,9 +2,9 @@
 
 $modelname "workshop\weapons\c_models\c_boston_basher\c_boston_basher.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "basher.smd"
+	studio "c_boston_basher_reference.smd"
 }
 
 
@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition 0.177 0 14.53
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/3/basher/"
 
 $attachment "icon_camera" "weapon_bone" 26.57 27.77 -0.87 rotate -2.03 -158.72 146.77
 $attachment "pedestal_0" "weapon_bone" 0 12.37 0 rotate 14.01 28.21 -96

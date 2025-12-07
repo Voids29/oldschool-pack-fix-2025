@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_bugle\c_bugle.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "bugle_lowpoly.smd"
+	studio "c_bugle_reference.smd"
 }
 
 

@@ -4,7 +4,7 @@ $modelname "weapons\c_models\c_stickybomb_launcher\c_stickybomb_launcher.mdl"
 
 $bodygroup "w_stickybomb_launcher"
 {
-	studio "w_stickybomb_launcher_reference.smd"
+	studio "c_stickybomb_launcher_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,7 +12,7 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -23,14 +23,14 @@ $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "sticky_launcher"		}
-	{ "sticky_launcher"		}
-	{ "sticky_launcher"		}
-	{ "sticky_launcher"		}
-	{ "sticky_launcher"		}
-	{ "sticky_launcher"		}
-	{ "sticky_launcher"		}
-	{ "sticky_launcher"		}
+	{ "sticky_launcher"			}
+	{ "sticky_launcher"			}
+	{ "sticky_launcher"			}
+	{ "sticky_launcher"			}
+	{ "sticky_launcher"			}
+	{ "sticky_launcher"			}
+	{ "sticky_launcher"			}
+	{ "sticky_launcher"			}
 	{ "sticky_launcher_gold"	}
 	{ "sticky_launcher_gold"	}
 }

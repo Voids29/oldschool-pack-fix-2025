@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_crossing_guard/c_crossing_guard.mdl"
 
 $bodygroup "body"
 {
-	studio "c_crossing_guard.smd"
+	studio "c_crossing_guard_reference.smd"
 }
 
 
@@ -14,13 +14,12 @@ $contents "solid"
 
 $illumposition 0.001 -2.391 12.118
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/shared/3/crossing_gaurd/"
 
 $texturegroup "skinfamilies"
 {
-	{ "crossing_guard_lights"      }
-	{ "crossing_guard_lights_blue" }
+	{ "crossing_guard_lights_red"	}
+	{ "crossing_guard_lights_blu"	}
 }
 
 $attachment "pedestal_0" "weapon_bone" 0 12.87 0.88 rotate -70.62 90 -180
@@ -33,8 +32,8 @@ $bbox -2.579 -9.671 -16.863 7.322 9.671 40.781
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_crossing_guard_anims\ref.smd"
+$sequence "idle" {
+	"c_crossing_guard_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

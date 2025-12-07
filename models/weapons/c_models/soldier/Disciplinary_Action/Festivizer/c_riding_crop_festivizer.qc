@@ -14,21 +14,22 @@ $contents "solid"
 
 $illumposition 0.01 -0.681 14.959
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console\models\weapons\shared\festives\lights\blu"
+$cdmaterials "console\models\weapons\shared\festives\lights\red"
+$cdmaterials "console\models\weapons\shared\festives"
 
 $texturegroup "skinfamilies"
 {
-	{ "lights_1"   "lights_2"   "lights_3"   }
-	{ "lights_b_1" "lights_b_2" "lights_b_3" }
-	{ "lights_1"   "lights_2"   "lights_3"   }
-	{ "lights_b_1" "lights_b_2" "lights_b_3" }
-	{ "lights_1"   "lights_2"   "lights_3"   }
-	{ "lights_b_1" "lights_b_2" "lights_b_3" }
-	{ "lights_1"   "lights_2"   "lights_3"   }
-	{ "lights_b_1" "lights_b_2" "lights_b_3" }
-	{ "lights_1"   "lights_2"   "lights_3"   }
-	{ "lights_b_1" "lights_b_2" "lights_b_3" }
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
 }
 
 $cbox 0 0 0 0 0 0
@@ -37,13 +38,10 @@ $bbox -2.758 -4.129 0 4.12 4.084 30.169
 
 $definebone "weapon_bone" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
 $definebone "jb3" "weapon_bone" -0.049273 26.408768 0.00034 0.008365 59.065359 -90.14998 0 0 0 0 0 0
-$definebone "weapon_bone_L" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "c_weapon_stattrack" "weapon_bone_L" 0 0 0 0 0 0 0 0 0 0 0 0
 
 $bonemerge "weapon_bone"
 $bonemerge "jb3"
-$bonemerge "weapon_bone_L"
-$bonemerge "c_weapon_stattrack"
+
 
 $jigglebone "jb3"
 {
@@ -57,7 +55,7 @@ $jigglebone "jb3"
 		yaw_damping 7
 		along_stiffness 100
 		along_damping 0
-		angle_constraint 30.000001
+		angle_constraint 30
 	}
 }
 

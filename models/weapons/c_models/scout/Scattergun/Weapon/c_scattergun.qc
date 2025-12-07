@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_scattergun.mdl"
 
-$bodygroup "w_scattergun"
+$bodygroup "body"
 {
-	studio "w_scattergun_reference.dmx.smd"
+	studio "c_scattergun_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,7 +12,7 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

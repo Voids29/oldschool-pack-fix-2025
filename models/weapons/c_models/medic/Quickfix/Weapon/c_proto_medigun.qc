@@ -13,7 +13,7 @@ $bodygroup "hose"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -55,7 +55,5 @@ $collisionmodel "c_proto_medigun_physics.smd"
 	$rootbone " "
 
 }
-
-$include "DefineBones.qci"
 
 $include "DefineBones.qci"

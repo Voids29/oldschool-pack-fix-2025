@@ -2,7 +2,7 @@
 
 $modelname "player\items\sniper\knife_shield.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
 	studio "knife_shield_reference.smd"
 }

@@ -4,18 +4,17 @@ $modelname "workshop/weapons/c_models/c_pro_smg/c_pro_smg.mdl"
 
 $bodygroup "body"
 {
-	studio "c_pro_smg.smd"
+	studio "c_pro_smg_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -0.791 -9.618 -0.917
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/sniper/2/carbine/"
 
 $attachment "muzzle" "weapon_bone" -0.08 4.9 24.02 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" 1.27 4.54 5.84 rotate 1.03 26.01 0.51

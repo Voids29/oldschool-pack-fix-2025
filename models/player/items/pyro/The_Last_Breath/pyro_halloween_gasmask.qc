@@ -14,12 +14,12 @@ $contents "solid"
 
 $illumposition 0 -3.821 72.867
 
-$cdmaterials "console\models\player\items\pyro_low\"
+$cdmaterials "console/models/player/items/pyro/last_breath/"
 
 $texturegroup "skinfamilies"
 {
-	{ "last_breath"     }
-	{ "last_breath_blu" }
+	{ "last_breath_red"	}
+	{ "last_breath_blu"	}
 }
 
 $cbox 0 0 0 0 0 0
@@ -31,8 +31,8 @@ $definebone "bip_neck" "bip_spine_3" 0 -2.236332 0.000015 0 0 -9.441141 0 0 0 0 
 $definebone "bip_head" "bip_neck" 0 -2.35817 -0.000011 0 0 3.840366 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"pyro_halloween_gasmask_anims\ref.smd"
+$sequence "idle" {
+	"pyro_halloween_gasmask_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

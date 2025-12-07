@@ -4,7 +4,7 @@ $modelname "player/items/sniper/desert_marauder.mdl"
 
 $bodygroup "body"
 {
-	studio "desert_marauder.smd"
+	studio "desert_marauder_reference.smd"
 }
 
 

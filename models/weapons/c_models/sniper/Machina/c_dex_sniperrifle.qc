@@ -2,25 +2,24 @@
 
 $modelname "workshop_partner/weapons/c_models/c_dex_sniperrifle/c_dex_sniperrifle.mdl"
 
-$bodygroup "c_dex_sniperrifle"
+$bodygroup "body"
 {
-	studio "c_dex_sniperrifle.smd"
+	studio "c_dex_sniperrifle_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0 -0.714 4.387
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/sniper/1/machina/"
 
 $texturegroup "skinfamilies"
 {
-	{ "machina"     }
-	{ "machina_blu" }
+	{ "machina_red"	}
+	{ "machina_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 3.67 49.22 rotate -90 0 0

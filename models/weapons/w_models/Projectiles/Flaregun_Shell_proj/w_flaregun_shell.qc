@@ -2,7 +2,7 @@
 
 $modelname "weapons\w_models\w_flaregun_shell.mdl"
 
-$bodygroup "studio"
+$bodygroup "body"
 {
 	studio "w_flaregun_shell_reference.smd"
 }
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0 0.189 0
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/pyro/2/flaregun/"
 
 $texturegroup "skinfamilies"
 {

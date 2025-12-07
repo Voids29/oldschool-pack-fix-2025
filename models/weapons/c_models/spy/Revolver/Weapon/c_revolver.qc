@@ -2,22 +2,22 @@
 
 $modelname "weapons/c_models/c_revolver/c_revolver.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_revolver_reference.smd"
+	studio "c_revolver_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
 	studio "warpaint_fix.smd"
 }
 
-
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -0.021 -5.916 -0.17
 
+$cdmaterials "console/models/weapons/shared/2/pistol/"
 $cdmaterials "console\models\weapons\spy\1\revolver"
 $cdmaterials "console\models\weapons\shared"
 

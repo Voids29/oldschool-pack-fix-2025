@@ -8,7 +8,7 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 

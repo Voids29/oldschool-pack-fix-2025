@@ -12,13 +12,14 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0 -1.72 1.415
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/medic/1/x_bow"
+$cdmaterials "console/models/weapons/shared"
 
 $texturegroup "skinfamilies"
 {

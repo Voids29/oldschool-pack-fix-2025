@@ -4,7 +4,7 @@ $modelname "player/items/soldier/armored_authority.mdl"
 
 $bodygroup "body"
 {
-	studio "authoritah.smd"
+	studio "authoritah_reference.smd"
 }
 
 
@@ -28,8 +28,8 @@ $definebone "bip_head" "" 0 0 0 0 0 -89.72937 0 0 0 0 0 0
 $definebone "prp_helmet" "bip_head" -0.458765 -5.366191 -0.53522 -0.028877 -6.119935 179.730896 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"armored_authority_anims\ref.smd"
+$sequence "idle" {
+	"armored_authority_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

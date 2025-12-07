@@ -2,13 +2,13 @@
 
 $modelname "weapons\c_models\urinejar.mdl"
 
-$bodygroup "urinejar"
+$bodygroup "body"
 {
 	studio "c_urinejar_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "glassbottle"
 
 $contents "solid"
 
@@ -39,7 +39,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "urinejar_physics.smd"
+$collisionmodel "c_urinejar_physics.smd"
 {
 	$mass 6.067674
 	$inertia 1

@@ -1,10 +1,10 @@
-console/models/weapons/engineer/3/jag/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_jag\c_jag.mdl"
 
 $bodygroup "Body"
 {
-	studio "c_jag.smd"
+	studio "c_jag_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {

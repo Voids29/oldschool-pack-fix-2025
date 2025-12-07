@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_machete\c_machete.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_machete_reference.dmx.smd"
+	studio "c_machete_reference.smd"
 }
 
 

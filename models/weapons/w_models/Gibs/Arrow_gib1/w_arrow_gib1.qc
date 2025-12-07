@@ -2,9 +2,9 @@
 
 $modelname "weapons\w_models\w_arrow_gib1.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_arrow_gib1.smd"
+	studio "w_arrow_gib1_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0.276 11.996 0.234
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/sniper/1/bow/"
 
 $cbox 0 0 0 0 0 0
 

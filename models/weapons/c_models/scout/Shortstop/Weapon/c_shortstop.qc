@@ -2,9 +2,9 @@
 
 $modelname "workshop\weapons\c_models\c_shortstop\c_shortstop.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "c_shortstop.smd"
+	studio "c_shortstop_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,13 +12,15 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0.013 -2.468 2.799
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/scout/1/shortstop/"
+$cdmaterials "console/models/weapons/shared"
+
 
 $attachment "muzzle" "weapon_bone" 0 5.81 8.11 rotate -90 0 0
 $attachment "unusual_0" "vm_weapon_bone_3" 0 2.14 2.26 rotate -89.69 -90 90
@@ -48,13 +50,6 @@ $definebone "vm_weapon_bone_3" "weapon_bone" 0 3.65264 5.410904 0 0 -0.31507 0 0
 
 $sequence "idle" {
 	"c_shortstop_anims\idle.smd"
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "marketing_pose" {
-	"c_shortstop_anims\marketing_pose.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

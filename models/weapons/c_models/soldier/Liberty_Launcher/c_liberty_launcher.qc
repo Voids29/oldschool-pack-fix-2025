@@ -4,17 +4,17 @@ $modelname "workshop/weapons/c_models/c_liberty_launcher/c_liberty_launcher.mdl"
 
 $bodygroup "body"
 {
-	studio "l_launcher_low.smd"
+	studio "c_liberty_launcher_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0.433 10.824 0.542
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/soldier/1/l_launcher/"
 
 $attachment "muzzle" "weapon_bone" 0 6.6 21.43 rotate -90 0 0
 $attachment "backblast" "weapon_bone" 0 6.69 -40.73 rotate 90 0 0
@@ -29,14 +29,6 @@ $hboxset "default"
 $hbox 0 "weapon_bone" -4.485 -8.708 -40.341999 6.921 13.476 20.804001
 
 $definebone "weapon_bone" "" 0 2.109874 -2.245433 0 0 89.999982 0 0 0 0 0 0
-
-
-$sequence "ref" {
-	"c_liberty_launcher_anims\ref.smd"
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
 
 $sequence "idle" {
 	"c_liberty_launcher_anims\idle.smd"

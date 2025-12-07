@@ -2,9 +2,9 @@
 
 $modelname "player/items/demo/demo_zombie.mdl"
 
-$bodygroup "demo"
+$bodygroup "body"
 {
-	studio "demo_zombie.smd"
+	studio "demo_zombie_reference.smd"
 }
 
 
@@ -104,8 +104,8 @@ $definebone "medal_bone" "bip_spine_3" 1.134397 -2.648903 -8.790451 -2.38833 -0.
 $definebone "mvm" "bip_pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"demo_zombie_anims\ref.smd"
+$sequence "idle" {
+	"demo_zombie_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

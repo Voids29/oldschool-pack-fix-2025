@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_ava_roseknife/c_ava_roseknife.mdl"
 
 $bodygroup "body"
 {
-	studio "roseknife_v.smd"
+	studio "c_ava_roseknife_reference.smd"
 }
 
 
@@ -14,14 +14,14 @@ $contents "solid"
 
 $illumposition -0.018 0.328 3.545
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/spy/2/roseknife/"
 
 $texturegroup "skinfamilies"
 {
 	{ "roseknife_red"   }
-	{ "roseknife_blue"  }
-	{ "roseknife_black" }
-	{ "roseknife_black" }
+	{ "roseknife_blu"	}
+	{ "roseknife_black"	}
+	{ "roseknife_black"	}
 }
 
 $attachment "unusual_0" "vm_weapon_bone_1" 0.37 6.75 0 rotate 0 90 0
@@ -41,13 +41,11 @@ $definebone "weapon_bone" "" 0 -1.228399 -0.369788 0 179.999964 179.999964 0 0 0
 $definebone "vm_weapon_bone" "weapon_bone" 0 -1.145574 -0.369788 0 89.999982 -179.999964 0 0 0 0 0 0
 $definebone "vm_weapon_bone_1" "vm_weapon_bone" 6.160135 0 -0.024326 89.999982 -89.999982 0 0 0 0 0 0 0
 $definebone "vm_weapon_bone_2" "vm_weapon_bone_1" 0.699255 0.000001 0.000001 0 -88.193219 0 0 0 0 0 0 0
-$definebone "c_weapon_stattrack" "vm_weapon_bone_2" 5.57094 -0.003295 0.435395 -89.999873 -91.806806 0 0 0 0 0 0 0
 
 $bonemerge "weapon_bone"
 $bonemerge "vm_weapon_bone"
 $bonemerge "vm_weapon_bone_1"
 $bonemerge "vm_weapon_bone_2"
-$bonemerge "c_weapon_stattrack"
 
 
 $sequence "idle" {

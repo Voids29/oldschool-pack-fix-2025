@@ -2,9 +2,9 @@
 
 $modelname "player/items/spy/hwn_spy_misc2.mdl"
 
-$bodygroup "shirt"
+$bodygroup "body"
 {
-	studio "ref.smd"
+	studio "hwn_spy_misc2_reference.smd"
 }
 
 

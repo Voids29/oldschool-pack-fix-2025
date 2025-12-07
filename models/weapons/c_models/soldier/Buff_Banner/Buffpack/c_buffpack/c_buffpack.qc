@@ -2,13 +2,13 @@
 
 $modelname "weapons/c_models/c_buffpack/c_buffpack.mdl"
 
-$bodygroup "c_directhit_reference"
+$bodygroup "body"
 {
-	studio "buffpack_lowpoly.smd"
+	studio "c_buffpack_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "default"
 
 $contents "solid"
 

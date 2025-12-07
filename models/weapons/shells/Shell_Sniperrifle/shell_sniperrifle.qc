@@ -2,25 +2,23 @@
 
 $modelname "weapons/shells/shell_sniperrifle.mdl"
 
-$bodygroup "shell_sniperrifle"
+$bodygroup "body"
 {
 	studio "shell_sniperrifle_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "metal"
 
 $contents "solid"
 
 $illumposition -0.002 0.679 0.005
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/2/pistol/"
 
 $cbox 0 0 0 0 0 0
 
 $bbox -4.082 -1.142 -1.135 2.773 1.139 1.146
-
-$definebone "polymsh" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
 
 
 $sequence "idle" {

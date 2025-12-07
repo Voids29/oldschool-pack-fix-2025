@@ -8,7 +8,7 @@ $bodygroup "Body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -54,7 +54,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "c_frontierjustice_xmas_physics.smd"
+$collisionmodel "c_frontierjustice_physics.smd"
 {
 	$mass 5.90322
 	$inertia 1

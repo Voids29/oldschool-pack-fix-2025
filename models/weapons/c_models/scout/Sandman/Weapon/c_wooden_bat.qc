@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_wooden_bat\c_wooden_bat.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_bat_reference.dmx.smd"
+	studio "c_wooden_bat_reference.smd"
 }
 
 

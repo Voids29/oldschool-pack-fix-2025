@@ -4,22 +4,22 @@ $modelname "weapons/w_models/w_stickybomb2.mdl"
 
 $bodygroup "body"
 {
-	studio "w_stickybomb2.smd"
+	studio "w_stickybomb2_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "demoman_grenade"
 
 $contents "solid"
 
-$illumposition 0 -0.012 0
+$illumposition 0 0 0
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/2/sticky/"
 
 $texturegroup "skinfamilies"
 {
-	{ "w_sticky_red" }
-	{ "w_sticky_blu" }
+	{ "sticky_bomb_red" }
+	{ "sticky_bomb_blu" }
 }
 
 $cbox 0 0 0 0 0 0
@@ -32,8 +32,8 @@ $hbox 0 "static_prop" -4.258 -4.335 -4.172 4.258 4.312 4.172
 $definebone "static_prop" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"w_stickybomb2_anims\ref.smd"
+$sequence "idle" {
+	"w_stickybomb2_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

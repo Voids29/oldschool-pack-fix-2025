@@ -2,9 +2,9 @@
 
 $modelname "player\items\taunts\cash_wad.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "dolla.smd"
+	studio "dolla_reference.smd"
 }
 
 
@@ -15,7 +15,6 @@ $contents "solid"
 $illumposition 0 0.001 -0.452
 
 $cdmaterials "console\models\player\items\taunts\spy\buyalife"
-$cdmaterials ""
 
 $cbox 0 0 0 0 0 0
 

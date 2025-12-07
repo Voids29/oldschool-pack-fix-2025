@@ -8,13 +8,13 @@ $bodygroup "c_paintrain_reference"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "wood"
 
 $contents "solid"
 
 $illumposition -0.111 -4.828 13.307
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/3/paintrain/"
 
 $attachment "icon_camera" "weapon_bone" 24.2 23.86 26.36 rotate 45.95 -163.65 161.51
 $attachment "pedestal_0" "weapon_bone" 0 12 0 rotate -0.79 156.06 90

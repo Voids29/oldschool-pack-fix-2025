@@ -4,11 +4,11 @@ $modelname "weapons\c_models\c_sticky_jumper\c_sticky_jumper.mdl"
 
 $bodygroup "c_stickybomb_launcher"
 {
-	studio "w_stickybomb_launcher_reference.smd"
+	studio "c_stickybomb_launcher_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 

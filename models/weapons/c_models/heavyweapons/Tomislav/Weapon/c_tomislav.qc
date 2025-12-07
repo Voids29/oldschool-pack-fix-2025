@@ -12,7 +12,7 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -24,8 +24,8 @@ $cdmaterials "console/models/weapons/shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "tomislav"			}
-	{ "tomislav"			}
+	{ "tomislav"		}
+	{ "tomislav"		}
 	{ "tomislav_gold"	}
 	{ "tomislav_gold"	}
 }
@@ -51,8 +51,8 @@ $hbox 0 "weapon_bone" -13.048 -34.955002 -6.933 5.954 7.468 64.975998
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_tomislav_anims\ref.smd"
+$sequence "idle" {
+	"c_tomislav_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

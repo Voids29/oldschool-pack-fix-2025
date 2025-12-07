@@ -4,7 +4,7 @@ $modelname "workshop\weapons\c_models\c_croc_knife\c_croc_knife.mdl"
 
 $bodygroup "Body"
 {
-	studio "c_croc_knife_low.smd"
+	studio "c_croc_knife_reference.smd"
 }
 
 
@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -0.088 -10.428 1.688
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/sniper/3/croc_knife/"
 
 $attachment "icon_camera" "weapon_bone" -37.03 6.46 12.29 rotate 3.23 -6.21 -60.48
 $attachment "pedestal_0" "weapon_bone" 0 1.11 7.51 rotate -64.78 90.73 -0.81

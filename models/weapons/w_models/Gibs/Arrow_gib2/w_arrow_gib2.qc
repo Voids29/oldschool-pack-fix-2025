@@ -2,9 +2,9 @@
 
 $modelname "weapons\w_models\w_arrow_gib2.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_arrow_gib2.smd"
+	studio "w_arrow_gib2_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -8.734 0.011 -0.087
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/sniper/1/bow/"
 
 $cbox 0 0 0 0 0 0
 
@@ -22,8 +22,6 @@ $bbox -0.76 -18.007 -1.971 0.738 0.538 1.798
 
 $hboxset "default"
 $hbox 0 "polymsh_detached" -0.687 -1.733 -0.404 0.713 1.654 17.533001
-
-$definebone "polymsh_detached" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
 
 
 $sequence "idle" {

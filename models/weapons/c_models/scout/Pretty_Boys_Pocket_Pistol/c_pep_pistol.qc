@@ -8,13 +8,13 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -0.087 -2.281 1.77
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/scout/2/pocket_pistol/"
 
 $attachment "eject_brass" "weapon_bone" 1.01 6.19 3.46 rotate 0 44.89 -180
 $attachment "muzzle" "weapon_bone" 0 5.96 9.19 rotate -90 0 0

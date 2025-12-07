@@ -4,18 +4,17 @@ $modelname "workshop/weapons/c_models/c_pro_rifle/c_pro_rifle.mdl"
 
 $bodygroup "body"
 {
-	studio "c_pro_rifle.smd"
+	studio "c_pro_rifle_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0 6.173 2.583
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/sniper/1/heatmaker/"
 
 $attachment "muzzle" "weapon_bone" 0 4.6 35.58 rotate -90 0 0
 $attachment "icon_camera" "weapon_bone" 29.05 17.43 43.39 rotate 38.29 -155.64 110.31

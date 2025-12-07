@@ -2,13 +2,13 @@
 
 $modelname "weapons/c_models/c_sapper/c_sapper_xmas.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_sapper_reference.smd"
+	studio "c_sapper_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "item"
 
 $contents "solid"
 
@@ -46,7 +46,7 @@ $sequence "idle" {
 	loop
 }
 
-$collisionmodel "c_sapper_xmas_physics.smd"
+$collisionmodel "c_sapper_physics.smd"
 {
 	$mass 1
 	$inertia 1

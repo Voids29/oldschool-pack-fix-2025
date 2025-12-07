@@ -2,9 +2,9 @@
 
 $modelname "workshop\weapons\c_models\c_blackbox\c_blackbox.mdl"
 
-$bodygroup "mybody"
+$bodygroup "body"
 {
-	studio "blackbox.smd"
+	studio "c_blackbox_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -18,7 +18,8 @@ $contents "solid"
 
 $illumposition 0 5.044 1.699
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/soldier/1/box"
+$cdmaterials "console/models/weapons/shared/"
 
 $texturegroup "skinfamilies"
 {
@@ -55,14 +56,11 @@ $jigglebone "weap_jig1"
 	is_rigid
 	{
 		length 8
-		tip_mass 1000
-		pitch_constraint -89.000001 10
+		tip_mass 15000
+		pitch_constraint -180 10
 		pitch_friction 0
 		pitch_bounce 0
 		yaw_constraint 0 0
-		yaw_friction 0
-		yaw_bounce 0
-		angle_constraint 60.000002
 	}
 }
 

@@ -4,11 +4,11 @@ $modelname "weapons\c_models\c_builder\c_builder.mdl"
 
 $bodygroup "Body"
 {
-	studio "w_builder_reference.dmx.smd"
+	studio "c_builder_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "item"
 
 $contents "solid"
 

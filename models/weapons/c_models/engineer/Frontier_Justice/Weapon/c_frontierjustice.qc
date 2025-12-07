@@ -8,7 +8,7 @@ $bodygroup "Body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -19,8 +19,8 @@ $cdmaterials "console\models\weapons\scout\1\force"
 
 $texturegroup "skinfamilies"
 {
-	{ "frontier_justice_red"			}
-	{ "frontier_justice_blu"			}
+	{ "frontier_justice_red"		}
+	{ "frontier_justice_blu"		}
 	{ "frontier_justice_gold_red"	}
 	{ "frontier_justice_gold_blu"	}
 }

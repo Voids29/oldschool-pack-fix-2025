@@ -2,25 +2,24 @@
 
 $modelname "weapons\w_models\w_toolbox.mdl"
 
-$bodygroup "w_toolbox"
+$bodygroup "body"
 {
 	studio "w_toolbox_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "metal_box"
 
 $contents "solid"
 
 $illumposition 0.43 -0.062 12.285
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/engineer/misc/"
 
 $texturegroup "skinfamilies"
 {
-	{ "toolbox1" }
-	{ "toolbox2" }
+	{ "toolbox_red"	}
+	{ "toolbox_blu"	}
 }
 
 $cbox 0 0 0 0 0 0

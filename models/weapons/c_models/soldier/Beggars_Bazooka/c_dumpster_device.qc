@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition 0 11.1 5.225
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/soldier/1/dump_launcher/"
 
 $attachment "muzzle" "weapon_bone" 0 5.69 19.81 rotate -90 0 0
 $attachment "backblast" "weapon_bone" 0 6.69 -35.43 rotate 90 0 0
@@ -32,8 +31,8 @@ $hbox 0 "weapon_bone" -4.485 -8.708 -40.341999 6.921 13.476 20.804001
 $definebone "weapon_bone" "" 0 2.116448 -2.282444 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_dumpster_device_anims\ref.smd"
+$sequence "idle" {
+	"c_dumpster_device_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

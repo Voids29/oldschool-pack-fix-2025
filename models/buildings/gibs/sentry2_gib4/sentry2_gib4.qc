@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "buildables\Gibs\sentry2_Gib4.mdl"
+$modelname "buildables\gibs\sentry2_Gib4.mdl"
 
 $bodygroup "Body"
 {

@@ -2,9 +2,9 @@
 
 $modelname "workshop/player/items/spy/jul13_blood_banker/jul13_blood_banker.mdl"
 
-$bodygroup "shirt"
+$bodygroup "body"
 {
-	studio "ref.smd"
+	studio "jul13_blood_banker_reference.smd"
 }
 
 
@@ -14,12 +14,12 @@ $contents "solid"
 
 $illumposition 0.089 -1.344 57.672
 
-$cdmaterials "console\models\player\items\spy_low\"
+$cdmaterials "console/models/player/items/spy/jul13_blood_banker/"
 
 $texturegroup "skinfamilies"
 {
-	{ "jul13_blood_banker"      }
-	{ "jul13_blood_banker_blue" }
+	{ "jul13_blood_banker_red"	}
+	{ "jul13_blood_banker_blu"	}
 }
 
 $cbox 0 0 0 0 0 0

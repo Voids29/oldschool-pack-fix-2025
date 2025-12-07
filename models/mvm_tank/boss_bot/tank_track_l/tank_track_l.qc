@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "bots/boss_bot/tank_track_L.mdl"
+$modelname "bots_test/boss_bot/tank_track_L.mdl"
 
 $bodygroup "body"
 {
@@ -103,14 +103,14 @@ $definebone "front_wheel" "tank_track_L" 5.410271 55.107224 89.793365 0 0 0 0 0 
 $sectionframes 30 383
 
 $sequence "ref" {
-	"tank_track_l_anim_anims\ref.smd"
+	"tank_track_l_anims\ref.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "forward" {
-	"tank_track_l_anim_anims\forward.smd"
+	"tank_track_l_anims\forward.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

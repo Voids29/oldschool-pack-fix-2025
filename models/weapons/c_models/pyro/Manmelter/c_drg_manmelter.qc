@@ -36,12 +36,9 @@ $hbox 0 "muzzle_bone" -4.09471 -4.920205 -18.705637 4.103282 7.131434 5.487014
 
 $definebone "weapon_bone" "" 0 -0.019739 0.019739 -0.000172 -0.000573 -0.000516 0 0 0 0 0 0
 $definebone "muzzle_bone" "weapon_bone" 0 -15.738477 3.449663 0 0 89.999985 0 0 0 0 0 0
-$definebone "liquid" "weapon_bone" 0.000000 -2.388266 7.031005 0 0.000000 0.000000 0.000000 0.000000 0.000000 0 0.000000 0.000000
 
 
-$bonemerge "liquid"
 $bonemerge "weapon_bone"
-$bonemerge "muzzle_bone"
 
 $jigglebone "liquid"
 {

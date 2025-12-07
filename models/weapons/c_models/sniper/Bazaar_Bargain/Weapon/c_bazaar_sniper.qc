@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_bazaar_sniper/c_bazaar_sniper.mdl"
 
 $bodygroup "body"
 {
-	studio "c_bazaar_sniper.smd"
+	studio "c_bazaar_sniper_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,14 +12,14 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -0.944 -19.534 1.801
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/sniper/1/bazzar/"
+$cdmaterials "console/models/weapons/shared"
 
 $attachment "muzzle" "weapon_bone" 0 4.3 55 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" 0 4.69 3.14 rotate 0 158.54 0

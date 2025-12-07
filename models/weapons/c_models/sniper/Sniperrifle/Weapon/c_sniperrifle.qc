@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_sniperrifle\c_sniperrifle.mdl"
 
-$bodygroup "w_sniperrifle"
+$bodygroup "body"
 {
-	studio "w_sniperrifle_reference.smd"
+	studio "c_sniperrifle_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,7 +12,7 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 

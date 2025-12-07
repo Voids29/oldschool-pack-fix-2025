@@ -2,9 +2,9 @@
 
 $modelname "weapons\w_models\w_arrow.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_arrow.smd"
+	studio "w_arrow_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -6.107 0.416 0.397
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/sniper/1/bow/"
 
 $attachment "muzzle" "root" 0 0 15 rotate 0 0 0
 

@@ -4,7 +4,7 @@ $modelname "weapons\w_models\w_stickybomb_gib2.mdl"
 
 $staticprop
 
-$bodygroup "Body"
+$bodygroup "body"
 {
 	studio "w_stickybomb_gib2_reference.smd"
 }
@@ -14,9 +14,9 @@ $surfaceprop "grenade"
 
 $contents "solid"
 
-$illumposition -1.068 3.096 1.312
+$illumposition 3.11526 1.09422 1.36500
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/2/sticky/"
 
 $cbox 0 0 0 0 0 0
 

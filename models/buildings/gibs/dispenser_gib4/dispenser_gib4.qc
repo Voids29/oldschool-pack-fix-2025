@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "buildables\Gibs\dispenser_gib4.mdl"
+$modelname "buildables\gibs\dispenser_gib4.mdl"
 
 $bodygroup "Body"
 {

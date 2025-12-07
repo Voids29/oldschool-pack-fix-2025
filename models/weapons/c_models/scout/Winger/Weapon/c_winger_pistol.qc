@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_winger_pistol/c_winger_pistol.mdl"
 
 $bodygroup "body"
 {
-	studio "c_pistol_reference.smd"
+	studio "c_winger_pistol_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,18 +12,20 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0.095 -2.372 1.77
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/2/pistol/"
+$cdmaterials "console/models/weapons/scout/2/winger/"
+$cdmaterials "console/models/weapons/shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "winger"     }
-	{ "winger_blu" }
+	{ "winger_red"	}
+	{ "winger_blu"	}
 }
 
 $attachment "eject_brass" "weapon_bone" 1.01 6.19 3.46 rotate 0 44.89 -180

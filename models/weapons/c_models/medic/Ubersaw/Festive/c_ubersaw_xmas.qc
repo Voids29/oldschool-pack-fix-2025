@@ -6,10 +6,6 @@ $bodygroup "body"
 {
 	studio "c_ubersaw_reference.smd"
 }
-$bodygroup "warpaint_fix"
-{
-	studio "warpaint_fix.smd"
-}
 
 
 $surfaceprop "metal"
@@ -19,7 +15,6 @@ $contents "solid"
 $illumposition 0 -10.418 -0.569
 
 $cdmaterials "console\models\weapons\medic\3\ubersaw"
-$cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {

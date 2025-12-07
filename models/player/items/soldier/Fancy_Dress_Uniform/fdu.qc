@@ -4,7 +4,7 @@ $modelname "player/items/soldier/fdu.mdl"
 
 $bodygroup "body"
 {
-	studio "fdu.smd"
+	studio "fdu_reference.smd"
 }
 
 
@@ -12,10 +12,9 @@ $surfaceprop "cloth"
 
 $contents "solid"
 
-$illumposition 0 1.386 72.033
+$illumposition -0.00022 -1.94494 5.37087
 
 $cdmaterials "console\models\player\items\soldier\fdu"
-$cdmaterials ""
 
 $texturegroup "skinfamilies"
 {
@@ -38,8 +37,8 @@ $definebone "bip_collar_L" "bip_spine_3" 2.204173 -2.813477 -2.257936 -13.429269
 $definebone "bip_collar_R" "bip_spine_3" -2.20417 -2.813477 -2.257936 13.429269 70.895164 15.504751 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"fdu_anims\ref.smd"
+$sequence "idle" {
+	"fdu_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

@@ -2,24 +2,24 @@
 
 $modelname "workshop/weapons/c_models/c_paratooper_pack/c_paratrooper_pack.mdl"
 
-$bodygroup "parachute"
+$bodygroup "body"
 {
 	studio "c_paratrooper_pack_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "default"
 
 $contents "solid"
 
 $illumposition 0 12.885 62.088
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/chute_bag/"
 
 $texturegroup "skinfamilies"
 {
-	{ "chute_bag"     }
-	{ "chute_bag_blu" }
+	{ "chute_bag_red"	}
+	{ "chute_bag_blu"	}
 }
 
 $attachment "icon_camera" "bip_spine_3" 10.64 -9.14 -12.39 rotate -48.84 123.41 50.9

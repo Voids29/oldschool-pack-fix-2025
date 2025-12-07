@@ -1,4 +1,4 @@
-console/models/weapons/pyro/1/regreaser/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_degreaser/c_degreaser.mdl"
 

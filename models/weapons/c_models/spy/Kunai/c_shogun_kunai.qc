@@ -4,7 +4,7 @@ $modelname "workshop_partner\weapons\c_models\c_shogun_kunai\c_shogun_kunai.mdl"
 
 $bodygroup "c_shogun_kunai"
 {
-	studio "c_kunai.smd"
+	studio "c_shogun_kunai_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0.205 -0.214 3.717
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/spy/2/kunai/"
 
 $attachment "icon_camera" "weapon_bone" 16.95 3.21 -8.99 rotate -29.59 178.83 144.94
 $attachment "pedestal_0" "weapon_bone" 0.2 2.36 0.27 rotate -90 -90 0

@@ -8,28 +8,33 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "item"
 
 $contents "solid"
 
-$illumposition -0.081 3.834 21.188
+$illumposition 0 -21.188 3.834
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console\models\weapons\shared\festives\lights\blu"
+$cdmaterials "console\models\weapons\shared\festives\lights\red"
+$cdmaterials "console\models\weapons\shared\festives"
 
 $texturegroup "skinfamilies"
 {
-	{ "lights_2"   "lights_1"   "lights_3"   }
-	{ "lights_b_2" "lights_b_1" "lights_b_3" }
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
+	{ "lights_r_1"	"lights_r_2"	"lights_r_3"	}
+	{ "lights_b_1"	"lights_b_2"	"lights_b_3"	}
 }
 
 $cbox 0 0 0 0 0 0
 
 $bbox 0 -4.381 -1.075 35.39 4.727 8.299
-
-$definebone "weapon_bone" "" 0 0 0 -0.000172 -0.000172 -0.000286 0 0 0 0 0 0
-$definebone "weapon_bone_1" "weapon_bone" 0 1.394091 25.96583 0 0 0 0 0 0 0 0 0
-$definebone "vm_weapon_bone" "weapon_bone" 0 3.470481 7.6828 0 0 0 0 0 0 0 0 0
 
 $bonemerge "weapon_bone"
 $bonemerge "weapon_bone_1"

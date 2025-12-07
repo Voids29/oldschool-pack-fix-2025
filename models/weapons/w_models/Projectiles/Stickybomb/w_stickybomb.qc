@@ -2,24 +2,24 @@
 
 $modelname "weapons\w_models\w_stickybomb.mdl"
 
-$bodygroup "studio"
+$bodygroup "body"
 {
-	studio "w_low_stickybomb_reference.smd"
+	studio "w_stickybomb_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "demoman_grenade"
 
 $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/2/sticky/"
 
 $texturegroup "skinfamilies"
 {
-	{ "w_sticky_red" }
-	{ "w_sticky_blu" }
+	{ "sticky_bomb_red" }
+	{ "sticky_bomb_blu" }
 }
 
 $cbox 0 0 0 0 0 0

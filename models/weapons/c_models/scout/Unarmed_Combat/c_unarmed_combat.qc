@@ -2,49 +2,49 @@
 
 $modelname "workshop/weapons/c_models/c_unarmed_combat/c_unarmed_combat.mdl"
 
-$bodygroup "c_unarmed_combat"
+$bodygroup "body"
 {
 	studio "c_unarmed_combat_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "flesh"
 
 $contents "solid"
 
-$illumposition 34.877 0.635 40.048
+$illumposition 0 0 5
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/3/unarmed/"
 
 $texturegroup "skinfamilies"
 {
-	{ "unarmed"     }
-	{ "unarmed_blu" }
+	{ "unarmed_red"	}
+	{ "unarmed_blu"	}
 }
 
 $attachment "icon_camera" "weapon_bone" 29.89 3.02 -20.04 rotate -40.18 156.84 25.57
 $attachment "pedestal_0" "weapon_bone" 0 12.37 0 rotate 14.01 28.21 -96
 
-$cbox 0 0 0 0 0 0
+$hboxset "default"
 
-$bbox -5.731 25.234 24.644 5.254 45.082 55.538
+$hbox 0 "weapon_bone"	    -4.24   -2.34   -4.02     3.85   11.91    3.73
+$hbox 0 "weapon_arm"	    -2.71   -0.72   -4.26     2.20   12.30    3.45
+$hbox 0 "weapon_hand"	    -2.91   -4.45   -0.04     2.69    0.22    9.00
 
-$definebone "weapon_bone" "" 29.720449 1.457582 27.259876 0 0 89.999982 0 0 0 0 0 0
-$definebone "weapon_arm" "weapon_bone" 1.213833 11.716465 0.804638 -69.999972 170.00013 179.999677 0 0 0 0 0 0
-$definebone "weapon_hand" "weapon_arm" -0.427818 12.304691 -2.515528 0.279774 3.40497 -169.391301 0 0 0 0 0 0
+$definebone "weapon_bone" "" -0.000064 0.000116 -0.146317 -0.000000 0.000000 89.999985 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "weapon_arm" "weapon_bone" 1.213833 11.716465 0.804634 -70.000237 170.000275 179.999710 0.000000 0.000000 0.000000 0.000002 0.000000 -0.000001
+$definebone "weapon_hand" "weapon_arm" -0.427822 12.304683 -2.515571 0.278748 3.404630 -169.391083 0.000000 -0.000002 0.000000 -0.000003 0.000001 -0.000003
 
-$jigglebone "weapon_arm"
+$jiggleBone "weapon_arm"
 {
 	is_flexible
 	{
 		length 20
 		tip_mass 20
 		pitch_stiffness 100
-		pitch_damping 200
+		pitch_damping 10
 		yaw_stiffness 100
-		yaw_damping 200
-		allow_length_flex
+		yaw_damping 10
 		along_stiffness 100
 		along_damping 0
 		pitch_constraint -1 39.999999
@@ -53,20 +53,19 @@ $jigglebone "weapon_arm"
 		yaw_constraint -10 10
 		yaw_friction 0
 		yaw_bounce 0
-		angle_constraint 0.785398
+		angle_constraint 45.000001
 	}
 }
-$jigglebone "weapon_hand"
+$jiggleBone "weapon_hand"
 {
 	is_flexible
 	{
 		length 20
 		tip_mass 20
 		pitch_stiffness 150
-		pitch_damping 150
+		pitch_damping 10
 		yaw_stiffness 150
-		yaw_damping 150
-		allow_length_flex
+		yaw_damping 10
 		along_stiffness 100
 		along_damping 0
 		pitch_constraint -10 45.000001
@@ -75,7 +74,7 @@ $jigglebone "weapon_hand"
 		yaw_constraint -35 35
 		yaw_friction 0
 		yaw_bounce 0
-		angle_constraint 0.698132
+		angle_constraint 39.999999
 	}
 }
 

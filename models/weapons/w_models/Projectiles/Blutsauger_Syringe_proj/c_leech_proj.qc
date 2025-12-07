@@ -2,13 +2,13 @@
 
 $modelname "weapons\c_models\c_leechgun\c_leech_proj.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
 	studio "c_leech_proj_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "glass"
 
 $contents "solid"
 

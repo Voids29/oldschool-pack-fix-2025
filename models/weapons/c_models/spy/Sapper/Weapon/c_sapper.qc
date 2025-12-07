@@ -2,13 +2,13 @@
 
 $modelname "weapons/c_models/c_sapper/c_sapper.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_sapper_reference.smd"
+	studio "c_sapper_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "item"
 
 $contents "solid"
 
@@ -19,6 +19,9 @@ $cdmaterials "console\models\weapons\spy\4\sapper"
 $cbox 0 0 0 0 0 0
 
 $bbox -4.613 -6.453 -4.202 3.802 6.464 10.388
+
+$hboxset "default"
+$hbox 0 "weapon_bone" -6.28 -3.91 -4.39 6.14 6.06 3.53
 
 $definebone "weapon_bone" "" 0.025243 -0.022572 0 0 0 0 0 0 0 0 0 0
 $definebone "weapon_bone_1" "weapon_bone" -4.324392 1.393043 2.533983 0 0 0.838696 0 0 0 0 0 0

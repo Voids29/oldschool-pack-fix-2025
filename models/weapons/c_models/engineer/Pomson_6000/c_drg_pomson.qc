@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -0.005 -8.595 2.222
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/engineer/1/pompadour/"
 
 $texturegroup "skinfamilies"
 {

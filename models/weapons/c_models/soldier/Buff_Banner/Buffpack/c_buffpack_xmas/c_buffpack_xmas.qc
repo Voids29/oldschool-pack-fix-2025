@@ -2,13 +2,13 @@
 
 $modelname "weapons/c_models/c_buffpack/c_buffpack_xmas.mdl"
 
-$bodygroup "c_directhit_reference"
+$bodygroup "body"
 {
-	studio "buffpack_lowpoly.smd"
+	studio "c_buffpack_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "default"
 
 $contents "solid"
 
@@ -36,7 +36,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "c_buffpack_xmas_physics.smd"
+$collisionmodel "c_buffpack_physics.smd"
 {
 	$mass 1
 	$inertia 1

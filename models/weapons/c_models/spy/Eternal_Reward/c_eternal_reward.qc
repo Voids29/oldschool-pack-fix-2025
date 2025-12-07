@@ -4,7 +4,7 @@ $modelname "workshop\weapons\c_models\c_eternal_reward\c_eternal_reward.mdl"
 
 $bodygroup "body"
 {
-	studio "yer.smd"
+	studio "c_eternal_reward_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -0.023 -0.302 5.248
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/spy/2/yer/"
 
 $texturegroup "skinfamilies"
 {

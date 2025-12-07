@@ -4,11 +4,11 @@ $modelname "weapons/c_models/c_breadmonster/c_breadmonster_milk.mdl"
 
 $bodygroup "body"
 {
-	studio "c_breadmonster_milk.smd"
+	studio "c_breadmonster_milk_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "glassbottle"
 
 $contents "solid"
 
@@ -45,6 +45,13 @@ $sequence "idle" {
 	{ event AE_CL_PLAYSOUND 83 "Weapon_bm_throwable.grunt" }
 	{ event AE_CL_PLAYSOUND 125 "Weapon_bm_throwable.grunt" }
 	{ event AE_CL_PLAYSOUND 133 "Weapon_bm_throwable.grunt" }
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "ref" {
+	"c_breadmonster_milk_anims\ref.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

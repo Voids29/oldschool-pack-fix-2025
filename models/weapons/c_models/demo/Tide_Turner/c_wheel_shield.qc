@@ -26,8 +26,8 @@ $bbox -15.83 -16.015 -11.324 16.652 14.906 18.771
 $definebone "weapon_targe" "" -0.84375 -1.50293 -3.9375 7.148715 137.035205 -90.771711 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_wheel_shield_anims\ref.smd"
+$sequence "idle" {
+	"c_wheel_shield_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

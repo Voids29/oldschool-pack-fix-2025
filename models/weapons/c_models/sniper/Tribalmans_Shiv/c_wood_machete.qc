@@ -2,7 +2,7 @@
 
 $modelname "workshop\weapons\c_models\c_wood_machete\c_wood_machete.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
 	studio "c_wood_machete_reference.smd"
 }
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 1.977 0.094 9.109
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/sniper/3/wod_machete/"
 
 $attachment "icon_camera" "weapon_bone" -34.96 -13.18 16.51 rotate 9.84 23.04 61.7
 $attachment "pedestal_0" "weapon_bone" 0 1.11 7.51 rotate -80.73 90 0

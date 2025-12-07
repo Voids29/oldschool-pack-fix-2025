@@ -26,8 +26,8 @@ $bbox -10.065 -5.961 -14.138 3.823 8.435 4.769
 $definebone "weapon_targe" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_persian_shield_anims\ref.smd"
+$sequence "idle" {
+	"c_persian_shield_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

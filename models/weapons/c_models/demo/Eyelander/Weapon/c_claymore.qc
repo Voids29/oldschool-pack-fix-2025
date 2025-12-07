@@ -18,8 +18,8 @@ $cdmaterials "console\models\weapons\demo\3\claymore"
 
 $texturegroup "skinfamilies"
 {
-	{ "claymore"			}
-	{ "claymore"			}
+	{ "claymore"		}
+	{ "claymore"		}
 	{ "claymore_gold"	}
 	{ "claymore_gold"	}
 }
@@ -34,11 +34,11 @@ $bbox 0 0 0 0 0 0
 $hboxset "default"
 $hbox 0 "weapon_bone" -6.836 -10.689 -1.468 6.841 48.719002 1.466
 
-$definebone "weapon_bone" "" 0 0 0.00047 0 0 0 0 0 0 0 0 0
+$definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_claymore_anims\ref.smd"
+$sequence "idle" {
+	"c_claymore_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

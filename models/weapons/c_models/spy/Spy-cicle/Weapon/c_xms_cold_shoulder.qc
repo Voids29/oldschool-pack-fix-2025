@@ -4,18 +4,17 @@ $modelname "workshop/weapons/c_models/c_xms_cold_shoulder/c_xms_cold_shoulder.md
 
 $bodygroup "body"
 {
-	studio "c_xms_cold_shoulder.smd"
+	studio "c_xms_cold_shoulder_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "glass"
 
 $contents "solid"
 
 $illumposition 0.002 -0.097 5.781
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/spy/2/icicle/"
 
 $attachment "icicle_tip_0" "weapon_bone" -0.01 15.87 0.12 rotate 0 90 -90
 $attachment "icicle_base_1" "weapon_bone" -0.01 -3.99 0.12 rotate 0 90 -90

@@ -4,18 +4,17 @@ $modelname "workshop/weapons/c_models/c_picket/c_picket.mdl"
 
 $bodygroup "body"
 {
-	studio "c_picket.smd"
+	studio "c_picket_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "wood"
 
 $contents "solid"
 
 $illumposition 0.103 0.002 16.207
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/shared/3/picket/"
 
 $attachment "icon_camera" "weapon_bone" -35.89 23.17 54.47 rotate 56.48 -6.39 -31.25
 $attachment "pedestal_0" "weapon_bone" 0 15.39 0.88 rotate -70.62 90 180

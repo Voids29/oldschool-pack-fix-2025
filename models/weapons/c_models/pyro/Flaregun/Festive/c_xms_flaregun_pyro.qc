@@ -2,7 +2,7 @@
 
 $modelname "weapons/c_models/c_xms_flaregun/c_xms_flaregun.mdl"
 
-$bodygroup "c_flaregun_reference"
+$bodygroup "body"
 {
 	studio "c_flaregun_pyro_reference.smd"
 }
@@ -13,7 +13,7 @@ $bodygroup "shell"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 

@@ -2,7 +2,7 @@
 
 $modelname "weapons/c_models/c_directhit/c_directhit.mdl"
 
-$bodygroup "c_directhit_reference"
+$bodygroup "body"
 {
 	studio "c_directhit_reference.smd"
 }

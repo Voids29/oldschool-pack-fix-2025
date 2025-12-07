@@ -8,13 +8,13 @@ $bodygroup "c_scattergun"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -0.028 -6.387 1.895
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/scout/1/pep_scatter/"
 
 $attachment "muzzle" "weapon_bone" 0 5.2 24.55 rotate -90 0 0
 $attachment "shell_eject" "weapon_bone" -0.98 6.28 8.24 rotate -4.17 147.92 -180

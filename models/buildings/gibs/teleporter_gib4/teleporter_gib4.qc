@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "buildables\Gibs\teleporter_Gib4.mdl"
+$modelname "buildables\gibs\teleporter_Gib4.mdl"
 
 $bodygroup "Body"
 {

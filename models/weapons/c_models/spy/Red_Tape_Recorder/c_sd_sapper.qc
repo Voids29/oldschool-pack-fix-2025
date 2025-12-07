@@ -4,18 +4,17 @@ $modelname "workshop_partner/weapons/c_models/c_sd_sapper/c_sd_sapper.mdl"
 
 $bodygroup "body"
 {
-	studio "c_sd_sapper.smd"
+	studio "c_sd_sapper_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "item"
 
 $contents "solid"
 
 $illumposition 0.025 -0.922 0.774
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/spy/4/redtape/"
 
 $attachment "pedestal_0" "weapon_bone" -0.05 0 -0.75 rotate -15.88 -176.43 76.6
 $attachment "icon_camera" "weapon_bone" -7.73 -10.14 15.31 rotate 50.21 55 -6.84

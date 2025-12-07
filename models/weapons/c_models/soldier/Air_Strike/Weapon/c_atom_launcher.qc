@@ -4,7 +4,7 @@ $modelname "workshop\weapons\c_models\c_atom_launcher\c_atom_launcher.mdl"
 
 $bodygroup "body"
 {
-	studio "airstrike_mdl.smd"
+	studio "c_atom_launcher_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -18,7 +18,8 @@ $contents "solid"
 
 $illumposition 1.132 1.848 2.477
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/soldier/1/airstrike/"
+$cdmaterials "console/models/weapons/shared"
 
 $attachment "muzzle" "weapon_bone" 0 6.6 20 rotate -90 0 0
 $attachment "backblast" "weapon_bone" 0 6.69 29 rotate 90 0 0
@@ -38,8 +39,8 @@ $bbox -32.181 -5.127 -13.656 18.074 7.549 11.699
 $definebone "weapon_bone" "" 1.30006 -2.173874 -1.038313 0 0.000057 89.999982 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_atom_launcher_anims\ref.smd"
+$sequence "idle" {
+	"c_atom_launcher_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

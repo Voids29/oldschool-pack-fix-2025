@@ -8,7 +8,7 @@ $bodygroup "c_leechgun_reference"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -18,8 +18,8 @@ $cdmaterials "console\models\weapons\medic\1\blutsauger"
 
 $texturegroup "skinfamilies"
 {
-	{ "blutsauger_red"		}
-	{ "blutsauger_blu"		}
+	{ "blutsauger_red"	}
+	{ "blutsauger_blu"	}
 	{ "blutsauger_gold"	}
 	{ "blutsauger_gold"	}
 }

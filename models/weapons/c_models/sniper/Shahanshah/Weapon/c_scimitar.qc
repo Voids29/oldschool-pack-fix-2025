@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_scimitar/c_scimitar.mdl"
 
 $bodygroup "body"
 {
-	studio "c_scimitar.smd"
+	studio "c_scimitar_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -18,7 +18,8 @@ $contents "solid"
 
 $illumposition 0 -0.105 10.142
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/sniper/3/scimitar/"
+$cdmaterials "console/models/weapons/shared/"
 
 $attachment "pedestal_0" "weapon_bone" 0 1.11 7.51 rotate -15.54 166.1 -51.16
 $attachment "icon_camera" "weapon_bone" -38.36 -17.92 19.28 rotate 9.76 23.55 61.63

@@ -8,13 +8,13 @@ $bodygroup "parachute"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "default"
 
 $contents "solid"
 
 $illumposition 2.204 19.452 97.577
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/chute_bag/"
 
 $cbox 0 0 0 0 0 0
 

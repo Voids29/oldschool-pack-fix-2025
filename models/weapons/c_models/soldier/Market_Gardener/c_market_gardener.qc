@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_market_gardener/c_market_gardener.mdl"
 
 $bodygroup "body"
 {
-	studio "market_gardener.smd"
+	studio "c_market_gardener_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -0.008 0.197 10.828
 
-$cdmaterials "\console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/soldier/3/market_gardner/"
 
 $attachment "pedestal_0" "weapon_bone" 0 9.23 0.02 rotate -16.53 -61.75 -64.69
 $attachment "icon_camera" "weapon_bone" 25.92 19.06 25.68 rotate 45.95 -163.65 161.51
@@ -27,8 +27,8 @@ $definebone "weapon_bone" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
 $definebone "vm_weapon_bone" "weapon_bone" 0 16.756886 -0.061404 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_market_gardener_anims\ref.smd"
+$sequence "idle" {
+	"c_market_gardener_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

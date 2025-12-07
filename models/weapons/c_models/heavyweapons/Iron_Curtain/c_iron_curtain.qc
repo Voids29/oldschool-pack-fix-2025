@@ -8,7 +8,7 @@ $bodygroup "minigun"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -22,16 +22,14 @@ $attachment "muzzle_firstperson" "weapon_bone" 2.6 -7.76 45.73 rotate -90 0 0
 $attachment "pedestal_0" "weapon_bone" 0 -11.89 23.22 rotate -90 -90 0
 $attachment "icon_camera" "weapon_bone" 52.75 -20.7 67.41 rotate 32.52 171.67 85.5
 
-$cbox 0 0 0 0 0 0
-
-$bbox -7.025 -16.158 -32.13 59.115 11.204 7.219
-
 $hboxset "default"
-$hbox 0 "weapon_bone" -15.911936 -31.879795 -6.774695 10.953509 6.969449 38.015728
-$hbox 0 "barrel" -5.252803 -5.448879 -6.403273 5.331508 5.135429 31.720568
 
-$definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "barrel" "weapon_bone" 0 -7.765051 27.144716 0 0 0 0 0 0 0 0 0
+$hbox 0 "weapon_bone"	-16.13  -31.85   -9.20     6.57    7.00   38.16
+$hbox 0 "barrel"		-5.36   -5.39  -10.35     5.36    5.33   31.79
+
+$definebone "weapon_bone" "" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "barrel" "weapon_bone" 0 -7.765052 27.144714 0 0 0 0 0 0 0 0 0
+
 
 
 $sequence "idle" {

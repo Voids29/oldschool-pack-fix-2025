@@ -2,9 +2,9 @@
 
 $modelname "workshop/player/items/all_class/hwn_spy_priest/hwn_spy_priest_spy.mdl"
 
-$bodygroup "shirt"
+$bodygroup "body"
 {
-	studio "ref.smd"
+	studio "hwn_spy_priest_spy_reference.smd"
 }
 
 
@@ -14,12 +14,12 @@ $contents "solid"
 
 $illumposition 0.237 0.582 57.624
 
-$cdmaterials "console\models\player\items\spy_low\"
+$cdmaterials "console/models/player/items/all_class/hwn_spy_priest/spy/"
 
 $texturegroup "skinfamilies"
 {
-	{ "hwn_spy_priest"      }
-	{ "hwn_spy_priest_blue" }
+	{ "hwn_spy_priest_red"	}
+	{ "hwn_spy_priest_blu"	}
 }
 
 $cbox 0 0 0 0 0 0

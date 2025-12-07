@@ -14,13 +14,12 @@ $contents "solid"
 
 $illumposition 0.443 -0.096 12.689
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/3/bonk_bat/"
 
 $texturegroup "skinfamilies"
 {
-	{ "bonk_bat_red"  }
-	{ "bonk_bat_blue" }
+	{ "bonk_bat_red"	}
+	{ "bonk_bat_blu"	}
 }
 
 $attachment "icon_camera" "weapon_bone" -2.66 15.12 30.88 rotate 83.95 -34 -69.46
@@ -36,8 +35,8 @@ $hbox 0 "weapon_bone" -1.841 -3.8 -1.483 1.841 29 2.2
 $definebone "weapon_bone" "" 0.216119 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_bonk_bat_anims\ref.smd"
+$sequence "idle" {
+	"c_bonk_bat_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

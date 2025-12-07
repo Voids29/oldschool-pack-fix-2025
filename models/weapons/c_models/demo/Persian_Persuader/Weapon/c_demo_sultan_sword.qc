@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_demo_sultan_sword/c_demo_sultan_sword.md
 
 $bodygroup "body"
 {
-	studio "c_demo_sultan_sword.smd"
+	studio "c_demo_sultan_sword_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {

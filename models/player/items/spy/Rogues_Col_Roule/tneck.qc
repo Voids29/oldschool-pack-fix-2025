@@ -2,9 +2,9 @@
 
 $modelname "player/items/spy/tneck.mdl"
 
-$bodygroup "shirt"
+$bodygroup "body"
 {
-	studio "ref.smd"
+	studio "tneck_reference.smd"
 }
 
 

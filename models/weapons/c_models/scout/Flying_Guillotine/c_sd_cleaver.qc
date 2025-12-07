@@ -8,14 +8,13 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "metal"
 
 $contents "solid"
 
 $illumposition -0.857 -3.325 5.596
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/2/cleever/"
 
 $texturegroup "skinfamilies"
 {
@@ -36,8 +35,8 @@ $hbox 0 "weapon_bone" -1.30934 -6.594788 -0.603762 0.295823 17.91571 7.125265
 $definebone "weapon_bone" "" -0.347168 0 0 -0.000286 -0.000286 -0.000286 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_sd_cleaver_anims\ref.smd"
+$sequence "idle" {
+	"c_sd_cleaver_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

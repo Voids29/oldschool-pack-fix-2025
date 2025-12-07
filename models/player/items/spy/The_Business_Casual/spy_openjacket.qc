@@ -2,9 +2,9 @@
 
 $modelname "player/items/spy/spy_openjacket.mdl"
 
-$bodygroup "shirt"
+$bodygroup "body"
 {
-	studio "ref.smd"
+	studio "spy_openjacket_reference.smd"
 }
 
 

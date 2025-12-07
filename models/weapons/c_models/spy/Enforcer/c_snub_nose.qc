@@ -4,17 +4,19 @@ $modelname "workshop/weapons/c_models/c_snub_nose/c_snub_nose.mdl"
 
 $bodygroup "body"
 {
-	studio "c_snub_nose.smd"
+	studio "c_snub_nose_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0 -0.734 3.338
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/2/pistol"
+$cdmaterials "console/models/weapons/spy/1/revolver"
+$cdmaterials "console/models/weapons/spy/1/enforcer"
 
 $attachment "muzzle" "weapon_bone" 0 2.54 9.97 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" 0 2.2 3.97 rotate 0 90 90

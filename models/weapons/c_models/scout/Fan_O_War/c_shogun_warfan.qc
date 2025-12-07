@@ -2,19 +2,19 @@
 
 $modelname "workshop_partner\weapons\c_models\c_shogun_warfan\c_shogun_warfan.mdl"
 
-$bodygroup "c_shogun_warfan"
+$bodygroup "body"
 {
-	studio "reference.smd"
+	studio "c_shogun_warfan_reference.smd"
 }
 
 
-$surfaceprop "wood"
+$surfaceprop "metal"
 
 $contents "solid"
 
 $illumposition -0.389 0.003 12.707
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/scout/3/fan_o_war/"
 
 $attachment "icon_camera" "weapon_bone" 32.95 12.28 18.2 rotate 29.43 178.15 147.66
 $attachment "pedestal_0" "weapon_bone" 0 10.39 0 rotate 76.04 90.02 -1.49

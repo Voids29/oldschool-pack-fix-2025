@@ -4,11 +4,11 @@ $modelname "weapons/c_models/c_breadmonster_gloves/c_breadmonster_gloves.mdl"
 
 $bodygroup "body"
 {
-	studio "c_breadmonster_gloves.smd"
+	studio "c_breadmonster_gloves_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "flesh"
 
 $contents "solid"
 

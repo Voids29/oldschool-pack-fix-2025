@@ -1,4 +1,4 @@
-console/models/weapons/demo/3/shard/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_scotland_shard/c_scotland_shard.mdl"
 
@@ -9,7 +9,7 @@ $bodygroup "broken"
 }
 
 
-$surfaceprop "glass"
+$surfaceprop "glassbottle"
 
 $contents "solid"
 
@@ -30,8 +30,8 @@ $hbox 0 "weapon_bone" -3.459 -4.416 -3.485 3.494 14.558 3.463
 $definebone "weapon_bone" "" 0.014302 -0.000471 14.87976 0 -179.999964 -89.999982 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_scotland_shard_anims\ref.smd"
+$sequence "idle" {
+	"c_scotland_shard_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

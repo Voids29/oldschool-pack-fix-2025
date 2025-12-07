@@ -2,13 +2,14 @@
 
 $modelname "workshop/weapons/c_models/c_buffalo_steak/c_buffalo_steak.mdl"
 
-$bodygroup "buffalo_steak"
+$bodygroup "buffalo_steak_bite"
 {
 	studio "c_buffalo_steak_reference.smd"
+	studio "c_buffalo_steak_bite.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "flesh"
 
 $contents "solid"
 

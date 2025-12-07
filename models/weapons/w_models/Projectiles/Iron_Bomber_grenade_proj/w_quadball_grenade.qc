@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_quadball/w_quadball_grenade.mdl"
 
 $bodygroup "body"
 {
-	studio "w_quadball_grenade.smd"
+	studio "w_quadball_grenade_reference.smd"
 }
 
 
@@ -14,13 +14,12 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/demo/1/quad_ball/"
 
 $texturegroup "skinfamilies"
 {
-	{ "ball_proj"     }
-	{ "ball_proj_blu" }
+	{ "ball_proj_red"	}
+	{ "ball_proj_blu"	}
 }
 
 $cbox 0 0 0 0 0 0

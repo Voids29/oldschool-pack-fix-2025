@@ -1,10 +1,10 @@
-console/models/weapons/demo/1/loch/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_lochnload/c_lochnload.mdl"
 
 $bodygroup "body"
 {
-	studio "loch.smd"
+	studio "c_lochnload_reference.smd"
 }
 $bodygroup "reload"
 {
@@ -23,6 +23,7 @@ $contents "solid"
 
 $illumposition 0 3.67 8.271
 
+$cdmaterials "console/models/weapons/demo/1/grenade_launcher/"
 $cdmaterials "console/models/weapons/demo/1/loch/"
 $cdmaterials "console/models/weapons/shared"
 

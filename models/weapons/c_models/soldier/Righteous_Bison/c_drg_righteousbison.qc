@@ -2,9 +2,9 @@
 
 $modelname "workshop/weapons/c_models/c_drg_righteousbison/c_drg_righteousbison.mdl"
 
-$bodygroup "studio"
+$bodygroup "body"
 {
-	studio "reference.smd"
+	studio "c_drg_righteousbison_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0 -4.384 -0.165
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/soldier/2/bison"
 
 $attachment "muzzle" "weapon_bone" 0 2.89 16.06 rotate -90 0 0
 $attachment "pedestal_0" "weapon_bone" 0 0.83 4.14 rotate -90 -90 0

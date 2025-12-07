@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_rocketjumper\c_rocketjumper.mdl"
 
-$bodygroup "w_rocketlauncher"
+$bodygroup "body"
 {
-	studio "w_rocketlauncher_reference.smd"
+	studio "c_rocketjumper_reference.smd"
 }
 
 

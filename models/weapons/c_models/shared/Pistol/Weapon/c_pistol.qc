@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_pistol\c_pistol.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "ref.smd"
+	studio "c_pistol_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,7 +12,7 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 

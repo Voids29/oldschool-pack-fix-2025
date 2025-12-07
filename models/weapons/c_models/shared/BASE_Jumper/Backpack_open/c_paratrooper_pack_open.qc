@@ -8,18 +8,18 @@ $bodygroup "parachute"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 0 10.896 63.95
+$illumposition 0 12.885 62.088
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/chute_bag/"
 
 $texturegroup "skinfamilies"
 {
-	{ "chute_bag"     }
-	{ "chute_bag_blu" }
+	{ "chute_bag_red"	}
+	{ "chute_bag_blu"	}
 }
 
 $cbox 0 0 0 0 0 0

@@ -2,24 +2,19 @@
 
 $modelname "workshop/weapons/c_models/c_holymackerel/c_holymackerel_xmas.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "mackrel.smd"
-}
-$bodygroup "warpaint_fix"
-{
-	studio "warpaint_fix.smd"
+	studio "c_holymackerel_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "flesh"
 
 $contents "solid"
 
 $illumposition 0.469 -0.045 11.13
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/3/mackrel/"
 
 $attachment "unusual_0" "jiggle4" 0 0 0 rotate -90 -90 0
 $attachment "unusual_1" "jiggle2" -0.04 -0.06 3.01 rotate -90 -90 0
@@ -42,10 +37,6 @@ $hbox 0 "jiggle3" -4.152 -3.712 -1.98 3.737 4.095 4.245
 $hbox 0 "jiggle4" -2.534 -1.133 -1.168 0.107 1.584 1.019
 
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "jiggle1" "weapon_bone" 0.192925 10.981835 0.193602 0.053572 90.230597 -26.080353 0 0 0 0 0 0
-$definebone "jiggle2" "jiggle1" 5.26641 0.000001 0 0 0 -0.000015 0 0 0 0 0 0
-$definebone "jiggle3" "jiggle2" 4.199776 0.000001 0 0 0.000401 -0.00001 0 0 0 0 0 0
-$definebone "jiggle4" "jiggle3" 3.629799 -0.000025 0 0 0 -0.000015 0 0 0 0 0 0
 
 $jigglebone "jiggle1"
 {
@@ -115,7 +106,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "c_holymackerel_xmas_physics.smd"
+$collisionmodel "c_holymackerel_physics.smd"
 {
 	$mass 1.8
 	$inertia 1

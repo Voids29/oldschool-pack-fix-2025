@@ -8,14 +8,15 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0 -7.613 -0.735
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/shared/2/pistol/"
+$cdmaterials "console/models/weapons/spy/1/big_iron/"
+
 
 $attachment "muzzle" "weapon_bone" 0 3.96 19.86 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" 0 1.92 1.59 rotate 90 0 0

@@ -7,8 +7,13 @@ $bodygroup "body"
 	studio "c_fishcake_reference.smd"
 }
 
+$bodygroup "bites"
+{
+	studio "c_fishcake_whole.smd"
+	blank
+}
 
-$surfaceprop "default"
+$surfaceprop "flesh"
 
 $contents "solid"
 

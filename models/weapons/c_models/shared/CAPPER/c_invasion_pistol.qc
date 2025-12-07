@@ -8,18 +8,18 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0 -5.364 3.214
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/2/zapper/"
 
 $texturegroup "skinfamilies"
 {
-	{ "zapper"      }
-	{ "zapper_blue" }
+	{ "zapper_red"	}
+	{ "zapper_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 5.59 14.59 rotate -90 0 0

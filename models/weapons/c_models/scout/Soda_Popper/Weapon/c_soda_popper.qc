@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_soda_popper/c_soda_popper.mdl"
 
 $bodygroup "body"
 {
-	studio "c_soda_popper.smd"
+	studio "c_soda_popper_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -12,14 +12,14 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -0.176 -2.442 3.281
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/1/popper/"
+$cdmaterials "console/models/weapons/shared"
 
 $attachment "muzzle" "weapon_bone" 0 4.96 16.42 rotate -90 0 0
 $attachment "unusual_0" "weapon_bone_1" 0 1.67 8.72 rotate -86.18 -90 90
@@ -47,13 +47,6 @@ $definebone "weapon_bone_3" "weapon_bone_1" 1.090158 2.369013 1.210474 0 0 0 0 0
 $definebone "weapon_bone_4" "weapon_bone_1" -1.237664 2.369013 1.210474 0 0 0 0 0 0 0 0 0
 $definebone "weapon_bone_2" "weapon_bone" 0 7.232381 3.68815 0 0 0 0 0 0 0 0 0
 
-
-$sequence "ref" {
-	"c_soda_popper_anims\ref.smd"
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
 
 $sequence "idle" {
 	"c_soda_popper_anims\idle.smd"

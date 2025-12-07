@@ -4,7 +4,7 @@ $modelname "workshop_partner/weapons/c_models/c_ai_flamethrower/c_ai_flamethrowe
 
 $bodygroup "body"
 {
-	studio "c_ai_flamethrower.smd"
+	studio "c_ai_flamethrower_reference.smd"
 }
 
 

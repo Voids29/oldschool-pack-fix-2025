@@ -1,4 +1,4 @@
-console/models/weapons/heavyweapons/3/brass_knuckes/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_eviction_notice/c_eviction_notice.mdl"
 
@@ -31,8 +31,8 @@ $definebone "bip_hand_R" "" -13.699295 0.255629 -3.332048 -30.402285 -68.278922 
 $definebone "bip_hand_L" "" 13.591048 0.430976 -3.287867 29.302666 71.288214 -95.090939 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_eviction_notice_anims\ref.smd"
+$sequence "idle" {
+	"c_eviction_notice_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

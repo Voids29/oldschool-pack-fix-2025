@@ -4,35 +4,22 @@ $modelname "weapons/c_models/c_grenadelauncher/c_grenadelauncher_xmas.mdl"
 
 $bodygroup "body"
 {
-	studio "c_grenadelauncher.smd"
+	studio "c_grenadelauncher_reference.smd"
 }
 $bodygroup "reload"
 {
 	blank
 	studio "grenade_bodygroup.smd"
 }
-$bodygroup "warpaint_fix"
-{
-	studio "warpaint_fix.smd"
-}
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0.001 -9.323 3.333
 
 $cdmaterials "console\models\weapons\demo\1\grenade_launcher"
-$cdmaterials "console\models\weapons\shared"
-
-$texturegroup "skinfamilies"
-{
-	{ "grenade_launcher"      }
-	{ "grenade_launcher"      }
-	{ "grenade_launcher_gold" }
-	{ "grenade_launcher_gold" }
-}
 
 $attachment "muzzle" "weapon_bone_3" 0 -2.79 6.78 rotate 0 0 0
 $attachment "unusual_0" "weapon_bone_1" 0 8.2 27.47 rotate -89.64 90 -90
@@ -71,7 +58,7 @@ $sequence "idle" {
 	loop
 }
 
-$collisionmodel "c_grenadelauncher_xmas_physics.smd"
+$collisionmodel "c_grenadelauncher_physics.smd"
 {
 	$mass 1
 	$inertia 1

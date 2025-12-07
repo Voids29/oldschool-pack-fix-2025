@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_quadball/c_quadball.mdl"
 
 $bodygroup "body"
 {
-	studio "c_quadball.smd"
+	studio "c_quadball_reference.smd"
 }
 $bodygroup "reload"
 {
@@ -17,18 +17,19 @@ $bodygroup "warpaint_fix"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -0.024 -8.796 2.976
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/demo/1/quad_ball/"
+$cdmaterials "console/models/weapons/shared/"
 
 $texturegroup "skinfamilies"
 {
-	{ "ball_proj"     }
-	{ "ball_proj_blu" }
+	{ "ball_proj_red"	}
+	{ "ball_proj_blu"	}
 }
 
 $attachment "muzzle" "weapon_bone_1" 0 8.23 28.87 rotate 0 0 0

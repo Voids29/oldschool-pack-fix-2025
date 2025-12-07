@@ -23,14 +23,13 @@ $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "wrench"			}
-	{ "wrench"			}
-	{ "wrench"			}
-	{ "wrench"			}
-	{ "wrench"			}
-	{ "wrench"			}
-	{ "wrench"			}
-	{ "wrench"			}
+	{ "wrench"		}
+	{ "wrench"		}
+	{ "wrench"		}
+	{ "wrench"		}
+	{ "wrench"		}
+	{ "wrench"		}
+	{ "wrench"		}
 	{ "wrench_gold"	}
 	{ "wrench_gold"	}
 }

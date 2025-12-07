@@ -4,11 +4,11 @@ $modelname "workshop\weapons/c_models/c_kingmaker_sticky/c_kingmaker_sticky.mdl"
 
 $bodygroup "body"
 {
-	studio "c_kingmaker_sticky.smd"
+	studio "c_kingmaker_sticky_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -28,8 +28,8 @@ $definebone "weapon_bone" "" 0 0 0 -0.000161 -0.000164 -0.000278 0 0 0 0 0 0
 $definebone "weapon_bone_1" "weapon_bone" 1.51299 2.825698 2.896748 -58.619778 -89.999975 89.999968 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_kingmaker_sticky_anims\ref.smd"
+$sequence "idle" {
+	"c_kingmaker_sticky_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

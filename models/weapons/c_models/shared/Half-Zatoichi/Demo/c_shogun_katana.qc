@@ -2,9 +2,9 @@
 
 $modelname "workshop_partner\weapons\c_models\c_shogun_katana\c_shogun_katana.mdl"
 
-$bodygroup "c_shogun_katana"
+$bodygroup "body"
 {
-	studio "c_katana.smd"
+	studio "c_shogun_katana_demo_reference.smd"
 }
 
 
@@ -14,15 +14,14 @@ $contents "solid"
 
 $illumposition 2.194 0.027 18.836
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/shared/3/ktna/"
 
 $texturegroup "skinfamilies"
 {
 	{ "ktna"        }
 	{ "ktna"        }
-	{ "bloody_KTNA" }
-	{ "bloody_KTNA" }
+	{ "ktna_bloody" }
+	{ "ktna_bloody" }
 }
 
 $attachment "icon_camera" "weapon_bone" -17.47 -2.3 47.11 rotate 62.16 38.21 5.75

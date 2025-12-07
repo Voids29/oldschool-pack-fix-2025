@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_acr_hookblade/c_acr_hookblade.mdl"
 
 $bodygroup "body"
 {
-	studio "hookblade.smd"
+	studio "c_acr_hookblade_reference.smd"
 }
 
 
@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition 1.846 0.168 5.789
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/spy/2/acr_hookblade/"
 
 $attachment "pedestal_0" "weapon_bone" 1.22 3.84 -0.12 rotate -90 -90 0
 $attachment "icon_camera" "weapon_bone" 14.72 5.21 -7.39 rotate -29.59 178.83 144.94

@@ -8,7 +8,7 @@ $bodygroup "Body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "item"
 
 $contents "solid"
 
@@ -45,7 +45,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "c_wrangler_xmas_physics.smd"
+$collisionmodel "c_wrangler_physics.smd"
 {
 	$mass 1
 	$inertia 1

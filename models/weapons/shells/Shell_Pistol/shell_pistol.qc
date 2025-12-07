@@ -2,25 +2,23 @@
 
 $modelname "weapons/shells/shell_pistol.mdl"
 
-$bodygroup "shell_pistol"
+$bodygroup "body"
 {
 	studio "shell_pistol_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "metal"
 
 $contents "solid"
 
 $illumposition 0.009 0.071 0.005
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/2/pistol/"
 
 $cbox 0 0 0 0 0 0
 
 $bbox -1.318 -1.018 -1.022 1.127 1.037 1.032
-
-$definebone "polymsh" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
 
 
 $sequence "idle" {

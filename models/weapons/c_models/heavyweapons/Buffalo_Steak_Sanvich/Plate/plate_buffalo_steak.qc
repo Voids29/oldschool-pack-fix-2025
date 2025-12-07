@@ -1,4 +1,4 @@
-console/models/weapons/heavyweapons/2/sandwich/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_buffalo_steak\plate_buffalo_steak.mdl"
 
@@ -8,11 +8,11 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "plastic"
+$surfaceprop "pottery"
 
 $contents "solid"
 
-$illumposition 0.042 0 7.025
+$illumposition 0 0 2.025
 
 $cdmaterials "console/models/weapons/heavyweapons/2/sandwich/"
 $cdmaterials "console/models/weapons/heavyweapons/2/tatonka/"
@@ -24,9 +24,7 @@ $bbox -17.42 -17.425 0 17.42 17.342 14.05
 $hboxset "default"
 $hbox 0 "cube" -12.243 -10.801 -12.305 12.368 0 12.305
 
-$definebone "Scene_Root" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
-$definebone "item" "Scene_Root" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "cube" "item" 0 14.050022 0 0 0 0 0 0 0 0 0 0
+$definebone "cube" "" 0 14.050022 0 0 0 0 0 0 0 0 0 0
 
 
 $sequence "idle" {

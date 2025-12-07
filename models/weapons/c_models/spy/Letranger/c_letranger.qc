@@ -4,18 +4,18 @@ $modelname "workshop/weapons/c_models/c_letranger/c_letranger.mdl"
 
 $bodygroup "body"
 {
-	studio "c_letranger.smd"
+	studio "c_letranger_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0.039 -5.605 -0.475
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/spy/1/letranger/"
+$cdmaterials "console/models/weapons/spy/1/revolver/"
 
 $attachment "muzzle" "weapon_bone" 0 2.86 14.29 rotate -90 0 0
 $attachment "pedestal_0" "weapon_bone" 0 0.17 3.74 rotate -90 -90 0

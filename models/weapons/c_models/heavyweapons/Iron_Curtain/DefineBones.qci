@@ -1,0 +1,2 @@
+$definebone "weapon_bone" "" 0 0 0 0.000172 -0.000802 89.999290 0 0 0 0 0 0
+$definebone "barrel" "weapon_bone" 0 -7.765052 27.144714 0 0 0.001891 0 0 0 0 0 0

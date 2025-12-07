@@ -2,17 +2,17 @@
 
 $modelname "weapons\c_models\c_scottish_resistance\c_scottish_resistance.mdl"
 
-$bodygroup "c_stickybomb_launcher"
+$bodygroup "body"
 {
-	studio "w_stickybomb_launcher_reference.smd"
+	studio "c_stickybomb_launcher_reference.smd"
 }
-$bodygroup "c_scottish_resistance"
+$bodygroup "attachment"
 {
-	studio "w_stickybomb_defender.smd"
+	studio "c_stickybomb_defender.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -22,8 +22,8 @@ $cdmaterials "console\models\weapons\demo\2\defender"
 
 $texturegroup "skinfamilies"
 {
-	{ "defender_red" "defender_attachment_red" }
-	{ "defender_blu" "defender_attachment_blu" }
+	{ "defender_red"	"defender_attachment_red"	}
+	{ "defender_blu"	"defender_attachment_blu"	}
 }
 
 $attachment "eject_brass" "weapon_bone" 2.22 4.18 9.1 rotate 0 27.29 0

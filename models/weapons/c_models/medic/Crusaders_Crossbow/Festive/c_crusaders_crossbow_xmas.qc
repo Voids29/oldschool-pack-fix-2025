@@ -6,13 +6,9 @@ $bodygroup "c_crusaders_crossbow"
 {
 	studio "c_crusaders_crossbow_reference.smd"
 }
-$bodygroup "warpaint_fix"
-{
-	studio "warpaint_fix.smd"
-}
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -28,12 +24,6 @@ $texturegroup "skinfamilies"
 
 $attachment "pedestal_0" "weapon_bone" 0.05 5.24 5.91 rotate -89.49 -0.05 -89.95
 $attachment "icon_camera" "weapon_bone" -19.33 19.6 31.43 rotate 36.79 -36.42 -113.84
-$attachment "unusual_0" "weapon_bone" 0.19 8.81 22.04 rotate -89.49 0 0
-$attachment "unusual_1" "weapon_bone" 0.16 8.81 17.71 rotate -89.49 0 0
-$attachment "unusual_2" "weapon_bone" 0.12 8.81 13.37 rotate -89.49 0 0
-$attachment "unusual_3" "weapon_bone" 0.08 8.81 9.04 rotate -89.49 0 0
-$attachment "unusual_4" "weapon_bone" 0.04 8.81 4.71 rotate -89.49 0 0
-$attachment "unusual_5" "weapon_bone" 0 8.81 0.38 rotate -89.49 0 0
 
 $cbox 0 0 0 0 0 0
 

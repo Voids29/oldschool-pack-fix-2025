@@ -4,18 +4,17 @@ $modelname "workshop/weapons/c_models/c_madmilk/c_madmilk.mdl"
 
 $bodygroup "body"
 {
-	studio "milk.smd"
+	studio "c_madmilk_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "glassbottle"
 
 $contents "solid"
 
 $illumposition 0.001 -0.001 0.578
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/2/milk/"
 
 $attachment "drink_spray" "weapon_bone" 0 0 0 rotate 0 0 0
 $attachment "icon_camera" "weapon_bone" 1.09 10.07 18.75 rotate 62.56 -98.28 156.52

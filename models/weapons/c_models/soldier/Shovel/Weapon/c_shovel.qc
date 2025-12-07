@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_shovel\c_shovel.mdl"
 
-$bodygroup "w_shovel"
+$bodygroup "body"
 {
-	studio "w_shovel_reference.smd"
+	studio "c_shovel_reference.smd"
 }
 
 

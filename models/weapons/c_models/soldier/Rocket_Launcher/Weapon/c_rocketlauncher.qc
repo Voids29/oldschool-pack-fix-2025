@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_rocketlauncher\c_rocketlauncher.mdl"
 
-$bodygroup "w_rocketlauncher"
+$bodygroup "body"
 {
-	studio "w_rocketlauncher_reference.smd"
+	studio "c_rocketlauncher_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -23,16 +23,16 @@ $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "rocket_launcher"     }
-	{ "rocket_launcher"     }
-	{ "rocket_launcher"     }
-	{ "rocket_launcher"     }
-	{ "rocket_launcher"     }
-	{ "rocket_launcher"     }
-	{ "rocket_launcher"     }
-	{ "rocket_launcher"     }
-	{ "rocket_launcher_gold" }
-	{ "rocket_launcher_gold" }
+	{ "rocket_launcher"			}
+	{ "rocket_launcher"			}
+	{ "rocket_launcher"			}
+	{ "rocket_launcher"			}
+	{ "rocket_launcher"			}
+	{ "rocket_launcher"			}
+	{ "rocket_launcher"			}
+	{ "rocket_launcher"			}
+	{ "rocket_launcher_gold"	}
+	{ "rocket_launcher_gold"	}
 }
 
 $attachment "muzzle" "weapon_bone" 0 6.69 19.51 rotate -90 0 0

@@ -2,9 +2,9 @@
 
 $modelname "workshop_partner/player/items/spy/tw_coat/tw_coat_spy_necktie.mdl"
 
-$bodygroup "shirt"
+$bodygroup "body"
 {
-	studio "ref.smd"
+	studio "tw_coat_spy_necktie_reference.smd"
 }
 
 
@@ -14,12 +14,12 @@ $contents "solid"
 
 $illumposition 0.089 -1.18 56.149
 
-$cdmaterials "console\models\player\items\spy_low\"
+$cdmaterials "console/models/player/items/spy/tw_coat_spy/"
 
 $texturegroup "skinfamilies"
 {
-	{ "tw_coat_spy"      }
-	{ "tw_coat_spy_blue" }
+	{ "tw_coat_spy_red"	}
+	{ "tw_coat_spy_blu"	}
 }
 
 $cbox 0 0 0 0 0 0

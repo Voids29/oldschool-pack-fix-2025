@@ -4,7 +4,7 @@ $modelname "player/items/heavy/capones_capper.mdl"
 
 $bodygroup "body"
 {
-	studio "capones_capper.smd"
+	studio "capones_capper_reference.smd"
 }
 
 
@@ -21,11 +21,11 @@ $cbox 0 0 0 0 0 0
 
 $bbox -4.079 -5.955 -10.07 9.395 6.205 9.82
 
-$definebone "bip_head" "" 0 0 0 0 0 -179.999978 0 0 0 0 0 0
+$definebone "bip_head" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"capones_capper_anims\ref.smd"
+$sequence "idle" {
+	"capones_capper_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

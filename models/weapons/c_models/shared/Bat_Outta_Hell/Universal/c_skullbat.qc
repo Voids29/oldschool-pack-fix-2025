@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_skullbat/c_skullbat.mdl"
 
 $bodygroup "body"
 {
-	studio "c_skullbat.smd"
+	studio "c_skullbat_reference.smd"
 }
 
 

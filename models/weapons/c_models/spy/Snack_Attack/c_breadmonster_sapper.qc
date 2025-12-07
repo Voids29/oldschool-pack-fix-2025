@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_breadmonster_sapper/c_breadmonster_sapper.mdl"
 
 $bodygroup "body"
 {
-	studio "c_breadmonster_sapper.smd"
+	studio "c_breadmonster_sapper_reference.smd"
 }
 
 

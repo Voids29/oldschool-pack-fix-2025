@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_drg_cowmangler/c_drg_cowmangler.mdl"
 
 $bodygroup "body"
 {
-	studio "cow_mangler.smd"
+	studio "c_drg_cowmangler_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition 0.022 5.247 2.929
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/soldier/1/mangler/"
 
 $texturegroup "skinfamilies"
 {

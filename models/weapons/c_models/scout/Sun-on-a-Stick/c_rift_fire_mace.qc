@@ -8,18 +8,18 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "rock"
 
 $contents "solid"
 
 $illumposition 0.049 -0.22 11.036
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/scout/3/fire_bat/"
 
 $texturegroup "skinfamilies"
 {
-	{ "fire_bat"     }
-	{ "fire_bat_blu" }
+	{ "fire_bat_red"	}
+	{ "fire_bat_blu"	}
 }
 
 $attachment "icon_camera" "weapon_bone" 33.25 29.78 -3.19 rotate -2.03 -158.72 147.39

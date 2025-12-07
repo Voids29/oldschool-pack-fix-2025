@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_grenadelauncher/c_grenadelauncher.mdl"
 
 $bodygroup "body"
 {
-	studio "c_grenadelauncher.smd"
+	studio "c_grenadelauncher_reference.smd"
 }
 $bodygroup "reload"
 {
@@ -28,8 +28,8 @@ $cdmaterials "console\models\weapons\shared"
 
 $texturegroup "skinfamilies"
 {
-	{ "grenade_launcher"			}
-	{ "grenade_launcher"			}
+	{ "grenade_launcher"		}
+	{ "grenade_launcher"		}
 	{ "grenade_launcher_gold"	}
 	{ "grenade_launcher_gold"	}
 }

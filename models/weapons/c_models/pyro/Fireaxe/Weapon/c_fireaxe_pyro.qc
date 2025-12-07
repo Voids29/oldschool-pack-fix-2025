@@ -2,13 +2,13 @@
 
 $modelname "weapons\c_models\c_fireaxe_pyro\c_fireaxe_pyro.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "fireaxe.smd"
+	studio "c_fireaxe_pyro_reference.smd"
 }
 
 
-$surfaceprop "weapon"
+$surfaceprop "metal"
 
 $contents "solid"
 
@@ -39,7 +39,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "fireaxe_physics.smd"
+$collisionmodel "c_fireaxe_pyro_physics.smd"
 {
 	$mass 1
 	$inertia 1

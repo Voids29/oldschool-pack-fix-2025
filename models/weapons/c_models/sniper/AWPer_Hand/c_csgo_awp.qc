@@ -2,13 +2,13 @@
 
 $modelname "weapons\c_models\c_csgo_awp\c_csgo_awp.mdl"
 
-$bodygroup "c_dex_sniperrifle"
+$bodygroup "body"
 {
-	studio "c_csgo_awp.smd"
+	studio "c_csgo_awp_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -26,7 +26,6 @@ $cbox 0 0 0 0 0 0
 $bbox -16.917 -4.646 -5.451 48.219 3.886 11.641
 
 $definebone "weapon_bone" "" 0 -1.772578 -15.121245 0 0 0 0 0 0 0 0 0
-$definebone "vm_weapon_bone" "weapon_bone" -0.000079 3.813402 2.333315 0.00003 0.000016 0.000016 0 0 0 0 0 0
 
 
 $sequence "idle" {

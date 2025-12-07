@@ -2,9 +2,10 @@
 
 $modelname "weapons/c_models/c_sandwich/c_robo_sandwich.mdl"
 
-$bodygroup "body"
+$bodygroup "bites"
 {
 	studio "c_robo_sandwich_reference.smd"
+	studio "c_robo_sandwich_bite.smd"
 }
 
 

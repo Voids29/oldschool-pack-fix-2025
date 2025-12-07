@@ -8,13 +8,13 @@ $bodygroup "body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -18.923 -0.318 39.297
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/engineer/2/short_circuit/"
 
 $texturegroup "skinfamilies"
 {
@@ -34,8 +34,8 @@ $definebone "bip_lowerArm_R" "" 11.405701 0 -0.000001 0.000031 -27.511758 0.0000
 $definebone "arm_attach_R" "bip_lowerArm_R" -0.000007 2.796177 0 -0.000001 -0.000002 0 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"c_dex_arm_anims\ref.smd"
+$sequence "idle" {
+	"c_dex_arm_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

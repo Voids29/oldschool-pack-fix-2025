@@ -1,10 +1,10 @@
-console/models/weapons/engineer/1/telegun/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_tele_shotgun\c_tele_shotgun.mdl"
 
 $bodygroup "body"
 {
-	studio "c_telegun_shotgun_reference.smd"
+	studio "c_tele_shotgun_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {
@@ -19,6 +19,7 @@ $contents "solid"
 $illumposition 0.048 -15.233 2.243
 
 $cdmaterials "console/models/weapons/engineer/1/telegun/"
+$cdmaterials "console/models/weapons/scout/1/force/"
 $cdmaterials "console/models/weapons/shared"
 
 $texturegroup "skinfamilies"

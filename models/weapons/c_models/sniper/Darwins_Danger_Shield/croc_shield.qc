@@ -2,9 +2,9 @@
 
 $modelname "workshop/player/items/sniper/croc_shield\croc_shield.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "croc_shield.smd"
+	studio "croc_shield_reference.smd"
 }
 
 
@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -0.765 5.135 49.085
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/sniper/2/croc_shield/"
 
 $attachment "icon_camera" "root" 10.64 -9.14 -12.39 rotate -48.84 123.41 50.9
 $attachment "pedestal_0" "root" 0 0 0 rotate -90 -90 0

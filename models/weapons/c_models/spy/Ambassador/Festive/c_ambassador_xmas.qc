@@ -2,13 +2,13 @@
 
 $modelname "weapons/c_models/c_ambassador/c_ambassador_xmas.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
 	studio "c_ambassador_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -17,11 +17,6 @@ $illumposition -0.01 -7.659 0.3
 $cdmaterials "console\models\weapons\spy\1\ambassador"
 $cdmaterials "console\models\weapons\shared\2\pistol"
 $cdmaterials "console\models\weapons\spy\1\revolver"
-
-$texturegroup "skinfamilies"
-{
-	{ "ambassador" }
-}
 
 $attachment "muzzle" "weapon_bone" 0 3.42 18.88 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" 0 1.92 1.59 rotate 90 0 0
@@ -52,7 +47,7 @@ $sequence "idle" {
 	loop
 }
 
-$collisionmodel "c_ambassador_xmas_physics.smd"
+$collisionmodel "c_ambassador_physics.smd"
 {
 	$mass 1
 	$inertia 1

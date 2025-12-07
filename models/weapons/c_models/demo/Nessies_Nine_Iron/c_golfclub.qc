@@ -1,4 +1,4 @@
-console/models/weapons/demo/3/9_iron/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_golfclub/c_golfclub.mdl"
 

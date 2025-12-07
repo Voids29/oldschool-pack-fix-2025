@@ -2,9 +2,9 @@
 
 $modelname "weapons\w_models\w_rocket_airstrike\w_rocket_airstrike.mdl"
 
-$bodygroup "w_rocket"
+$bodygroup "body"
 {
-	studio "w_rocket_airstrike.smd"
+	studio "w_rocket_airstrike_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -0.007 -11.633 -0.01
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/soldier/1/airstrike/"
 
 $attachment "trail" "bone_rocket" 0 0 0 rotate 0 0 0
 

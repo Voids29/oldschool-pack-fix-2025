@@ -2,20 +2,19 @@
 
 $modelname "workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
 	studio "c_ttg_max_gun_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition 0 -6.495 2.102
 
-$cdmaterials "\console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/shared/2/lagomorph/"
 
 $attachment "eject_brass" "weapon_bone" 0.9 6.19 3.46 rotate 0 44.89 180
 $attachment "muzzle" "weapon_bone" 0 5.73 17.06 rotate -90 0 0

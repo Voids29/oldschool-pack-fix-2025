@@ -1,10 +1,10 @@
-console/models/weapons/demo/3/battleaxe/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop\weapons\c_models\c_battleaxe\c_battleaxe.mdl"
 
 $bodygroup "Body"
 {
-	studio "c_battleaxe_reference.dmx.smd"
+	studio "c_battleaxe_reference.smd"
 }
 $bodygroup "warpaint_fix"
 {

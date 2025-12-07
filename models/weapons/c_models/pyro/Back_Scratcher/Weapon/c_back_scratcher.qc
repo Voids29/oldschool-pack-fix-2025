@@ -34,8 +34,7 @@ $cbox 0 0 0 0 0 0
 
 $bbox -11.69 -10.837 -22.741 21.668 10.872 25.358
 
-$definebone "back_scratcher_mesh" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "weapon_bone" "back_scratcher_mesh" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
 $sequence "idle" {

@@ -2,19 +2,19 @@
 
 $modelname "workshop/weapons/c_models/c_ham/c_ham.mdl"
 
-$bodygroup "studio"
+$bodygroup "body"
 {
-	studio "reference.smd"
+	studio "c_ham_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "flesh"
 
 $contents "solid"
 
 $illumposition -0.01 0.117 4.45
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/shared/3/ham/"
 
 $attachment "icon_camera" "weapon_bone" 17.22 22.66 -0.69 rotate -3.07 -141.66 31.01
 $attachment "pedestal_0" "weapon_bone" 0 4.61 -0.05 rotate 35.55 98.8 15.77
@@ -25,7 +25,6 @@ $bbox -5.095 -5.972 -7.673 5.009 5.198 16.984
 
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "jiggle" "weapon_bone" 0 2.094162 0 1.387532 -4.989374 -91.591252 0 0 0 0 0 0
-$definebone "boing" "jiggle" -0.759277 -0.209159 8.701216 0.000001 0 0 0 0 0 0 0 0
 
 $jigglebone "jiggle"
 {
@@ -44,8 +43,8 @@ $jigglebone "jiggle"
 	}
 }
 
-$sequence "ref" {
-	"c_ham_anims\ref.smd"
+$sequence "idle" {
+	"c_ham_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

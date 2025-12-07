@@ -4,7 +4,7 @@ $modelname "workshop_partner/weapons/c_models/c_bet_rocketlauncher/c_bet_rocketl
 
 $bodygroup "body"
 {
-	studio "c_bet_rocketlauncher.smd"
+	studio "c_bet_rocketlauncher_reference.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -0.41 1.544 8.684
 
-$cdmaterials "console\models\weapons\lowpoly\"
+$cdmaterials "console/models/weapons/soldier/1/original/"
 
 $attachment "muzzle" "weapon_bone" -0.05 6.75 29.04 rotate -90 0 0
 $attachment "backblast" "weapon_bone" 0.03 6.76 -20.55 rotate 90 0 0

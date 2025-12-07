@@ -2,13 +2,13 @@
 
 $modelname "weapons/c_models/c_p2rec/c_p2rec.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "c_p2rec.smd"
+	studio "c_p2rec_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "item"
 
 $contents "solid"
 

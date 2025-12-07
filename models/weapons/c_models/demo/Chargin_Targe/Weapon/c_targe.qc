@@ -30,6 +30,7 @@ $cbox 0 0 0 0 0 0
 $bbox -10.384 -6.597 -15.018 3.643 8.594 4.145
 
 $definebone "weapon_targe" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$bonemerge "weapon_targe"
 
 
 $sequence "idle" {

@@ -1,4 +1,4 @@
-console/models/weapons/pyro/2/detonator/// Created by Crowbar 0.74
+// Created by Crowbar 0.74
 
 $modelname "workshop/weapons/c_models/c_detonator/c_detonator.mdl"
 

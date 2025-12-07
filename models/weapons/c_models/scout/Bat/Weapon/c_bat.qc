@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_bat.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "w_bat_reference.dmx.smd"
+	studio "c_bat_reference.smd"
 }
 
 
@@ -25,10 +25,9 @@ $cbox 0 0 0 0 0 0
 $bbox -1.758 -1.824 -2.833 1.925 1.858 27.283
 
 $hboxset "default"
-$hbox 0 "w_bat_mesh" -1.841 -14.983 -1.483 1.841 14.987 2.2
+$hbox 0 "weapon_bone" -1.841 -14.983 -1.483 1.841 14.987 2.2
 
 $definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "w_bat_mesh" "weapon_bone" 0.01734 12.150358 -0.274527 0 0 0 0 0 0 0 0 0
 
 
 $sequence "idle" {

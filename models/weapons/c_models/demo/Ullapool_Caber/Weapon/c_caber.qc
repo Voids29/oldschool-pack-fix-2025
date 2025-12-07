@@ -4,11 +4,11 @@ $modelname "workshop/weapons/c_models/c_caber/c_caber.mdl"
 
 $bodygroup "body"
 {
-	studio "caber_unex.smd"
+	studio "c_caber_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "grenade"
 
 $contents "solid"
 

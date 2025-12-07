@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_invasion_bat/c_invasion_bat.mdl"
 
 $bodygroup "body"
 {
-	studio "w_bat_saber_reference.smd"
+	studio "c_invasion_bat_reference.smd"
 }
 
 
@@ -14,13 +14,12 @@ $contents "solid"
 
 $illumposition -0.039 -0.169 14.249
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/3/bat_saber/"
 
 $texturegroup "skinfamilies"
 {
-	{ "bat_saber_laser"      "bat_saber"      }
-	{ "bat_saber_laser_blue" "bat_saber_blue" }
+	{ "bat_saber_laser_red"	"bat_saber_red"	}
+	{ "bat_saber_laser_blu"	"bat_saber_blu"	}
 }
 
 $attachment "pedestal_0" "weapon_bone" 0 13.74 0 rotate -90 -90 0
@@ -30,7 +29,6 @@ $cbox 0 0 0 0 0 0
 $bbox -1.784 -1.784 -2.533 1.77 1.773 29.017
 
 $definebone "weapon_bone" "" 0 0 -2 0 0 89.999982 0 0 0 0 0 0
-$definebone "w_bat_mesh" "weapon_bone" 0.01734 12.150358 -0.274527 0 0 0 0 0 0 0 0 0
 
 
 $sequence "idle" {

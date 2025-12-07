@@ -4,7 +4,7 @@ $modelname "weapons/c_models/c_proto_backpack/c_proto_backpack.mdl"
 
 $bodygroup "Body"
 {
-	studio "c_proto_backpack.smd"
+	studio "c_proto_backpack_reference.smd"
 }
 
 

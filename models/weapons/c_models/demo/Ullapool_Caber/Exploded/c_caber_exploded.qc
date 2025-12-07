@@ -4,11 +4,11 @@ $modelname "workshop/weapons/c_models/c_caber/c_caber_exploded.mdl"
 
 $bodygroup "body"
 {
-	studio "caber_explo.smd"
+	studio "c_caber_exploded_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "grenade"
 
 $contents "solid"
 

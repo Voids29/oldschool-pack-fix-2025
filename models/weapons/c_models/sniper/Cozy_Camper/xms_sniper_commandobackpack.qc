@@ -4,23 +4,23 @@ $modelname "workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_
 
 $bodygroup "body"
 {
-	studio "xms_sniper_commandobackpack.smd"
+	studio "xms_sniper_commandobackpack_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "default"
 
 $contents "solid"
 
 $illumposition -0.356 9.095 64.631
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/sniper/2/camper/"
+$cdmaterials "console/models/weapons/sniper/2/jar/"
 
 $texturegroup "skinfamilies"
 {
-	{ "camper"      }
-	{ "camper_blue" }
+	{ "camper_red"	}
+	{ "camper_blu"	}
 }
 
 $attachment "icon_camera" "bip_spine_2" 10.64 -9.14 -12.39 rotate -48.84 123.41 50.9

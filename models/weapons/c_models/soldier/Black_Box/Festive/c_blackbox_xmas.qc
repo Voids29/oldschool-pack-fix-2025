@@ -2,13 +2,9 @@
 
 $modelname "workshop/weapons/c_models/c_blackbox/c_blackbox_xmas.mdl"
 
-$bodygroup "mybody"
+$bodygroup "body"
 {
-	studio "blackbox.smd"
-}
-$bodygroup "warpaint_fix"
-{
-	studio "warpaint_fix.smd"
+	studio "c_blackbox_reference.smd"
 }
 
 
@@ -18,15 +14,7 @@ $contents "solid"
 
 $illumposition 0 5.044 1.699
 
-$cdmaterials "console\models\weapons\lowpoly\"
-
-$texturegroup "skinfamilies"
-{
-	{ "box"      }
-	{ "box"      }
-	{ "box_gold" }
-	{ "box_gold" }
-}
+$cdmaterials "console/models/weapons/soldier/1/box"
 
 $attachment "muzzle" "weapon_bone" 0 6.66 15.17 rotate -90 0 0
 $attachment "backblast" "weapon_bone" 0 6.66 -25.28 rotate 90 0 0
@@ -55,14 +43,11 @@ $jigglebone "weap_jig1"
 	is_rigid
 	{
 		length 8
-		tip_mass 1000
-		pitch_constraint -89.000001 10
+		tip_mass 15000
+		pitch_constraint -180 10
 		pitch_friction 0
 		pitch_bounce 0
 		yaw_constraint 0 0
-		yaw_friction 0
-		yaw_bounce 0
-		angle_constraint 60.000002
 	}
 }
 
@@ -74,7 +59,7 @@ $sequence "idle" {
 	loop
 }
 
-$collisionmodel "c_blackbox_xmas_physics.smd"
+$collisionmodel "c_blackbox_physics.smd"
 {
 	$mass 8.982935
 	$inertia 1

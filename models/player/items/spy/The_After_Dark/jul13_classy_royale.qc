@@ -2,9 +2,9 @@
 
 $modelname "workshop/player/items/spy/jul13_classy_royale/jul13_classy_royale.mdl"
 
-$bodygroup "shirt"
+$bodygroup "body"
 {
-	studio "ref.smd"
+	studio "jul13_classy_royale_reference.smd"
 }
 
 
@@ -14,12 +14,12 @@ $contents "solid"
 
 $illumposition 0.097 0.093 57.672
 
-$cdmaterials "console\models\player\items\spy_low\"
+$cdmaterials "console/models/player/items/spy/jul13_classy_royale/"
 
 $texturegroup "skinfamilies"
 {
-	{ "jul13_classy_royale"      }
-	{ "jul13_classy_royale_blue" }
+	{ "jul13_classy_royale_red"	}
+	{ "jul13_classy_royale_blu"	}
 }
 
 $cbox 0 0 0 0 0 0

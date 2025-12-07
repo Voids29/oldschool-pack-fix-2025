@@ -2,9 +2,9 @@
 
 $modelname "weapons\c_models\c_saxxy\c_saxxy.mdl"
 
-$bodygroup "Body"
+$bodygroup "body"
 {
-	studio "c_saxxy.smd"
+	studio "c_saxxy_reference.smd"
 }
 
 

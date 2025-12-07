@@ -2,7 +2,12 @@
 
 $modelname "weapons\c_models\c_flamethrower\c_backburner.mdl"
 
-$bodygroup "flamethrower"
+$bodygroup "body"
+{
+	studio "c_flamethrower_reference.smd"
+}
+
+$bodygroup "backburner"
 {
 	studio "c_backburner_reference.smd"
 }

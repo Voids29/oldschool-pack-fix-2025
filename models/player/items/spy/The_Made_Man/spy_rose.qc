@@ -4,7 +4,7 @@ $modelname "player/items/spy/spy_rose.mdl"
 
 $bodygroup "body"
 {
-	studio "spy_rose.smd"
+	studio "spy_rose_reference.smd"
 }
 
 
@@ -30,8 +30,8 @@ $bbox -41.656 -60.187 64.06 5.22 5.598 134.654
 $definebone "medal_bone" "" 3.388027 65.833817 3.230393 12.465214 -3.825926 -22.139261 0 0 0 0 0 0
 
 
-$sequence "ref" {
-	"spy_rose_anims\ref.smd"
+$sequence "idle" {
+	"spy_rose_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

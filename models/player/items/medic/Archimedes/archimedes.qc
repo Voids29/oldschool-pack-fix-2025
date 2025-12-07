@@ -4,7 +4,7 @@ $modelname "player/items/medic/archimedes.mdl"
 
 $bodygroup "body"
 {
-	studio "archimedes.smd"
+	studio "archimedes_reference.smd"
 }
 
 
@@ -15,7 +15,7 @@ $contents "solid"
 $illumposition 17.358 -1.848 1.201
 
 $cdmaterials "console\models\player\items\medic\archimedes"
-$cdmaterials ""
+
 
 $texturegroup "skinfamilies"
 {
@@ -91,8 +91,8 @@ $jigglebone "tail"
 	}
 }
 
-$sequence "ref" {
-	"archimedes_anims\ref.smd"
+$sequence "idle" {
+	"archimedes_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

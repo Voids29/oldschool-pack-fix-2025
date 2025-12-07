@@ -4,23 +4,23 @@ $modelname "workshop/weapons/c_models/c_invasion_sniperrifle/c_invasion_sniperri
 
 $bodygroup "body"
 {
-	studio "c_invasion_sniperrifle.smd"
+	studio "c_invasion_sniperrifle_reference.smd"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $illumposition -0.745 3.952 3.184
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/sniper/1/laser_rifle/"
+$cdmaterials "console/models/weapons/sniper/1/rifle/"
 
 $texturegroup "skinfamilies"
 {
-	{ "laser_rifle"      "laser_rifle_glass"      }
-	{ "laser_rifle_blue" "laser_rifle_glass_blue" }
+	{ "laser_rifle_red"	"laser_rifle_glass_red"	}
+	{ "laser_rifle_blu"	"laser_rifle_glass_blu"	}
 }
 
 $attachment "weapon_bone" "weapon_bone" 0 0 0 rotate 0 0 0

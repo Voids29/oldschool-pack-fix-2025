@@ -4,11 +4,11 @@ $modelname "weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl"
 
 $bodygroup "body"
 {
-	studio "c_carnival_mallet.smd"
+	studio "c_carnival_mallet_reference.smd"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "wood"
 
 $contents "solid"
 
@@ -47,8 +47,8 @@ $jigglebone "jiggle01"
 	}
 }
 
-$sequence "ref" {
-	"c_carnival_mallet_anims\ref.smd"
+$sequence "idle" {
+	"c_carnival_mallet_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

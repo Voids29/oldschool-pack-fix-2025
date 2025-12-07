@@ -2,7 +2,7 @@
 
 $modelname "player\items\engineer\guitar.mdl"
 
-$bodygroup "guitar"
+$bodygroup "body"
 {
 	studio "guitar_reference.smd"
 }

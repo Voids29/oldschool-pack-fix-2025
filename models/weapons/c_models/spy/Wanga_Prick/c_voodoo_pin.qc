@@ -4,7 +4,7 @@ $modelname "workshop/weapons/c_models/c_voodoo_pin/c_voodoo_pin.mdl"
 
 $bodygroup "body"
 {
-	studio "c_voodoo_pin.smd"
+	studio "c_voodoo_pin_reference.smd"
 }
 
 
@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -0.776 0.744 0.301
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/spy/2/skull_knife/"
 
 $attachment "pedestal_0" "weapon_bone" 0 2.36 0 rotate -90 90 0
 $attachment "icon_camera" "weapon_bone" 7.42 -5.64 14.68 rotate 58.62 150.22 121.23

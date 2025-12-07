@@ -14,8 +14,7 @@ $contents "solid"
 
 $illumposition -0.223 0 17.207
 
-$cdmaterials "console\models\weapons\lowpoly\"
-$cdmaterials ""
+$cdmaterials "console/models/weapons/scout/3/scout_sward/"
 
 $attachment "icon_camera" "weapon_bone" -36.49 34.88 -16.55 rotate -23.44 -20.64 40.66
 $attachment "pedestal_0" "weapon_bone" 0 10.65 0 rotate 23 -90 180
