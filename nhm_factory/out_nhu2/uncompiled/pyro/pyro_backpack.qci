@@ -1,6 +1,3 @@
-$upaxis Y
-
-$bodygroup "backpack"
-{
-	studio "pyro_backpack_bodygroup"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9a89448b69c0ebb2fbd7bfa853d351870a1ead3e249669e6071b1873fde14a5
+size 75

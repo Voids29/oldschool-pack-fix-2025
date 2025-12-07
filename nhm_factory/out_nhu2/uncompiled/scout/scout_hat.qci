@@ -1,6 +1,3 @@
-$upaxis Y
-
-$bodygroup "body"
-{
-	studio "scout_hat_bodygroup"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6945dfc45d3f0819e1e6b133e931bd3a7b7a680abf342733ce3341496f356c25
+size 67

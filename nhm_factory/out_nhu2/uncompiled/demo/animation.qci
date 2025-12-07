@@ -1,21 +1,3 @@
-$upaxis Y
-
-$surfaceprop "flesh"
-
-$contents "solid"
-
-$cdmaterials "models\player\demo\"
-
-$texturegroup "skinfamilies"
-{
-	{ "demoman_red"}
-	{ "demoman_blu" }
-}
-
-$sequence "idle" {
-	"ragdoll.smd"
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	loop
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a84c3fe53bd3419a24ca4b9dfe20ba3f669dd10abc3163122748f3e21dd34aa
+size 422

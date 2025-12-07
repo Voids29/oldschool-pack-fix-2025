@@ -1,6 +1,3 @@
-$upaxis Y
-
-$bodygroup "hat"
-{
-	studio "soldier_grenades_bodygroup"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b6d838f21db9877310a3d26a19447f2fe440d812f9a4c627b4c0947b24a2ed4
+size 75

@@ -1,6 +1,3 @@
-$upaxis Y
-
-$bodygroup "shoes"
-{
-	studio "demo_shoes_bodygroup"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4466568e10a98c2b8b85a3aead9af70d44f9b3bc479ab5fb26ee626993709fb1
+size 69

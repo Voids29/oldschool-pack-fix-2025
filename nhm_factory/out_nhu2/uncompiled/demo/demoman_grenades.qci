@@ -1,6 +1,3 @@
-$upaxis Y
-
-$bodygroup "grenades"
-{
-	studio "demo_grenades_bodygroup"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c302dc3468b739548d4d63bebb719f643a8a3479ddbe34234ad7a6859aa1640
+size 75
