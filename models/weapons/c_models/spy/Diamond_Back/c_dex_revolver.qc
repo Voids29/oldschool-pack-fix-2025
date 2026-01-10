@@ -16,6 +16,12 @@ $illumposition 0 -7.148 0.219
 
 $cdmaterials "console/models/weapons/spy/1/diamond/"
 
+$texturegroup "skinfamilies"
+{
+	{ "diamond_red"		}
+	{ "diamond_blu"		}
+}
+
 $attachment "muzzle" "weapon_bone" 0 2.51 17.88 rotate -90 0 0
 $attachment "pedestal_0" "weapon_bone" 0 0.17 3.74 rotate -90 -90 0
 $attachment "icon_camera" "weapon_bone" 17.49 -3.68 19.49 rotate 29.54 165 82.47

@@ -16,15 +16,15 @@ $illumposition -0.039 -20.2 -0.64
 
 $cdmaterials "console\models\weapons\medic\2\overhealer"
 
-$attachment "pedestal_0" "weapon_bone_L" 0 -0.78 4.4 rotate -90 -90 0
-$attachment "muzzle" "weapon_bone_L" 0 -0.79 29.34 rotate -90 0 0
-$attachment "unusual_0" "weapon_bone_L" 0 -0.79 29.52 rotate -90 0 0
-$attachment "unusual_1" "weapon_bone_L" 0 -0.79 22.53 rotate -90 0 0
-$attachment "unusual_2" "weapon_bone_L" 0 -0.79 15.54 rotate -90 0 0
-$attachment "unusual_3" "weapon_bone_L" 0 -0.79 8.54 rotate -90 0 0
-$attachment "unusual_4" "weapon_bone_L" 0 -0.79 1.55 rotate -90 0 0
-$attachment "unusual_5" "weapon_bone_L" 0 -0.79 -5.44 rotate -90 0 0
-$attachment "icon_camera" "weapon_bone_L" 26.15 20.6 37.32 rotate 37.59 -138.91 118
+$Attachment "pedestal_0"    "weapon_bone_L"   0.00    0.00    4.4     rotate -90 -90 0
+$Attachment "muzzle"         "weapon_bone_L"  -0.79    0.00   29.34    rotate -90  0  0
+$Attachment "unusual_0"      "weapon_bone_L"  -0.79    0.00   29.52    rotate -90  0  0
+$Attachment "unusual_1"      "weapon_bone_L"  -0.79    0.00   22.53    rotate -90  0  0
+$Attachment "unusual_2"      "weapon_bone_L"  -0.79    0.00   15.54    rotate -90  0  0
+$Attachment "unusual_3"      "weapon_bone_L"  -0.79    0.00    8.54    rotate -90  0  0
+$Attachment "unusual_4"      "weapon_bone_L"  -0.79    0.00    1.55    rotate -90  0  0
+$Attachment "unusual_5"      "weapon_bone_L"  -0.79    0.00   -5.44    rotate -90  0  0
+$Attachment "icon_camera"    "weapon_bone_L"  26.15    20.6   37.32    rotate 37.59 -138.91 118
 
 $cbox 0 0 0 0 0 0
 

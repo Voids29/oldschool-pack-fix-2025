@@ -40,18 +40,20 @@ $texturegroup "skinfamilies"
 	{ "medigun_gold"	}
 }
 
-$attachment "muzzle" "weapon_bone_L" -29.34 -0.79 0.00 rotate -90 0 0
-$attachment "unusual_0" "weapon_bone_L" -29.52 -0.79 0.00 rotate -90 0 0
-$attachment "unusual_1" "weapon_bone_L" -22.53 -0.79 0.00 rotate -90 0 0
-$attachment "unusual_2" "weapon_bone_L" -15.54 -0.79 0.00 rotate -90 0 0
-$attachment "unusual_3" "weapon_bone_L" -8.54 -0.79 0.00 rotate -90 0 0
-$attachment "unusual_4" "weapon_bone_L" -1.55 -0.79 0.00 rotate -90 0 0
-$attachment "unusual_5" "weapon_bone_L" 5.44 -0.79 0.00 rotate -90 0 0
-$attachment "icon_camera" "weapon_bone_L" -37.32 20.60 -26.15 rotate 38 -139 118
+$Attachment "pedestal_0"    "weapon_bone_L"   0.00    0.00    4.4     rotate -90 -90 0
+$Attachment "muzzle"         "weapon_bone_L"  -0.79    0.00   29.34    rotate -90  0  0
+$Attachment "unusual_0"      "weapon_bone_L"  -0.79    0.00   29.52    rotate -90  0  0
+$Attachment "unusual_1"      "weapon_bone_L"  -0.79    0.00   22.53    rotate -90  0  0
+$Attachment "unusual_2"      "weapon_bone_L"  -0.79    0.00   15.54    rotate -90  0  0
+$Attachment "unusual_3"      "weapon_bone_L"  -0.79    0.00    8.54    rotate -90  0  0
+$Attachment "unusual_4"      "weapon_bone_L"  -0.79    0.00    1.55    rotate -90  0  0
+$Attachment "unusual_5"      "weapon_bone_L"  -0.79    0.00   -5.44    rotate -90  0  0
+$Attachment "icon_camera"    "weapon_bone_L"  26.15    20.6   37.32    rotate 37.59 -138.91 118
 
 $cbox 0 0 0 0 0 0
 
 $bbox -38.832 -5.665 -13.604 29.773 5.668 7.838
+
 
 $bonemerge "weapon_bone_L"
 $bonemerge "weapon_bone"
