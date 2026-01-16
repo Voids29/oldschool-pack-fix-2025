@@ -12,7 +12,7 @@ $surfaceprop "wood"
 
 $contents "solid"
 
-$illumposition -8.734 0.011 -0.087
+$illumposition -0.01085 -8.73435 -0.08659
 
 $cdmaterials "console/models/weapons/sniper/1/bow/"
 
