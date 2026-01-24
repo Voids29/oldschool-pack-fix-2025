@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "props_halloween/halloween_medkit_.mdl"
+$modelname "props_halloween/halloween_medkit_small.mdl"
 
 $bodygroup "body"
 {
