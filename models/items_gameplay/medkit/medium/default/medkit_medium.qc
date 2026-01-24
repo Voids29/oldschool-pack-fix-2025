@@ -16,12 +16,19 @@ $illumposition 0.472 0.965 10.221
 
 $cdmaterials "console\models\items\health_medium\"
 
-$cbox 0 0 0 0 0 0
-
 $bbox -15.126 -15.126 0 15.073 15.131 25.77
 
 $hboxset "default"
 $hbox 0 "cube" -9.085 -11.135 -12.102 8.462 12.274 11.954
 
+$sequence ref "medkit_medium.smd" fps 1
 
 $includemodel "items/anims/medkit-ammopack.mdl"
+
+$collisionmodel "medkit_medium_physics.smd"
+{
+	$mass 1
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+}
