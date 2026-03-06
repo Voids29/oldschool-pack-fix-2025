@@ -18,6 +18,12 @@ $cdmaterials "console\models\weapons\spy\1\ambassador"
 $cdmaterials "console\models\weapons\shared\2\pistol"
 $cdmaterials "console\models\weapons\spy\1\revolver"
 
+$texturegroup "skinfamilies"
+{
+	{ "ambassador_red"  }
+	{ "ambassador_blu"  }
+}
+
 $attachment "muzzle" "weapon_bone" 0 3.42 18.88 rotate -90 0 0
 $attachment "eject_brass" "weapon_bone" 0 1.92 1.59 rotate 90 0 0
 $attachment "pedestal_0" "weapon_bone" 0 1.37 4.64 rotate -90 -90 0

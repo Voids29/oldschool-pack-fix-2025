@@ -8,7 +8,7 @@ $bodygroup "Body"
 }
 
 
-$surfaceprop "metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -20,8 +20,8 @@ $cdmaterials "console\models\weapons\spy\1\revolver"
 
 $texturegroup "skinfamilies"
 {
-	{ "ambassador"      }
-	{ "ambassador"      }
+	{ "ambassador_red"  }
+	{ "ambassador_blu"  }
 	{ "ambassador_gold" }
 	{ "ambassador_gold" }
 }
