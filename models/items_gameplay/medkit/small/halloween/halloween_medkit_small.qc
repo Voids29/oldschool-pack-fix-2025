@@ -16,14 +16,11 @@ $illumposition -0.009 -0.021 9.632
 
 $cdmaterials "console\models\items\health_small"
 
-$bbox -8.512 -8.512 0 8.512 8.485 19.264
+// $bbox -8.512 -8.512 0 8.512 8.485 19.264
 
-$hboxset "default"
-$hbox 0 "cube" -7.227 -8.498 -4.445 6.342 8.693 4.414
+// $hboxset "default"
+// $hbox 0 "cube" -7.227 -8.498 -4.445 6.342 8.693 4.414
 
-$sequence ref "medkit_small.smd" fps 1
-
-$includemodel "items/anims/medkit-ammopack.mdl"
 
 $collisionmodel "medkit_small_physics.smd"
 {
@@ -31,4 +28,12 @@ $collisionmodel "medkit_small_physics.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
+}
+
+$sequence "idle" {
+	"medkit-ammopack_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 10
+	loop
 }
