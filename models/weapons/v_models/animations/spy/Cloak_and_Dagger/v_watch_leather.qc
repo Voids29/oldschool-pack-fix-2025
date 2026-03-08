@@ -10,6 +10,15 @@ $illumposition 0 0 0
 
 $cdmaterials "console\misc"
 
+$attachment "weapon_bone" "weapon_bone" 0 0 0 rotate 0 0 0
+$attachment "weapon_bone_1" "weapon_bone_1" 0 0 0 rotate 0 0 0
+$attachment "weapon_bone_2" "weapon_bone_2" 0 0 0 rotate 0 0 0
+$attachment "weapon_bone_3" "weapon_bone_3" 0 0 0 rotate 0 0 0
+$attachment "weapon_bone_4" "weapon_bone_4" 0 0 0 rotate 0 0 0
+$attachment "weapon_bone_L" "weapon_bone_L" 0 0 0 rotate 0 0 0
+$attachment "controlpanel0_ll" "bottom_left" 0 0 0 rotate 0 0 0
+$attachment "controlpanel0_ur" "top_right" 0 0 0 rotate 0 0 0
+
 
 $definebone "root" "" 0 46.698849 -0.827193 0 0 -179.375985 0 0 0 0 0 0
 $definebone "bip_upperArm_L" "root" 8.652996 -22.13522 3.978738 17.885194 -33.340349 168.888284 0 0 0 0 0 0
