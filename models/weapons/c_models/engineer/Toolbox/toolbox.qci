@@ -1,0 +1,36 @@
+$bodygroup "body"
+{
+	studio "toolbox_reference.smd"
+}
+
+
+$surfaceprop "default"
+$contents "solid"
+$illumposition -0.047 -0.014 11.567
+$cdmaterials "console\models\weapons\engineer\misc"
+
+$texturegroup "skinfamilies"
+{
+	{ "toolbox_red" }
+	{ "toolbox_blu" }
+}
+
+$definebone "weapon_bone" "" 0 0 0 0 89.999982 0 0 0 0 0 0 0
+$definebone "weapon_bone_1" "weapon_bone" 18.892599 0 0 0 -89.999982 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"toolbox_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "toolbox_physics.smd"
+{
+	$mass 11.42152
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone ""
+}
