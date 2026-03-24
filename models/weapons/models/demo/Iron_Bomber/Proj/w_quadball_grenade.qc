@@ -18,8 +18,8 @@ $cdmaterials "console/models/weapons/demo/1/quad_ball/"
 
 $texturegroup "skinfamilies"
 {
-	{ "ball_proj_red"	}
-	{ "ball_proj_blu"	}
+	{ "ball_proj_red_glow"	}
+	{ "ball_proj_blu_glow"	}
 }
 
 $cbox 0 0 0 0 0 0
