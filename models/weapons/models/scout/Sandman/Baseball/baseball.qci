@@ -1,0 +1,20 @@
+$bodygroup "body"
+{
+	studio "baseball_reference.smd"
+}
+
+
+$surfaceprop "scout_baseball"
+
+$contents "solid"
+
+$illumposition 0 0 0
+
+$cdmaterials "\console\models\weapons\scout\3\wod\"
+
+$sequence "idle" {
+	"baseball_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}

@@ -1,0 +1,44 @@
+$bodygroup "body"
+{
+	studio "sydney_sleeper_dart.smd"
+}
+
+
+$surfaceprop "glass"
+
+$contents "solid"
+
+$illumposition 0 0 0
+
+$cdmaterials "console/models/weapons/sniper/1/sleeper/"
+
+$texturegroup "skinfamilies"
+{
+	{ "sleeper_red"	}
+	{ "sleeper_blu"	}
+}
+
+$cbox 0 0 0 0 0 0
+
+$bbox -4.216 -0.9 -0.71 4.216 0.865 0.885
+
+$definebone "dart_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"sydney_sleeper_dart_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+$collisionmodel "sydney_sleeper_dart_physics.smd"
+{
+	$mass 5
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+
+}

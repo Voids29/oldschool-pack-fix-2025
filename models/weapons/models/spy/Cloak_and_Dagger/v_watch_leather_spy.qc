@@ -28,36 +28,10 @@ $texturegroup "skinfamilies"
 	{ "v_spy_blu"	}
 }
 
-$attachment "weapon_bone" "weapon_bone" 0 0 0 rotate 0 0 0
-$attachment "weapon_bone_1" "weapon_bone_1" 0 0 0 rotate 0 0 0
-$attachment "weapon_bone_2" "weapon_bone_2" 0 0 0 rotate 0 0 0
-$attachment "weapon_bone_3" "weapon_bone_3" 0 0 0 rotate 0 0 0
-$attachment "weapon_bone_4" "weapon_bone_4" 0 0 0 rotate 0 0 0
 $attachment "weapon_bone_L" "weapon_bone_L" 0 0 0 rotate 0 0 0
 $attachment "controlpanel0_ll" "bottom_left" 0 0 0 rotate 0 0 0
 $attachment "controlpanel0_ur" "top_right" 0 0 0 rotate 0 0 0
 
-$cbox 0 0 0 0 0 0
-
-$bbox 0 0 0 0 0 0
-
-$hboxset "default"
-$hbox 0 "root" 0 -22.135 0 8.653 0 3.979
-$hbox 0 "bip_upperArm_L" -2.882 -14.313 -1.987 1.753 0 3.419
-$hbox 0 "bip_lowerArm_L" -2.617 -13.013 -2.401 2.198 0.703 2.727
-$hbox 0 "bip_hand_L" -2.868 -4.668 -2.13 1.228 1.099 2.077
-$hbox 0 "bip_thumb_0_L" -0.625 -2.698 -1.665 1.851 1.263 0.78
-$hbox 0 "bip_thumb_1_L" -0.624 -2.211 -1.598 1.171 2.037 0.726
-$hbox 0 "bip_thumb_2_L" -0.525 -1.84 -0.688 1.119 1.001 0.892
-$hbox 0 "bip_index_0_L" -0.577 -1.755 -0.69 0.642 0.242 0.814
-$hbox 0 "bip_index_1_L" -0.577 -2.217 -1.288 0.642 1.666 0.668
-$hbox 0 "bip_middle_0_L" -0.634 -2.372 -0.806 0.625 0.111 0.807
-$hbox 0 "bip_middle_1_L" -0.634 -2.47 -1.115 0.625 1.404 0.51
-$hbox 0 "bip_ring_0_L" -0.673 -1.691 -0.75 0.616 0.027 0.731
-$hbox 0 "bip_ring_1_L" -0.673 -1.605 -1.275 0.616 1.436 0.577
-$hbox 0 "weapon_bone_L" -1.062 -1.674 -0.612 1.373 1.725 0.828
-$hbox 0 "Sleeve_Control" -2.573 -0.162 -3.257 1.949 2.26 2.543
-$hbox 0 "Wrist_Control" -1.249 -3.023 -1.249 1.638 0.98 1.864
 
 $definebone "root" "" 0 46.698849 -0.827193 0 0 -179.375985 0 0 0 0 0 0
 $definebone "bip_upperArm_L" "root" 8.652996 -22.13522 3.978738 17.885223 -33.340359 168.888325 0 0 0 0 0 0
