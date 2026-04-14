@@ -10,7 +10,7 @@ if [ -f "./.windowsTF2dir.txt" ]; then
 fi
 
 if [ -z "$WINTF2DIR" ]; then
-    printf "Enter the path for WINTF2DIR (Team Fortress 2 directory): "
+    printf "Enter the path for TF2DIR ('steamlibrary/common/Team Fortress 2'):"
     read -r wintf2dir
     # Remove trailing slashes from input
     wintf2dir="${wintf2dir%"${wintf2dir##*[!/]}"}"
@@ -39,26 +39,10 @@ else
     export WINTF2DIR
 fi
 
-# Check for working directory in .workingDirectory.txt
-if [ ! -f "./.workingDirectory.txt" ]; then
-    printf "Enter the path for the working directory: "
-    read -r wd
-    # Remove trailing slashes from input
-    wd="${wd%"${wd##*[!/]}"}"
-    # Validate the input is not empty and is a directory
-    if [ -z "$wd" ] || [ ! -d "$wd" ]; then
-        echo "err: Invalid or empty working directory path"
-        exit 1
-    fi
-    # Store working directory in file
-    echo "$wd" > "./.workingDirectory.txt"
-else
-    wd=$(cat "./.workingDirectory.txt")
-    # Remove trailing slashes
-    wd="${wd%"${wd##*[!/]}"}"
-fi
+# Set working directory to the current directory where the script is running
+wd="$(pwd)"
+wd="${wd%"${wd##*[!/]}"}"
 
-# Validate working directory exists
 if [ ! -d "$wd" ]; then
     echo "err: Working directory ($wd) does not exist"
     exit 1
