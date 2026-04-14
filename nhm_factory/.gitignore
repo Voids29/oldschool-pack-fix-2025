@@ -5,6 +5,7 @@ items_game.txt
 vpkeditcli*
 .workingDirectory.txt
 .windowsTF2dir.txt
+*.csv
 
 #custom script which has no use to anyone else
 actions.sh
