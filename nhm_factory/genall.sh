@@ -43,6 +43,7 @@ fi
 wd="$(pwd)"
 wd="${wd%"${wd##*[!/]}"}"
 
+# Validate working directory exists
 if [ ! -d "$wd" ]; then
     echo "err: Working directory ($wd) does not exist"
     exit 1
