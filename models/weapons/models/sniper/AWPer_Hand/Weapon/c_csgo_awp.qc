@@ -21,11 +21,9 @@ $attachment "eject_brass" "weapon_bone" -0.67 4.96 6.73 rotate 0 159 0
 $attachment "icon_camera" "weapon_bone" 32.95 14.21 58.45 rotate 40.91 -162.8 105.96
 $attachment "pedestal_0" "weapon_bone" 0 2.83 10.84 rotate -90 -90 0
 
-$cbox 0 0 0 0 0 0
+$hboxset "default"
 
-$bbox -16.917 -4.646 -5.451 48.219 3.886 11.641
-
-$definebone "weapon_bone" "" 0 -1.772578 -15.121245 0 0 0 0 0 0 0 0 0
+$hbox 0 "weapon_bone"	-4.49	-5.13	-16.67	3.58	11.44	47.97
 
 
 $sequence "idle" {
